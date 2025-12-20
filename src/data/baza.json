@@ -1,0 +1,21 @@
+{
+  "site": {
+    "name": "Əkbəroğlu İnşaat",
+    "logo": "/images/logo.gif"
+  },
+  "nav": [
+    { "label": "ƏSAS SƏHİFƏ", "href": "/" },
+    {
+      "label": "XİDMƏTLƏR",
+      "href": "/xidmetler",
+      "children": [
+        { "label": "Təmirdən tikinti", "href": "/xidmetler/temir" },
+        { "label": "Layihələndirmə", "href": "/xidmetler/layihe" },
+        { "label": "Dizayn", "href": "/xidmetler/dizayn" }
+      ]
+    },
+    { "label": "HAQQIMIZDA", "href": "/haqqimizda" },
+    { "label": "ƏLAQƏ", "href": "/elaqe" },
+    { "label": "KALKULYATOR", "href": "/kalkulyator" }
+  ]
+}
