@@ -17,5 +17,23 @@
     { "label": "HAQQIMIZDA", "href": "/haqqimizda" },
     { "label": "ƏLAQƏ", "href": "/elaqe" },
     { "label": "KALKULYATOR", "href": "/kalkulyator" }
-  ]
+  ],
+  "hero": {
+    "slides": [
+      {
+        "title": "Tikinti Layihələrimiz",
+        "description": "Mövcud tikililərinizi müasir və funksional hala gətiririk. Yeniləmə layihələrimizlə yaşam keyfiyyətinizi artırın.",
+        "buttonText": "Təmir Paketləri",
+        "buttonHref": "/temir-paketleri",
+        "image": "/images/hero/slide-1.png"
+      },
+      {
+        "title": "Müasir Dizayn",
+        "description": "Estetik və rahat interyer həlləri ilə evinizin dəyərini yüksəldin.",
+        "buttonText": "Layihələr",
+        "buttonHref": "/layiheler",
+        "image": "/images/hero/slide-2.png"
+      }
+    ]
+  }
 }

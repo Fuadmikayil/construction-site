@@ -90,7 +90,7 @@ export default function Header() {
       ref={headerRef}
       className="w-full border-b border-black/10 bg-white"
     >
-      <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 md:py-4">
+      <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 ">
         {/* Logo */}
         <Link href="/" className="flex items-center">
           <div className="relative h-14 w-56 sm:w-64 md:h-14 md:w-64 lg:h-18 lg:w-72 overflow-hidden">
