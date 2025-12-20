@@ -1,22 +1,22 @@
 {
   "site": {
-    "name": "Əkbəroğlu İnşaat",
-    "logo": "/images/logo.gif"
+    "name": "Rəşidoğlu İnşaat",
+    "logoStatic": "/images/logostatic.png",
+    "logoAnimated": "/images/logo.gif"
   },
   "nav": [
-    { "label": "ƏSAS SƏHİFƏ", "href": "/" },
     {
       "label": "XİDMƏTLƏR",
       "href": "/xidmetler",
       "children": [
-        { "label": "Təmirdən tikinti", "href": "/xidmetler/temir" },
-        { "label": "Layihələndirmə", "href": "/xidmetler/layihe" },
-        { "label": "Dizayn", "href": "/xidmetler/dizayn" }
+        { "label": "⁠Plastik Sexi", "href": "/xidmetler/plastik" },
+        { "label": "⁠Qaynaq Sexi", "href": "/xidmetler/qaynaq" },
+        { "label": "Taxta Sexi", "href": "/xidmetler/taxta" }
       ]
     },
+    { "label": "MƏHSULLAR", "href": "/mehsullar" },
     { "label": "HAQQIMIZDA", "href": "/haqqimizda" },
-    { "label": "ƏLAQƏ", "href": "/elaqe" },
-    { "label": "KALKULYATOR", "href": "/kalkulyator" }
+    { "label": "ƏLAQƏ", "href": "/elaqe" }
   ],
   "hero": {
     "slides": [
@@ -35,27 +35,33 @@
         "image": "/images/hero/slide-2.png"
       }
     ]
-  }, "servicesSection": {
+  },
+  "servicesSection": {
     "title": "Xidmətlərimiz",
     "items": [
       {
-        "title": "⁠Plastik sexi ",
+        "title": "⁠Plastik Sexi ",
         "description": "Plastikdən qapı pencərə istehsalı",
         "image": "/images/services/⁠Plastik.jpg",
         "href": "/xidmetler/⁠Plastik",
         "buttonText": "Daha ətraflı"
       },
       {
-        "title": "⁠Qaynaq sexi ",
+        "title": "⁠Qaynaq Sexi ",
         "description": "⁠Qaynaq dəmir qapı darvaza raşotka yığılır məhəccərlərin yığılması",
         "image": "/images/services/⁠Qaynaq.png",
         "href": "/xidmetler/⁠Qaynaq",
         "buttonText": "Daha ətraflı"
+      },{
+        "title": "Taxta Sexi",
+        "description": "Müxtəlif taxta məhsullarının istehsalı",
+        "image": "/images/services/⁠Plastik.jpg",
+        "href": "/xidmetler/⁠Plastik",
+        "buttonText": "Daha ətraflı"
       }
-      
     ]
   },
-   "partnersSection": {
+  "partnersSection": {
     "title": "Bizim tərəfdaşlarımız",
     "about": {
       "logo": "/images/logo.png",
@@ -68,11 +74,10 @@
       "signature": "Rəşidoğlu İnşaat"
     },
     "logos": [
-      { "name": "Holsium Azcement", "src": "/images/partners/norm.png" },
-      { "name": "Mətanət", "src": "/images/partners/prysmian.png" },
-      { "name": "Giper", "src": "/images/partners/demirdokum.png" },
-      { "name": "Holcim", "src": "/images/partners/gilan-knauf.png" }
+      { "name": "Holsium Azcement", "src": "/images/partners/azcement.png" },
+      { "name": "Mətanət", "src": "/images/partners/metaneta.png" },
+      { "name": "Giper", "src": "/images/partners/giper.png" },
+      { "name": "Holcim", "src": "/images/partners/holcim.jpg" }
     ]
   }
-  
 }

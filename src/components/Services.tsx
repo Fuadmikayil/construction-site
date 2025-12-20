@@ -20,7 +20,7 @@ export default function Services() {
       <div className="mx-auto max-w-7xl px-4">
         {/* Title */}
         <div className="mb-10">
-          <h2 className="text-3xl font-extrabold text-black md:text-4xl">
+          <h2 className="text-3xl font-extrabold text-white md:text-4xl">
             {section.title}
           </h2>
           <div className="mt-3 h-1 w-14 bg-[#F2A900]" />

@@ -65,7 +65,7 @@ export default function ProductsSlider() {
       <div className="mx-auto max-w-7xl px-4 py-14">
         {/* Header */}
         <div className="mb-10">
-          <h2 className="text-3xl font-extrabold tracking-tight text-black md:text-4xl">
+          <h2 className="text-3xl font-extrabold tracking-tight text-white md:text-4xl">
             {title}
           </h2>
           <div className="mt-4 h-[4px] w-14 bg-[#F2A900]" />
@@ -77,7 +77,7 @@ export default function ProductsSlider() {
             type="button"
             aria-label="Prev"
             onClick={() => scrollByAmount("left")}
-            className="absolute left-0 top-1/2 z-20 hidden -translate-x-1/2 -translate-y-1/2
+            className="absolute left-0 top-1/2  cursor-pointer z-20 hidden -translate-x-1/2 -translate-y-1/2
                        items-center justify-center bg-black/55 p-3 text-white
                        backdrop-blur-sm transition hover:bg-black/70 lg:flex"
           >
@@ -88,7 +88,7 @@ export default function ProductsSlider() {
             type="button"
             aria-label="Next"
             onClick={() => scrollByAmount("right")}
-            className="absolute right-0 top-1/2 z-20 hidden translate-x-1/2 -translate-y-1/2
+            className="absolute right-0 cursor-pointer top-1/2 z-20 hidden translate-x-1/2 -translate-y-1/2
                        items-center justify-center bg-black/55 p-3 text-white
                        backdrop-blur-sm transition hover:bg-black/70 lg:flex"
           >

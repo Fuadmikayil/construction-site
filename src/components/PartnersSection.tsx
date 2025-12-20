@@ -20,8 +20,8 @@ export default function PartnersSection() {
       <div className="mx-auto max-w-7xl px-4">
         <div className="grid grid-cols-1 gap-10 lg:grid-cols-12 lg:gap-12">
           {/* LEFT: About card */}
-          <div className="lg:col-span-7 !text-black">
-            <div className="bg-[#F3F3F3] p-8 md:p-10">
+          <div className="lg:col-span-7 !text-black ">
+            <div className="bg-[#F3F3F3] rounded-2xl p-8 md:p-10">
               <div className="flex flex-col gap-8 md:flex-row md:items-start">
                 <div className="shrink-0">
                   <div className="relative h-28 w-28 overflow-hidden rounded-full bg-white">
@@ -36,7 +36,7 @@ export default function PartnersSection() {
                 </div>
 
                 <div className="flex-1">
-                  <div className="space-y-4 text-[15px] leading-7 text-black/60">
+                  <div className="space-y-4 text-[15px] leading-7  text-black/60">
                     {section.about.text.map((p, i) => (
                       <p key={i} className="italic">
                         {p}
@@ -55,7 +55,7 @@ export default function PartnersSection() {
           {/* RIGHT: Partners */}
           <div className="lg:col-span-5">
             <div>
-              <h2 className="text-3xl font-extrabold tracking-tight text-black md:text-4xl">
+              <h2 className="text-3xl font-extrabold tracking-tight text-white md:text-4xl">
                 {section.title}
               </h2>
               <div className="mt-3 h-1 w-14 bg-[#F2A900]" />
@@ -68,12 +68,12 @@ export default function PartnersSection() {
                   className="group flex items-center justify-center"
                   title={logo.name}
                 >
-                  <div className="relative h-10 w-32 opacity-90 transition group-hover:opacity-100">
+                  <div className="relative h-34 bg-white  rounded-full w-36 opacity-90 transition group-hover:opacity-100">
                     <Image
                       src={logo.src}
                       alt={logo.name}
                       fill
-                      className="object-contain"
+                      className="object-contain rounded-full"
                     />
                   </div>
                 </div>

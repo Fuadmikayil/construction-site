@@ -6,11 +6,21 @@ import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 import data from "../data/baza.json";
 
+/* ================= TYPES ================= */
+
 type NavItem = {
   label: string;
   href: string;
   children?: { label: string; href: string }[];
 };
+
+type SiteData = {
+  name: string;
+  logoStatic: string;   // /images/logo.png
+  logoAnimated: string; // /images/logo.gif
+};
+
+/* ================= ICONS ================= */
 
 function ChevronDownIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
@@ -26,13 +36,7 @@ function ChevronDownIcon(props: React.SVGProps<SVGSVGElement>) {
 
 function MenuIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
-    <svg
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      {...props}
-    >
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" {...props}>
       <path strokeLinecap="round" d="M4 7h16M4 12h16M4 17h16" />
     </svg>
   );
@@ -40,78 +44,120 @@ function MenuIcon(props: React.SVGProps<SVGSVGElement>) {
 
 function CloseIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
-    <svg
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      {...props}
-    >
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" {...props}>
       <path strokeLinecap="round" d="M6 6l12 12M18 6L6 18" />
     </svg>
   );
 }
 
+/* ================= HEADER ================= */
+
 export default function Header() {
   const pathname = usePathname();
-  const nav = (
-    data as unknown as { nav: NavItem[]; site: { logo: string; name: string } }
-  ).nav;
-  const site = (
-    data as unknown as { nav: NavItem[]; site: { logo: string; name: string } }
-  ).site;
+  const { nav, site } = data as { nav: NavItem[]; site: SiteData };
 
   const [mobileOpen, setMobileOpen] = useState(false);
+
+  // desktop dropdown (hover) + mobile dropdown (click) üçün eyni state
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
+
+  // logo gif control
+  const [playLogo, setPlayLogo] = useState(false);
+  const [gifKey, setGifKey] = useState(0);
 
   const headerRef = useRef<HTMLDivElement | null>(null);
 
+  const isActive = (href: string) => (href === "/" ? pathname === "/" : pathname.startsWith(href));
+
+  // Sarı xətt yalnız bu label altında olsun:
+  const SERVICES_LABEL = "Xidmətlər";
+
+  /* route dəyişəndə menyu bağlansın */
   useEffect(() => {
     setMobileOpen(false);
     setOpenDropdown(null);
   }, [pathname]);
 
+  /* outside click dropdown bağlasın */
   useEffect(() => {
-    const onDown = (e: MouseEvent) => {
+    const handler = (e: MouseEvent) => {
       if (!headerRef.current) return;
       if (!headerRef.current.contains(e.target as Node)) {
         setOpenDropdown(null);
       }
     };
-    document.addEventListener("mousedown", onDown);
-    return () => document.removeEventListener("mousedown", onDown);
+    document.addEventListener("mousedown", handler);
+    return () => document.removeEventListener("mousedown", handler);
   }, []);
 
-  const isActive = (href: string) =>
-    href === "/" ? pathname === "/" : pathname.startsWith(href);
+  /* LOGO GIF: girişdə + hər 4 dəq */
+  useEffect(() => {
+    const GIF_DURATION = 3000; // 3 saniyə oynasın
+    const INTERVAL = 240000;   // 4 dəqiqə
+
+    let timeoutId: number | null = null;
+
+    const play = () => {
+      if (timeoutId) window.clearTimeout(timeoutId);
+
+      // gif restart (remount)
+      setGifKey((k) => k + 1);
+      setPlayLogo(true);
+
+      timeoutId = window.setTimeout(() => {
+        setPlayLogo(false);
+      }, GIF_DURATION);
+    };
+
+    play(); // ilk girişdə 1 dəfə
+
+    const intervalId = window.setInterval(play, INTERVAL);
+
+    return () => {
+      if (timeoutId) window.clearTimeout(timeoutId);
+      window.clearInterval(intervalId);
+    };
+  }, []);
 
   return (
-   <header
-  ref={headerRef}
-  className="sticky top-0 z-50 w-full border-b text-black! border-black/10 bg-white/80 text-black backdrop-blur-md"
->
-      <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 ">
-        {/* Logo */}
+    <header
+      ref={headerRef}
+      className="sticky top-0 z-50 w-full border-b border-black/10 bg-white/80 text-black backdrop-blur-md"
+    >
+      <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3">
+        {/* LOGO */}
         <Link href="/" className="flex items-center">
-          <div className="relative h-14 w-56 sm:w-64 md:h-14 md:w-64 lg:h-18 lg:w-72 overflow-hidden">
-            <Image
-              src={site.logo}
-              alt={site.name}
-              fill
-              className="object-contain scale-110 md:scale-116"
-              priority
-            />
+          <div className="relative h-14 w-56 overflow-hidden sm:w-64 md:w-64 lg:h-16 lg:w-72">
+            {playLogo ? (
+              <Image
+                key={gifKey}
+                src={site.logoAnimated}
+                alt={site.name}
+                fill
+                className="object-contain"
+                priority
+                unoptimized
+              />
+            ) : (
+              <Image
+                src={site.logoStatic}
+                alt={site.name}
+                fill
+                className="object-contain"
+                priority
+              />
+            )}
           </div>
         </Link>
 
-        {/* Desktop nav */}
-        <nav className="hidden items-center gap-6 z-50! lg:flex lg:gap-10">
+        {/* DESKTOP NAV */}
+        <nav className="hidden items-center gap-6 lg:flex lg:gap-10">
           {nav.map((item) => {
-            const active = isActive(item.href);
+            const opened = openDropdown === item.href;
 
-            // Dropdown item (desktop hover + click)
+            // Dropdown item (hover ONLY)
             if (item.children?.length) {
-              const opened = openDropdown === item.href;
+              const showYellowLine = item.label === SERVICES_LABEL;
 
               return (
                 <div
@@ -120,44 +166,40 @@ export default function Header() {
                   onMouseEnter={() => setOpenDropdown(item.href)}
                   onMouseLeave={() => setOpenDropdown(null)}
                 >
-                  <button
-                    type="button"
-                    onClick={() => setOpenDropdown(opened ? null : item.href)}
-                    className={`group flex items-center z-50! gap-2 text-[13px] lg:text-sm font-semibold tracking-wide transition
-                      ${
-                        active
-                          ? "text-[#F2A900]"
-                          : "text-black hover:text-[#F2A900]"
-                      }`}
-                  >
-                    {item.label}
+                  {/* Trigger (click yoxdur) */}
+                  <div className="group inline-flex cursor-default items-center gap-2 text-sm font-semibold text-black">
+                    <span className="relative">
+                      {item.label}
+
+                      {/* Sarı xətt yalnız Xidmətlər üçün */}
+                      {showYellowLine && (
+                        <span
+                          className={`absolute -bottom-2 left-0 h-[2px] w-full bg-[#F2A900] transition-opacity ${
+                            opened ? "opacity-100" : "opacity-0 group-hover:opacity-100"
+                          }`}
+                        />
+                      )}
+                    </span>
+
                     <ChevronDownIcon
-                      className={`h-4 w-4  z-50! transition ${
-                        opened ? "rotate-180" : ""
-                      }`}
+                      className={`h-4 w-4 transition ${opened ? "rotate-180" : ""}`}
                     />
-                  </button>
+                  </div>
 
-                  <span
-                    className={`mt-1 block h-[2px] w-full rounded bg-[#F2A900] transition-opacity ${
-                      active
-                        ? "opacity-100"
-                        : "opacity-0 group-hover:opacity-100"
-                    }`}
-                  />
+                  {/* ✅ Hover bridge: trigger ↔ dropdown arası boşluqda itirməsin */}
+                  <div className="absolute left-0 top-full h-4 w-56" />
 
+                  {/* Dropdown panel */}
                   {opened && (
-                    <div className="absolute  left-0 top-full z-50! mt-3 w-56 rounded-xl border border-black/10 bg-white p-2 shadow-lg">
+                    <div className="absolute left-0 top-full z-50 mt-4 w-56 rounded-xl border border-black/10 bg-white p-2 shadow-xl">
                       {item.children.map((child) => (
                         <Link
                           key={child.href}
                           href={child.href}
-                          className={`block rounded-lg px-3 py-2 text-sm transition
-                            ${
-                              isActive(child.href)
-                                ? "bg-black/5 text-black"
-                                : "hover:bg-black/5"
-                            }`}
+                          className={`block rounded-lg px-3 py-2 text-sm font-medium transition ${
+                            isActive(child.href) ? "bg-black/5" : "hover:bg-black/5"
+                          }`}
+                          onClick={() => setOpenDropdown(null)}
                         >
                           {child.label}
                         </Link>
@@ -168,72 +210,48 @@ export default function Header() {
               );
             }
 
-            // Normal item
+            // Normal item (sarı xətt YOX)
             return (
               <Link
                 key={item.href}
                 href={item.href}
-                className={`group text-[13px] lg:text-sm font-semibold tracking-wide transition ${
-                  active ? "text-[#F2A900]" : "text-black hover:text-[#F2A900]"
-                }`}
+                className="text-sm font-semibold text-black hover:text-black"
               >
                 {item.label}
-                <span
-                  className={`mt-1 block h-[2px] w-full rounded bg-[#F2A900] transition-opacity ${
-                    active ? "opacity-100" : "opacity-0 group-hover:opacity-100"
-                  }`}
-                />
               </Link>
             );
           })}
         </nav>
 
-        {/* Mobile button */}
+        {/* MOBILE BUTTON */}
         <button
           type="button"
-          className="inline-flex items-center justify-center rounded-lg p-2 text-black hover:bg-black/5 lg:hidden"
-          aria-label="Open menu"
+          className="rounded-lg p-2 text-black hover:bg-black/5 lg:hidden"
           onClick={() => setMobileOpen((s) => !s)}
+          aria-label={mobileOpen ? "Close menu" : "Open menu"}
         >
-          {mobileOpen ? (
-            <CloseIcon className="h-6 w-6" />
-          ) : (
-            <MenuIcon className="h-6 w-6" />
-          )}
+          {mobileOpen ? <CloseIcon className="h-6 w-6" /> : <MenuIcon className="h-6 w-6" />}
         </button>
       </div>
 
-      {/* Mobile panel */}
+      {/* MOBILE PANEL */}
       {mobileOpen && (
         <div className="border-t border-black/10 bg-white lg:hidden">
           <div className="mx-auto max-w-7xl px-4 py-4">
             <div className="flex flex-col gap-2">
               {nav.map((item) => {
-                const active = isActive(item.href);
+                const opened = openDropdown === item.href;
 
                 if (item.children?.length) {
-                  const opened = openDropdown === item.href;
-
                   return (
-                    <div
-                      key={item.href}
-                      className="rounded-xl border border-black/10"
-                    >
+                    <div key={item.href} className="rounded-xl border border-black/10">
                       <button
                         type="button"
-                        onClick={() =>
-                          setOpenDropdown(opened ? null : item.href)
-                        }
-                        className={`flex w-full items-center justify-between px-4 py-3 text-sm font-semibold ${
-                          active ? "text-[#F2A900]" : "text-black"
-                        }`}
+                        className="flex w-full items-center justify-between px-4 py-3 text-sm font-semibold text-black"
+                        onClick={() => setOpenDropdown(opened ? null : item.href)}
                       >
                         <span>{item.label}</span>
-                        <ChevronDownIcon
-                          className={`h-4 w-4 transition ${
-                            opened ? "rotate-180" : ""
-                          }`}
-                        />
+                        <ChevronDownIcon className={`h-4 w-4 transition ${opened ? "rotate-180" : ""}`} />
                       </button>
 
                       {opened && (
@@ -242,11 +260,13 @@ export default function Header() {
                             <Link
                               key={child.href}
                               href={child.href}
-                              className={`block rounded-lg px-3 py-2 text-sm transition ${
-                                isActive(child.href)
-                                  ? "bg-black/5"
-                                  : "hover:bg-black/5"
+                              className={`block rounded-lg px-3 py-2 text-sm font-medium transition ${
+                                isActive(child.href) ? "bg-black/5" : "hover:bg-black/5"
                               }`}
+                              onClick={() => {
+                                setMobileOpen(false);
+                                setOpenDropdown(null);
+                              }}
                             >
                               {child.label}
                             </Link>
@@ -261,11 +281,8 @@ export default function Header() {
                   <Link
                     key={item.href}
                     href={item.href}
-                    className={`rounded-xl px-4 py-3 text-sm font-semibold transition ${
-                      active
-                        ? "bg-[#F2A900]/10 text-[#F2A900]"
-                        : "hover:bg-black/5"
-                    }`}
+                    className="rounded-xl px-4 py-3 text-sm font-semibold text-black hover:bg-black/5"
+                    onClick={() => setMobileOpen(false)}
                   >
                     {item.label}
                   </Link>

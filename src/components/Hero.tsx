@@ -153,7 +153,7 @@ export default function Hero() {
             type="button"
             aria-label="Previous slide"
             onClick={goPrev}
-            className="absolute left-2 top-1/2 z-20 hidden -translate-y-1/2 items-center justify-center rounded-none bg-black/45 p-3 text-white transition hover:bg-black/60 lg:flex"
+            className="cursor-pointer absolute left-2 top-1/2 z-20 hidden -translate-y-1/2 items-center justify-center rounded-none bg-black/45 p-3 text-white transition hover:bg-black/60 lg:flex"
           >
             <ArrowLeft className="h-6 w-6" />
           </button>
@@ -162,7 +162,7 @@ export default function Hero() {
             type="button"
             aria-label="Next slide"
             onClick={goNext}
-            className="absolute right-2 top-1/2 z-20 hidden -translate-y-1/2 items-center justify-center rounded-none bg-black/45 p-3 text-white transition hover:bg-black/60 lg:flex"
+            className=" cursor-pointer absolute right-2 top-1/2 z-20 hidden -translate-y-1/2 items-center justify-center rounded-none bg-black/45 p-3 text-white transition hover:bg-black/60 lg:flex"
           >
             <ArrowRight className="h-6 w-6" />
           </button>
