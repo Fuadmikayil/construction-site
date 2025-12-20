@@ -2721,7 +2721,7 @@
       },
 
       {
-        "name": "TAXTA MATERIALLARI",
+        "name": "TAXTA MATERİALLAR",
         "image": "/images/products/default.jpg",
         "variants": [
           {
@@ -2935,6 +2935,46 @@
           {
             "title": "HÖRGÜ İPİ",
             "price": 1.5
+          }
+        ]
+      },
+      {
+        "name": "KABEL BORUSU",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "HBORU 16 T",
+            "price": 0.55
+          },
+          {
+            "title": "BORU 18 T",
+            "price": 0.65
+          },
+          {
+            "title": "BORU 25 T",
+            "price": 0.75
+          }
+        ]
+      },
+      {
+        "name": "ALÇİPAN",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "EKOSTAR GKLN 9.5 mm (YAŞIL ALÇİPAN)",
+            "price": 0
+          },
+          {
+            "title": "EKOSTAR GKLN 9.5 mm (AĞ ALÇİPAN)",
+            "price": 0
+          },
+          {
+            "title": "EKOSTAR GKLN 12.5 mm (YAŞIL ALÇİPAN)",
+            "price": 0
+          },
+          {
+            "title": "EKOSTAR GKLN 12.5 mm (AĞ ALÇİPAN)",
+            "price": 0
           }
         ]
       }
