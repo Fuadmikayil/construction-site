@@ -2835,27 +2835,15 @@
           {
             "title": "TAXTA 3x10x4",
             "price": 6.4
-          }
-        ]
-      },
-      {
-        "name": "APŞİPQA (M2)",
-        "image": "/images/products/default.jpg",
-        "variants": [
-          {
+          },
+             {
             "title": "APŞİPQA DÜYÜNLÜ 0.100 4M",
             "price": 10.8
           },
           {
             "title": "APŞİPQA DÜYÜNLÜ 0.100 6M",
             "price": 11.3
-          }
-        ]
-      },
-      {
-        "name": "POL (M2)",
-        "image": "/images/products/default.jpg",
-        "variants": [
+          },
           {
             "title": "POL 084x4M - 2.5",
             "price": 16.6
@@ -2863,14 +2851,7 @@
           {
             "title": "POL 0100x6M - 2.5 RUS",
             "price": 18.4
-          }
-        ]
-      },
-      {
-        "name": "DIK (EDED)",
-        "image": "/images/products/default.jpg",
-        "variants": [
-          {
+          },          {
             "title": "DİK 5 YAKIR",
             "price": 11.7
           },
@@ -2897,24 +2878,7 @@
           {
             "title": "DİK 15",
             "price": 28.4
-          }
-        ]
-      },
-      {
-        "name": "YANMIŞ SİM (KG)",
-        "image": "/images/products/default.jpg",
-        "variants": [
-          {
-            "title": "SİM YANMIŞ NAZİK",
-            "price": 2.6
-          }
-        ]
-      },
-      {
-        "name": "KÖVƏ (M)",
-        "image": "/images/products/default.jpg",
-        "variants": [
-          {
+          },  {
             "title": "KÖVƏ K9",
             "price": 1.3
           },
@@ -2933,9 +2897,33 @@
           {
             "title": "KÖVƏ U1",
             "price": 2.1
+          }, 
+          {
+            "title": "REYKA 5x5x4 (M)",
+            "price": 1.2
+          },
+          {
+            "title": "REYKA 5x3x4 (M)",
+            "price": 0.90
+          },
+          {
+            "title": "REYKA 5x3x6 (M)",
+            "price": 0.90
           }
         ]
       },
+
+      {
+        "name": "YANMIŞ SİM",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "SİM YANMIŞ NAZİK",
+            "price": 2.6
+          }
+        ]
+      },
+    
       {
         "name": "MİSMAR",
         "image": "/images/products/default.jpg",
@@ -3032,20 +3020,8 @@
           }
         ]
       },
-      {
-        "name": "İSTEHSAL OLUNMUŞ MƏHSULLAR",
-        "image": "/images/products/default.jpg",
-        "variants": [
-          {
-            "title": "REYKA 5x5x4 (M)",
-            "price": 1.2
-          },
-          {
-            "title": "REYKA 5x5x6 (M)",
-            "price": 1.2
-          }
-        ]
-      }
+      
+        
     ]
   }
 }
