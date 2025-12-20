@@ -34,17 +34,32 @@ export default function Hero() {
   }, []);
 
   const total = slides.length;
-  const [index, setIndex] = useState(0);
 
-  const goPrev = () => setIndex((i) => (i - 1 + total) % total);
-  const goNext = () => setIndex((i) => (i + 1) % total);
+  const [index, setIndex] = useState(0);
+  const [animating, setAnimating] = useState(false);
+
+  const goTo = (next: number) => {
+    if (total <= 1) return;
+    if (animating) return;
+    setAnimating(true);
+
+    // Fade-out → change slide → fade-in
+    setTimeout(() => {
+      setIndex((next + total) % total);
+      setTimeout(() => setAnimating(false), 450);
+    }, 250);
+  };
+
+  const goPrev = () => goTo(index - 1);
+  const goNext = () => goTo(index + 1);
 
   // autoplay
   useEffect(() => {
     if (total <= 1) return;
-    const t = setInterval(() => setIndex((i) => (i + 1) % total), 6000);
+    const t = setInterval(() => goTo(index + 1), 6000);
     return () => clearInterval(t);
-  }, [total]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [index, total]);
 
   // swipe (touch)
   const startX = useRef<number | null>(null);
@@ -61,7 +76,7 @@ export default function Hero() {
   };
 
   const onTouchEnd = () => {
-    const threshold = 50; // nə qədər sürüşdürsə keçsin
+    const threshold = 50;
     if (deltaX.current > threshold) goPrev();
     else if (deltaX.current < -threshold) goNext();
 
@@ -75,19 +90,43 @@ export default function Hero() {
 
   return (
     <section
-      className="relative h-[520px] w-full md:h-[640px] select-none"
+      className="relative h-[520px] w-full select-none overflow-hidden md:h-[640px] touch-pan-y"
       onTouchStart={onTouchStart}
       onTouchMove={onTouchMove}
       onTouchEnd={onTouchEnd}
     >
-      <Image src={slide.image} alt={slide.title} fill priority className="object-cover" />
+      {/* Background layer with smooth animation */}
+      <div
+        className={`absolute inset-0 transition-opacity duration-500 ease-out ${
+          animating ? "opacity-0" : "opacity-100"
+        }`}
+      >
+        <Image
+          key={slide.image} // ensures new image mounts
+          src={slide.image}
+          alt={slide.title}
+          fill
+          priority
+          className={`object-cover transition-transform duration-[6500ms] ease-out ${
+            animating ? "scale-[1.02]" : "scale-[1.08]"
+          }`}
+        />
+      </div>
 
-      <div className="absolute inset-0 bg-black/35" />
+      {/* overlay */}
+      <div
+        className={`absolute inset-0 bg-black/35 transition-opacity duration-500 ease-out ${
+          animating ? "opacity-0" : "opacity-100"
+        }`}
+      />
 
       {/* Content */}
-        <div className="relative z-10 mx-auto flex h-full max-w-7xl items-center px-4 lg:px-18">
-
-        <div className="max-w-2xl text-white">
+      <div className="relative z-10 mx-auto flex h-full max-w-7xl items-center px-4 lg:px-16">
+        <div
+          className={`max-w-2xl text-white transition-all duration-500 ease-out ${
+            animating ? "translate-y-2 opacity-0" : "translate-y-0 opacity-100"
+          }`}
+        >
           <h1 className="text-4xl font-extrabold leading-tight md:text-6xl">
             {slide.title}
           </h1>
@@ -107,14 +146,14 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* Arrows – yalnız desktop (lg) */}
+      {/* Arrows – only desktop */}
       {total > 1 && (
         <>
           <button
             type="button"
             aria-label="Previous slide"
             onClick={goPrev}
-            className="absolute left-3 top-1/2 z-20 hidden -translate-y-1/2 items-center justify-center rounded-none bg-black/45 p-3 text-white transition hover:bg-black/60 lg:flex"
+            className="absolute left-2 top-1/2 z-20 hidden -translate-y-1/2 items-center justify-center rounded-none bg-black/45 p-3 text-white transition hover:bg-black/60 lg:flex"
           >
             <ArrowLeft className="h-6 w-6" />
           </button>
@@ -123,7 +162,7 @@ export default function Hero() {
             type="button"
             aria-label="Next slide"
             onClick={goNext}
-            className="absolute right-3 top-1/2 z-20 hidden -translate-y-1/2 items-center justify-center rounded-none bg-black/45 p-3 text-white transition hover:bg-black/60 lg:flex"
+            className="absolute right-2 top-1/2 z-20 hidden -translate-y-1/2 items-center justify-center rounded-none bg-black/45 p-3 text-white transition hover:bg-black/60 lg:flex"
           >
             <ArrowRight className="h-6 w-6" />
           </button>
@@ -140,7 +179,7 @@ export default function Hero() {
                 key={i}
                 type="button"
                 aria-label={`Go to slide ${i + 1}`}
-                onClick={() => setIndex(i)}
+                onClick={() => goTo(i)}
                 className={`h-3 w-3 rounded-full border border-white/70 transition ${
                   active ? "bg-white" : "bg-white/20 hover:bg-white/40"
                 }`}
