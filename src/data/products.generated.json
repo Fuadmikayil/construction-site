@@ -1,0 +1,3051 @@
+{
+  "productsSection": {
+    "title": "Məhsullar",
+    "items": [
+      {
+        "name": "STAR SUPER",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "STAR SUPER PARLAQ 3.75 LT",
+            "price": 34
+          },
+          {
+            "title": "STAR SUPER POL 3.75LT",
+            "price": 34
+          },
+          {
+            "title": "STAR SUPER MAT 3.75LT",
+            "price": 33
+          }
+        ]
+      },
+      {
+        "name": "STAR PARLAQ",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "STAR PARLAQ 0.75LT - AĞ",
+            "price": 8
+          },
+          {
+            "title": "STAR PARLAQ 2.5LT - AĞ",
+            "price": 25
+          },
+          {
+            "title": "STAR PARLAQ POL 0.75LT",
+            "price": 8
+          },
+          {
+            "title": "STAR PARLAQ POL 2.5LT",
+            "price": 25
+          },
+          {
+            "title": "STAR PARLAQ 15LT - AĞ",
+            "price": 132
+          },
+          {
+            "title": "STAR PARLAQ POL 15LT",
+            "price": 132
+          }
+        ]
+      },
+      {
+        "name": "STAR MAT",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "STAR MAT 0.75LT",
+            "price": 8.3
+          },
+          {
+            "title": "STAR MAT 2.5LT",
+            "price": 23.4
+          },
+          {
+            "title": "STAR MAT 15LT",
+            "price": 124
+          }
+        ]
+      },
+      {
+        "name": "STAR ANTİPAS",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "STAR ANTİPAS 0.75LT - AĞ",
+            "price": 6.8
+          },
+          {
+            "title": "STAR ANTİPAS 0.75LT - VİŞNƏ",
+            "price": 6.8
+          },
+          {
+            "title": "STAR ANTİPAS 0.75LT - QARA",
+            "price": 6.8
+          },
+          {
+            "title": "STAR ANTİPAS 0.75LT - BOZ",
+            "price": 6.8
+          },
+          {
+            "title": "STAR ANTİPAS 0.75LT - YAŞIL",
+            "price": 6.8
+          },
+          {
+            "title": "STAR ANTİPAS 0.75LT - MAVİ",
+            "price": 6.8
+          },
+          {
+            "title": "STAR ANTİPAS 0.75LT - GÖY",
+            "price": 6.8
+          },
+          {
+            "title": "STAR ANTİPAS 2.5LT - AĞ",
+            "price": 14.5
+          },
+          {
+            "title": "STAR ANTİPAS 2.5LT - VİŞNƏ",
+            "price": 14.5
+          },
+          {
+            "title": "STAR ANTİPAS 2.5LT - QARA",
+            "price": 14.5
+          },
+          {
+            "title": "STAR ANTİPAS 2.5LT - BOZ",
+            "price": 14.5
+          },
+          {
+            "title": "STAR ANTİPAS 2.5LT - YAŞIL",
+            "price": 14.5
+          },
+          {
+            "title": "STAR ANTİPAS 2.5LT - MAVİ",
+            "price": 14.5
+          },
+          {
+            "title": "STAR ANTİPAS 2.5LT - GÖY",
+            "price": 14.5
+          }
+        ]
+      },
+      {
+        "name": "STAR HAMERTON",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "STAR HAMERTON 2.5LT - V6318 TÜND QƏHVƏ",
+            "price": 24.5
+          },
+          {
+            "title": "STAR HAMERTON 2.5LT - BEJ",
+            "price": 24.5
+          },
+          {
+            "title": "STAR HAMERTON 2.5LT - BEYAZ",
+            "price": 25
+          },
+          {
+            "title": "STAR HAMERTON 2.5LT - SÜTLÜ KAHVE",
+            "price": 24.5
+          },
+          {
+            "title": "STAR HAMERTON 2.5LT - VERDE YEŞİL",
+            "price": 24.5
+          },
+          {
+            "title": "STAR HAMERTON 2.5LT - KAHVE RENGİ",
+            "price": 24.5
+          },
+          {
+            "title": "STAR HAMERTON 2.5LT - GOLD STAR",
+            "price": 25
+          },
+          {
+            "title": "STAR HAMERTON 2.5LT - VİŞNE",
+            "price": 24.5
+          },
+          {
+            "title": "STAR HAMERTON 2.5LT - KIRMIZI",
+            "price": 24.5
+          },
+          {
+            "title": "STAR HAMERTON 2.5LT - AÇIK KAHVE",
+            "price": 24.5
+          },
+          {
+            "title": "STAR HAMERTON 2.5LT - KOYU MAVİ",
+            "price": 24.5
+          },
+          {
+            "title": "STAR HAMERTON 2.5LT - OKEAN MAVİ",
+            "price": 24.5
+          },
+          {
+            "title": "STAR HAMERTON 2.5LT - KOYU GRİ",
+            "price": 24.5
+          },
+          {
+            "title": "STAR HAMERTON 2.5LT - KOYU YEŞİL",
+            "price": 24.5
+          },
+          {
+            "title": "STAR HAMERTON 2.5LT - GRANİT YEŞİL",
+            "price": 24.5
+          },
+          {
+            "title": "STAR HAMERTON 2.5LT - SİYAH",
+            "price": 24.5
+          },
+          {
+            "title": "STAR HAMERTON 2.5LT - BOZ MAVİ",
+            "price": 24.5
+          },
+          {
+            "title": "STAR HAMERTON 2.5LT - ÇEREPİTZA KIRMIZI",
+            "price": 24.5
+          },
+          {
+            "title": "STAR HAMERTON 2.5LT - YEŞİL",
+            "price": 24.5
+          },
+          {
+            "title": "STAR HAMERTON 2.5LT - HAKİ YEŞİL",
+            "price": 24.5
+          },
+          {
+            "title": "STAR HAMERTON 2.5LT - MİS",
+            "price": 25
+          }
+        ]
+      },
+      {
+        "name": "STAR PARKET",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "STAR PARKET LAKI 0.75LT",
+            "price": 8.5
+          },
+          {
+            "title": "STAR PARKET LAKI 2.5LT",
+            "price": 26
+          },
+          {
+            "title": "STAR PARKET LAKI 15LT",
+            "price": 97
+          }
+        ]
+      },
+      {
+        "name": "STAR RƏNGLİ LAK",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "STAR RƏNGLİ LAK 0.75LT - SARI",
+            "price": 8.2
+          },
+          {
+            "title": "STAR RƏNGLİ LAK 0.75LT - CEVİZ",
+            "price": 8.2
+          },
+          {
+            "title": "STAR RƏNGLİ LAK 0.75LT - TİK",
+            "price": 8.2
+          },
+          {
+            "title": "STAR RƏNGLİ LAK 0.75LT - KOYU MEŞƏ",
+            "price": 8.2
+          },
+          {
+            "title": "STAR RƏNGLİ LAK 0.75LT - AÇIQ MEŞƏ",
+            "price": 8.2
+          },
+          {
+            "title": "STAR RƏNGLİ LAK 0.75LT - RUSTİK MEŞƏ",
+            "price": 8.2
+          },
+          {
+            "title": "STAR RƏNGLİ LAK 0.75LT - ZEYTUNİ",
+            "price": 8.2
+          },
+          {
+            "title": "STAR RƏNGLİ LAK 2.5LT - SARI",
+            "price": 26
+          },
+          {
+            "title": "STAR RƏNGLİ LAK 2.5LT - CEVİZ",
+            "price": 26
+          },
+          {
+            "title": "STAR RƏNGLİ LAK 2.5LT - TİK",
+            "price": 26
+          },
+          {
+            "title": "STAR RƏNGLİ LAK 2.5LT - KOYU MEŞƏ",
+            "price": 26.5
+          },
+          {
+            "title": "STAR RƏNGLİ LAK 2.5LT - AÇIQ MEŞƏ",
+            "price": 26.5
+          },
+          {
+            "title": "STAR RƏNGLİ LAK 2.5LT - RUSTİK MEŞƏ",
+            "price": 26.5
+          },
+          {
+            "title": "STAR RƏNGLİ LAK 2.5LT - ZEYTUNİ",
+            "price": 26.5
+          }
+        ]
+      },
+      {
+        "name": "STAR SELÜLOZİK DOLĞU",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "STAR SELÜLOZİK DOLĞU 0.75LT",
+            "price": 8.5
+          },
+          {
+            "title": "STAR SELÜLOZİK DOLĞU 2.5LT",
+            "price": 26.5
+          },
+          {
+            "title": "STAR SELÜLOZİK DOLĞU 15LT",
+            "price": 98
+          }
+        ]
+      },
+      {
+        "name": "STAR ALÜMİNİUM",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "STAR ALÜMİNİUM BOYA 0.75 KQ",
+            "price": 8.3
+          },
+          {
+            "title": "STAR ALÜMİNİUM BOYA 0.25LT",
+            "price": 4.5
+          },
+          {
+            "title": "STAR ALÜMİNİUM BOYA 2.5LT",
+            "price": 27
+          }
+        ]
+      },
+      {
+        "name": "SUPER STAR PLASTİK",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "SUPER STAR PLASTİK 3.5 KQ - AĞ",
+            "price": 21.3
+          },
+          {
+            "title": "SUPER STAR PLASTİK 25 KQ - AĞ",
+            "price": 87
+          },
+          {
+            "title": "SUPER STAR PLASTİK 10LT - AĞ",
+            "price": 48.5
+          }
+        ]
+      },
+      {
+        "name": "SUPER STAR FASAD",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "SUPER STAR FASAD 10KQ - AĞ",
+            "price": 52.5
+          },
+          {
+            "title": "SUPER STAR FASAD 3.5KQ - AĞ",
+            "price": 21.5
+          },
+          {
+            "title": "SUPER STAR FASAD 25KQ - AĞ",
+            "price": 118
+          }
+        ]
+      },
+      {
+        "name": "STAR PLUS YUYULAN",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "STAR PLUS YUYULAN 3.5KQ - AĞ",
+            "price": 19.5
+          },
+          {
+            "title": "STAR PLUS YUYULAN 10KQ - AĞ",
+            "price": 47
+          },
+          {
+            "title": "STAR PLUS YUYULAN 25KQ - AĞ",
+            "price": 92
+          }
+        ]
+      },
+      {
+        "name": "STAR SİLİKONLU",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "STAR SİLİKONLU FASAD 10KQ - AĞ",
+            "price": 58
+          },
+          {
+            "title": "STAR SİLİKONLU FASAD 25KQ - AĞ",
+            "price": 127
+          },
+          {
+            "title": "STAR SİLİKONLU FASAD 3.5KQ - AĞ",
+            "price": 25.5
+          }
+        ]
+      },
+      {
+        "name": "STAR BETON KONTAKT",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "STAR BETON KONTAKT 3.5KQ",
+            "price": 16
+          },
+          {
+            "title": "STAR BETON KONTAKT 10KQ",
+            "price": 27.8
+          },
+          {
+            "title": "STAR BETON KONTAKT 25KQ",
+            "price": 57
+          }
+        ]
+      },
+      {
+        "name": "STAR MƏCUN",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "STAR MƏCUN 4.5KQ",
+            "price": 17.4
+          },
+          {
+            "title": "STAR MƏCUN 10KQ",
+            "price": 27
+          },
+          {
+            "title": "STAR MƏCUN 25KQ",
+            "price": 58
+          }
+        ]
+      },
+      {
+        "name": "STAR PLASTİK",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "STAR PLASTİK 3.5KQ",
+            "price": 14.5
+          },
+          {
+            "title": "STAR PLASTİK 1OKQ",
+            "price": 35
+          },
+          {
+            "title": "STAR PLASTİK 25 KQ - AĞ",
+            "price": 66
+          }
+        ]
+      },
+      {
+        "name": "STAR FASAD",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "STAR FASAD 3.5KQ",
+            "price": 16
+          },
+          {
+            "title": "STAR FASAD 10KQ - AĞ",
+            "price": 37
+          },
+          {
+            "title": "STAR FASAD 25KQ - AĞ",
+            "price": 76
+          }
+        ]
+      },
+      {
+        "name": "STAR TAVAN BOYASI",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "STAR TAVAN BOYASI 3.5KQ",
+            "price": 11.5
+          },
+          {
+            "title": "STAR TAVAN BOYASI 10KQ",
+            "price": 28
+          },
+          {
+            "title": "STAR TAVAN BOYASI 25KQ",
+            "price": 54
+          }
+        ]
+      },
+      {
+        "name": "STAR BİNDER",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "STAR BİNDER 1LT",
+            "price": 6
+          },
+          {
+            "title": "STAR BİNDER 4LT",
+            "price": 14
+          }
+        ]
+      },
+      {
+        "name": "STAR SUTUT",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "STAR SUTUT 10KQ",
+            "price": 52
+          },
+          {
+            "title": "STAR SUTUT 25KQ",
+            "price": 98
+          }
+        ]
+      },
+      {
+        "name": "STAR UNİVERSAL BOYA",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "STAR UNİVERSAL BOYA 100ML - MAVİ",
+            "price": 3
+          },
+          {
+            "title": "STAR UNİVERSAL BOYA 100ML - MİNE",
+            "price": 3
+          },
+          {
+            "title": "STAR UNİVERSAL BOYA 100ML - ERGUVAN",
+            "price": 3
+          },
+          {
+            "title": "STAR UNİVERSAL BOYA 100ML - DAMLA",
+            "price": 3
+          },
+          {
+            "title": "STAR UNİVERSAL BOYA 100ML - ROŞE",
+            "price": 3
+          },
+          {
+            "title": "STAR UNİVERSAL BOYA 100ML - PETROL",
+            "price": 3
+          },
+          {
+            "title": "STAR UNİVERSAL BOYA 100ML - SİYAH",
+            "price": 3
+          },
+          {
+            "title": "STAR UNİVERSAL BOYA 100ML - OKSİD SARI",
+            "price": 3
+          },
+          {
+            "title": "STAR UNİVERSAL BOYA 100ML - KREM",
+            "price": 3
+          },
+          {
+            "title": "STAR UNİVERSAL BOYA 100ML - KONYAK",
+            "price": 3
+          },
+          {
+            "title": "STAR UNİVERSAL BOYA 100ML - ŞAMPANYA",
+            "price": 3
+          },
+          {
+            "title": "STAR UNİVERSAL BOYA 100ML - SARI",
+            "price": 3
+          },
+          {
+            "title": "STAR UNİVERSAL BOYA 100ML - TOPRAK",
+            "price": 3
+          },
+          {
+            "title": "STAR UNİVERSAL BOYA 100ML - GÜLKURUSU",
+            "price": 3
+          },
+          {
+            "title": "STAR UNİVERSAL BOYA 100ML - BORDO",
+            "price": 3
+          },
+          {
+            "title": "STAR UNİVERSAL BOYA 100ML - MENEKŞE",
+            "price": 3
+          },
+          {
+            "title": "STAR UNİVERSAL BOYA 100ML - HAVANA",
+            "price": 3
+          },
+          {
+            "title": "STAR UNİVERSAL BOYA 100ML - BEJ",
+            "price": 3
+          },
+          {
+            "title": "STAR UNİVERSAL BOYA 100ML - HARDAL",
+            "price": 3
+          },
+          {
+            "title": "STAR UNİVERSAL BOYA 100ML - TÜTÜN",
+            "price": 3
+          },
+          {
+            "title": "STAR UNİVERSAL BOYA 100ML - AMAZON",
+            "price": 3
+          },
+          {
+            "title": "STAR UNİVERSAL BOYA 100ML - TİBET",
+            "price": 3
+          },
+          {
+            "title": "STAR UNİVERSAL BOYA 100ML - YEŞİL",
+            "price": 3
+          },
+          {
+            "title": "STAR UNİVERSAL BOYA 100ML - CAMBÖCEĞİ",
+            "price": 3
+          }
+        ]
+      },
+      {
+        "name": "STAR KOLOR",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "STAR KOLOR 300ML - MAVİ",
+            "price": 4.2
+          },
+          {
+            "title": "STAR KOLOR 300ML - ERGUVAN",
+            "price": 4.2
+          },
+          {
+            "title": "STAR KOLOR 300ML - DAMLA",
+            "price": 4.2
+          },
+          {
+            "title": "STAR KOLOR 300ML - ROŞE",
+            "price": 4.2
+          },
+          {
+            "title": "STAR KOLOR 300ML - SİYAH",
+            "price": 4.2
+          },
+          {
+            "title": "STAR KOLOR 300ML - OKSİD SARI",
+            "price": 4.2
+          },
+          {
+            "title": "STAR KOLOR 300ML - KREM",
+            "price": 4.2
+          },
+          {
+            "title": "STAR KOLOR 300ML - KONYAK",
+            "price": 4.2
+          },
+          {
+            "title": "STAR KOLOR 300ML - ŞAMPANYA",
+            "price": 4.2
+          },
+          {
+            "title": "STAR KOLOR 300ML - SARI",
+            "price": 4.4
+          },
+          {
+            "title": "STAR KOLOR 300ML - TOPRAK",
+            "price": 4.4
+          },
+          {
+            "title": "STAR KOLOR 300ML - GÜLKURUSU",
+            "price": 4.6
+          },
+          {
+            "title": "STAR KOLOR 300ML - BORDO",
+            "price": 4.4
+          },
+          {
+            "title": "STAR KOLOR 300ML - MENEKŞE",
+            "price": 4.6
+          },
+          {
+            "title": "STAR KOLOR 300ML - HAVANA",
+            "price": 4.4
+          },
+          {
+            "title": "STAR KOLOR 300ML - BEJ",
+            "price": 4.4
+          },
+          {
+            "title": "STAR KOLOR 300ML - HARDAL",
+            "price": 4.4
+          },
+          {
+            "title": "STAR KOLOR 300ML - TÜTÜN",
+            "price": 4.4
+          },
+          {
+            "title": "STAR KOLOR 300ML - AMAZON",
+            "price": 4.6
+          },
+          {
+            "title": "STAR KOLOR 300ML - TİBET",
+            "price": 4.6
+          },
+          {
+            "title": "STAR KOLOR 300ML - YEŞİL",
+            "price": 4.6
+          },
+          {
+            "title": "STAR KOLOR 300ML - CAMBÖCEĞİ",
+            "price": 4.6
+          },
+          {
+            "title": "STAR KOLOR 300ML - MİNE",
+            "price": 4.6
+          },
+          {
+            "title": "STAR KOLOR 300ML - PETROL",
+            "price": 4.6
+          }
+        ]
+      },
+      {
+        "name": "VİM PARLAQ",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "VİM PARLAQ 0.75LT - AĞ",
+            "price": 7.8
+          },
+          {
+            "title": "VİM PARLAQ 0.75LT - VİŞNƏ",
+            "price": 8.2
+          },
+          {
+            "title": "VİM PARLAQ 0.75LT - QARA",
+            "price": 7.8
+          },
+          {
+            "title": "VİM PARLAQ 0.75LT - BOZ",
+            "price": 7.8
+          },
+          {
+            "title": "VİM PARLAQ 0.75LT - YAŞIL",
+            "price": 8.2
+          },
+          {
+            "title": "VİM PARLAQ 0.75LT - QIRMIZI",
+            "price": 8.2
+          },
+          {
+            "title": "VİM PARLAQ 0.75LT - QAZTURBASI",
+            "price": 8.2
+          },
+          {
+            "title": "VİM PARLAQ 0.75LT - SARI",
+            "price": 7.8
+          },
+          {
+            "title": "VİM PARLAQ 0.75LT - MAVİ",
+            "price": 7.8
+          },
+          {
+            "title": "VİM PARLAQ 0.75LT - GÖY",
+            "price": 8.2
+          },
+          {
+            "title": "VİM PARLAQ POL 0.75LT",
+            "price": 8.2
+          },
+          {
+            "title": "VİM PARLAQ POL 2.5LT",
+            "price": 19.5
+          },
+          {
+            "title": "VİM PARLAQ 2.5LT - AĞ",
+            "price": 21
+          },
+          {
+            "title": "VİM PARLAQ 2.5LT - VİŞNƏ",
+            "price": 21
+          },
+          {
+            "title": "VİM PARLAQ 2.5LT - QARA",
+            "price": 19.5
+          },
+          {
+            "title": "VİM PARLAQ 2.5LT - BOZ",
+            "price": 19.5
+          },
+          {
+            "title": "VİM PARLAQ 2.5LT - YAŞIL",
+            "price": 21
+          },
+          {
+            "title": "VİM PARLAQ 2.5LT - QAZTURBASI",
+            "price": 21
+          },
+          {
+            "title": "VİM PARLAQ 2.5LT - SARI",
+            "price": 19.5
+          },
+          {
+            "title": "VİM PARLAQ 2.5LT - MAVİ",
+            "price": 19.5
+          },
+          {
+            "title": "VİM PARLAQ 2.5LT - GÖY",
+            "price": 21
+          },
+          {
+            "title": "VİM PARLAQ 2.5LT - QIRMIZI",
+            "price": 21
+          },
+          {
+            "title": "VİM PARLAQ 15LT - AĞ",
+            "price": 116
+          },
+          {
+            "title": "VİM PARLAQ 15LT - QARA",
+            "price": 116
+          },
+          {
+            "title": "VİM PARLAQ 15LT - BOZ",
+            "price": 116
+          },
+          {
+            "title": "VİM PARLAQ 15LT - QAZTURBASI",
+            "price": 116
+          },
+          {
+            "title": "VİM PARLAQ POL 15LT",
+            "price": 116
+          }
+        ]
+      },
+      {
+        "name": "VİM MAT",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "VİM MAT 0.75LT",
+            "price": 8.5
+          },
+          {
+            "title": "VİM MAT 15LT",
+            "price": 89
+          },
+          {
+            "title": "VİM MAT 2.5LT",
+            "price": 19.5
+          }
+        ]
+      },
+      {
+        "name": "VİM PLASTİK",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "VİM PLASTİK 3.5KQ",
+            "price": 14
+          },
+          {
+            "title": "VİM PLASTİK 10KQ",
+            "price": 29
+          },
+          {
+            "title": "VİM PLASTİK 18LT - AĞ",
+            "price": 59
+          }
+        ]
+      },
+      {
+        "name": "VİM FASAD",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "VİM FASAD 3.5KQ",
+            "price": 18
+          },
+          {
+            "title": "VİM FASAD 10KQ",
+            "price": 44.6
+          },
+          {
+            "title": "VİM FASAD 25KQ",
+            "price": 77.4
+          }
+        ]
+      },
+      {
+        "name": "PVA SanaWood",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "PVA SanaWood - 100 GR",
+            "price": 1.5
+          }
+        ]
+      },
+      {
+        "name": "VİM PVA",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "VİM PVA 0.75KQ",
+            "price": 4.5
+          },
+          {
+            "title": "VİM PVA 2.5KQ",
+            "price": 15.4
+          },
+          {
+            "title": "VİM PVA 7.5KQ",
+            "price": 43.5
+          }
+        ]
+      },
+      {
+        "name": "İNTEQRAL PLASTİK",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "İNTEQRAL PLASTİK 3.5KQ - AĞ",
+            "price": 12.5
+          },
+          {
+            "title": "İNTEQRAL PLASTİK 10KQ - AĞ",
+            "price": 26
+          },
+          {
+            "title": "İNTEQRAL PLASTİK 18LT - AĞ",
+            "price": 58.5
+          }
+        ]
+      },
+      {
+        "name": "İNTEQRAL FASAD",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "İNTEQRAL FASAD 3.5KQ - AĞ",
+            "price": 13.6
+          },
+          {
+            "title": "İNTEQRAL FASAD 10KQ - AĞ",
+            "price": 38.5
+          },
+          {
+            "title": "İNTEQRAL FASAD 25KQ - AĞ",
+            "price": 68.5
+          }
+        ]
+      },
+      {
+        "name": "STAR SELLÜLOZİK DAŞ LAKI",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "STAR SELLÜLOZİK DAŞ LAKI 0.75LT",
+            "price": 13
+          }
+        ]
+      },
+      {
+        "name": "STAR SELLÜLOZİK BOYA",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "STAR SELLÜLOZİK BOYA 2.5LT - 90-195 AÇIQ KREM",
+            "price": 27
+          },
+          {
+            "title": "STAR SELLÜLOZİK BOYA 2.5LT - BEJ",
+            "price": 28.8
+          },
+          {
+            "title": "STAR SELLÜLOZİK BOYA 2.5LT - OKSİD SARI",
+            "price": 27.5
+          },
+          {
+            "title": "STAR SELLÜLOZİK BOYA 2.5LT - KROM SARI",
+            "price": 28.6
+          },
+          {
+            "title": "STAR SELLÜLOZİK BOYA 2.5LT - QIRMIZI",
+            "price": 29
+          },
+          {
+            "title": "STAR SELLÜLOZİK BOYA 2.5LT - BORDO",
+            "price": 29
+          },
+          {
+            "title": "STAR SELLÜLOZİK BOYA 2.5LT - GÖY",
+            "price": 29.3
+          },
+          {
+            "title": "STAR SELLÜLOZİK BOYA 2.5LT - YAŞIL",
+            "price": 29.6
+          },
+          {
+            "title": "STAR SELLÜLOZİK BOYA 2.5LT - MAKİNA YAŞIL",
+            "price": 29.8
+          },
+          {
+            "title": "STAR SELLÜLOZİK BOYA 2.5LT - AÇIQ QƏHVƏ",
+            "price": 28.6
+          },
+          {
+            "title": "STAR SELLÜLOZİK BOYA 2.5LT - TÜND QƏHVƏ",
+            "price": 28.6
+          },
+          {
+            "title": "STAR SELLÜLOZİK BOYA 2.5LT - SÜDLÜ QƏHVƏ",
+            "price": 28.6
+          },
+          {
+            "title": "STAR SELLÜLOZİK BOYA 2.5LT - DADLI QƏHVƏ",
+            "price": 28.5
+          },
+          {
+            "title": "STAR SELLÜLOZİK BOYA 2.5LT - QIZILI QƏHVƏ",
+            "price": 28
+          },
+          {
+            "title": "STAR SELLÜLOZİK BOYA 2.5LT - METALLİK",
+            "price": 27
+          },
+          {
+            "title": "STAR SELLÜLOZİK BOYA 2.5LT - KREM",
+            "price": 27
+          },
+          {
+            "title": "STAR SELLÜLOZİK BOYA 2.5LT - QARA",
+            "price": 27
+          },
+          {
+            "title": "STAR SELLÜLOZİK BOYA 2.5LT - AĞ",
+            "price": 28
+          },
+          {
+            "title": "STAR SELLÜLOZİK BOYA 2.5LT - METALLÜKS",
+            "price": 28.4
+          },
+          {
+            "title": "STAR SELLÜLOZİK 7016 (RAL) 2.5LT",
+            "price": 28.6
+          },
+          {
+            "title": "STAR SELLÜLOZİK BOYA 0.75LT - 90-195",
+            "price": 9.5
+          },
+          {
+            "title": "STAR SELLÜLOZİK BOYA 0.75LT - OKSİD SARI",
+            "price": 9.5
+          },
+          {
+            "title": "STAR SELLÜLOZİK BOYA 0.75LT - KROM SARI",
+            "price": 9.5
+          },
+          {
+            "title": "STAR SELLÜLOZİK BOYA 0.75LT - QIRMIZI",
+            "price": 9.5
+          },
+          {
+            "title": "STAR SELLÜLOZİK BOYA 0.75LT - BORDO",
+            "price": 9.5
+          },
+          {
+            "title": "STAR SELLÜLOZİK BOYA 0.75LT - GÖY",
+            "price": 9.5
+          },
+          {
+            "title": "STAR SELLÜLOZİK BOYA 0.75LT - YAŞIL",
+            "price": 9.5
+          },
+          {
+            "title": "STAR SELLÜLOZİK BOYA 0.75LT - MAKİNA YAŞIL",
+            "price": 9.5
+          },
+          {
+            "title": "STAR SELLÜLOZİK BOYA 0.75LT - AÇIQ QƏHVƏ",
+            "price": 9.5
+          },
+          {
+            "title": "STAR SELLÜLOZİK BOYA 0.75LT - TÜND QƏHVƏ",
+            "price": 9.5
+          },
+          {
+            "title": "STAR SELLÜLOZİK BOYA 0.75LT - SÜDLÜ QƏHVƏ",
+            "price": 9.5
+          },
+          {
+            "title": "STAR SELLÜLOZİK BOYA 0.75LT - QIZILI QƏHVƏ",
+            "price": 10.5
+          },
+          {
+            "title": "STAR SELLÜLOZİK BOYA 0.75LT - METALLİK",
+            "price": 9.5
+          },
+          {
+            "title": "STAR SELLÜLOZİK BOYA 0.75LT - KREM",
+            "price": 9.5
+          },
+          {
+            "title": "STAR SELLÜLOZİK BOYA 0.75LT - QARA",
+            "price": 9.5
+          },
+          {
+            "title": "STAR SELLÜLOZİK BOYA 0.75LT - AĞ",
+            "price": 10.5
+          },
+          {
+            "title": "STAR SELLÜLOZİK BOYA 0.75LT - METALLÜKS",
+            "price": 11
+          }
+        ]
+      },
+      {
+        "name": "STAR SELLÜLOZİK QIZILI",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "STAR SELLÜLOZİK QIZILI (GOLD STAR) 0.25LT",
+            "price": 11
+          }
+        ]
+      },
+      {
+        "name": "METAL SELLÜLOZİK ASTAR",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "METAL SELLÜLOZİK ASTAR 2.5LT - QARA",
+            "price": 24.5
+          },
+          {
+            "title": "METAL SELLÜLOZİK ASTAR 2.5LT - BOZ",
+            "price": 25
+          },
+          {
+            "title": "METAL SELLÜLOZİK ASTAR 2.5LT - AĞ",
+            "price": 25.5
+          }
+        ]
+      },
+      {
+        "name": "SELLÜLOZİK ASTAR MEBEL",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "SELLÜLOZİK ASTAR MEBEL 2.5LT - AĞ",
+            "price": 31.5
+          }
+        ]
+      },
+      {
+        "name": "STAR 1010",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "STAR 10110 (10 SM) BARMAQ",
+            "price": 2
+          }
+        ]
+      },
+      {
+        "name": "KOMBİ RULO",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "KOMBİ RULO 10100",
+            "price": 3.5
+          }
+        ]
+      },
+      {
+        "name": "EKO STAR",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "EKO STAR 20120 (20 SM) SATEN (KIRMIZI)",
+            "price": 4.6
+          },
+          {
+            "title": "EKO STAR 20125 (25 SM) SATEN (KIRMIZI)",
+            "price": 4.8
+          },
+          {
+            "title": "EKO STAR 20420 (20 SM) PLASTİK (GÖY)",
+            "price": 4.6
+          },
+          {
+            "title": "EKO STAR 20425 (25 SM) PLASTİK (GÖY)",
+            "price": 4.8
+          }
+        ]
+      },
+      {
+        "name": "STAR FIRÇA",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "STAR FIRÇA 1 UNİVERSAL",
+            "price": 1.3
+          },
+          {
+            "title": "STAR FIRÇA 1.5 UNİVERSAL",
+            "price": 1.4
+          },
+          {
+            "title": "STAR FIRÇA 2 UNİVERSAL",
+            "price": 1.6
+          },
+          {
+            "title": "STAR FIRÇA 2.5 UNİVERSAL",
+            "price": 2.2
+          },
+          {
+            "title": "STAR FIRÇA 3 UNİVERSAL",
+            "price": 2.8
+          },
+          {
+            "title": "STAR FIRÇA 4 UNİVERSAL",
+            "price": 3.5
+          }
+        ]
+      },
+      {
+        "name": "İNTEQRAL BİNDER",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "İNTEQRAL BİNDER 1LT",
+            "price": 3.5
+          },
+          {
+            "title": "İNTEQRAL BİNDER 4LT",
+            "price": 8.5
+          }
+        ]
+      },
+      {
+        "name": "REDSAN PARKET LAKI",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "REDSAN PARKET LAKI 0.75LT",
+            "price": 8.5
+          },
+          {
+            "title": "REDSAN PARKET LAKI 2.5LT",
+            "price": 19.5
+          },
+          {
+            "title": "REDSAN PARKET LAKI 12LT",
+            "price": 92
+          }
+        ]
+      },
+      {
+        "name": "REDSAN SELLÜLOZİK DOLĞU",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "REDSAN SELLÜLOZİK DOLĞU 0.75LT",
+            "price": 8.5
+          },
+          {
+            "title": "REDSAN SELLÜLOZİK DOLĞU 2.5LT",
+            "price": 19.8
+          },
+          {
+            "title": "REDSAN SELLÜLOZİK DOLĞU 12LT",
+            "price": 88.4
+          }
+        ]
+      },
+      {
+        "name": "EKOREDSAN PLASTİK",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "EKOREDSAN PLASTİK 18LT",
+            "price": 42
+          },
+          {
+            "title": "EKOREDSAN PLASTİK 3.5KQ",
+            "price": 8.8
+          },
+          {
+            "title": "EKOREDSAN PLASTİK 10KQ",
+            "price": 26.4
+          }
+        ]
+      },
+      {
+        "name": "EKOREDSAN FASAD",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "EKOREDSAN FASAD 25KQ - AĞ",
+            "price": 53.5
+          },
+          {
+            "title": "EKOREDSAN FASAD 3.5KQ",
+            "price": 9.8
+          },
+          {
+            "title": "EKOREDSAN FASAD 10KQ",
+            "price": 29.5
+          }
+        ]
+      },
+      {
+        "name": "STAR TİNER",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "STAR TİNER (KOLA) 0.5LT",
+            "price": 2.9
+          },
+          {
+            "title": "STAR TİNER 1LT",
+            "price": 3.8
+          },
+          {
+            "title": "STAR TİNER 2.5LT",
+            "price": 12.5
+          }
+        ]
+      },
+      {
+        "name": "STAR SELÜLOZİK TİNER",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "STAR SELÜLOZİK TİNER 0.75 LT",
+            "price": 7.8
+          },
+          {
+            "title": "STAR SELÜLOZİK TİNER 2.5LT",
+            "price": 18.8
+          }
+        ]
+      },
+      {
+        "name": "FURKAN SELLÜLOZİK TİNER",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "FURKAN SELLÜLOZİK TİNER 646 NEW 3L",
+            "price": 12.6
+          },
+          {
+            "title": "FURKAN SELLÜLOZİK TİNER 646 NEW 5L",
+            "price": 16.8
+          },
+          {
+            "title": "FURKAN SELLÜLOZİK TİNER 646 NEW 10L",
+            "price": 34.6
+          },
+          {
+            "title": "FURKAN SELLÜLOZİK TİNER 646 NEW 0.5L",
+            "price": 2.8
+          },
+          {
+            "title": "FURKAN SELLÜLOZİK TİNER 646 NEW 1L",
+            "price": 3.8
+          }
+        ]
+      },
+      {
+        "name": "ARABA",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "ARABA",
+            "price": 42
+          }
+        ]
+      },
+      {
+        "name": "ƏLCƏK",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "ƏLCƏK",
+            "price": 1
+          }
+        ]
+      },
+      {
+        "name": "STAR SLİKONLU ASTAR",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "STAR SLİKONLU ASTAR 16KQ",
+            "price": 58
+          }
+        ]
+      },
+      {
+        "name": "STAR LÜKS RULO",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "STAR LÜKS RULO POLYEMİD 20 SM",
+            "price": 8.8
+          }
+        ]
+      },
+      {
+        "name": "STAR SELLÜLOZİK PARLAQ LAK",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "STAR SELLÜLOZİK PARLAQ LAK 0.75LT",
+            "price": 9.6
+          },
+          {
+            "title": "STAR SELLÜLOZİK PARLAQ LAK 2.25LT",
+            "price": 29.5
+          }
+        ]
+      },
+      {
+        "name": "STAR TUTKAL",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "STAR TUTKAL 1KQ",
+            "price": 8.2
+          },
+          {
+            "title": "STAR TUTKAL 3KQ",
+            "price": 18.5
+          },
+          {
+            "title": "STAR TUTKAL 9KQ",
+            "price": 46.5
+          }
+        ]
+      },
+      {
+        "name": "STAR 10320",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "STAR 10320 (20 SM) PLASTİK",
+            "price": 8.8
+          }
+        ]
+      },
+      {
+        "name": "STAR 10325",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "STAR 10325 (25 SM) PLASTİK",
+            "price": 8.8
+          }
+        ]
+      },
+      {
+        "name": "KONTAKT KLEY",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "KONTAKT KLEY 100 ML + 25 GR",
+            "price": 2.2
+          },
+          {
+            "title": "KONTAKT KLEY GRAZZLY 200 ML + 40 GR",
+            "price": 2.7
+          },
+          {
+            "title": "KONTAKT KLEY SOLDİER 400 ML + 80 GR",
+            "price": 3.7
+          }
+        ]
+      },
+      {
+        "name": "PUR TAXTA",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "PUR - TAXTA - SanaMarine",
+            "price": 7
+          }
+        ]
+      },
+      {
+        "name": "KOPUK ESA",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "KOPUK ESA 750 ML - 600GR",
+            "price": 5.6
+          },
+          {
+            "title": "KOPUK ESA 500 ML - 300 GR",
+            "price": 4.5
+          }
+        ]
+      },
+      {
+        "name": "KOPUK ESA EXTRA",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "KOPUK ESA EXTRA 750 ML 800 GR",
+            "price": 7
+          }
+        ]
+      },
+      {
+        "name": "KOPUK ESA TAPANCA",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "KOPUK ESA - TAPANCA - 850 GR",
+            "price": 7.5
+          }
+        ]
+      },
+      {
+        "name": "SİLKON SOLDİER",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "SİLKON SOLDİER - AĞ",
+            "price": 3.6
+          },
+          {
+            "title": "SİLKON SOLDİER - ŞƏFFAF",
+            "price": 3.2
+          }
+        ]
+      },
+      {
+        "name": "WD - 40 - ANTIPAS - 450 ML",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "WD - 40 - ANTIPAS - 450 ML",
+            "price": 3
+          }
+        ]
+      },
+      {
+        "name": "SPREY ESA",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "SPREY ESA - AĞ",
+            "price": 3
+          },
+          {
+            "title": "SPREY ESA - BÜRÜNC",
+            "price": 3
+          },
+          {
+            "title": "SPREY ESA - GÖY",
+            "price": 3
+          },
+          {
+            "title": "SPREY ESA - GÜMÜŞÜ BOZ",
+            "price": 3
+          },
+          {
+            "title": "SPREY ESA - QARA MAT",
+            "price": 3
+          },
+          {
+            "title": "SPREY ESA - QIRMIZI",
+            "price": 3
+          },
+          {
+            "title": "SPREY ESA - QIZILI",
+            "price": 3
+          },
+          {
+            "title": "SPREY ESA - SARI",
+            "price": 3
+          },
+          {
+            "title": "SPREY ESA - YAŞIL",
+            "price": 3
+          },
+          {
+            "title": "SPREY ESA - BÜRÜNC",
+            "price": 3
+          },
+          {
+            "title": "SPREY ESA - GÜMÜŞÜ BOZ",
+            "price": 3
+          },
+          {
+            "title": "SPREY ESA - QIZILI",
+            "price": 3
+          },
+          {
+            "title": "SPREY ESA - SARI",
+            "price": 3
+          }
+        ]
+      },
+      {
+        "name": "QARA SPRAY",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "QARA SPRAY COLOR (PARLAQ)",
+            "price": 3.3
+          },
+          {
+            "title": "QARA SPRAY COLOR (MATE)",
+            "price": 3.3
+          }
+        ]
+      },
+      {
+        "name": "ZƏR UCUZ",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "ZƏR UCUZ",
+            "price": 5
+          }
+        ]
+      },
+      {
+        "name": "SPRAY",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "SPRAY - SARI",
+            "price": 3.3
+          },
+          {
+            "title": "SPRAY - GÜMÜŞÜ",
+            "price": 3
+          },
+          {
+            "title": "SPRAY - QIZILI",
+            "price": 3.5
+          },
+          {
+            "title": "SPRAY - YAŞIL",
+            "price": 3.3
+          },
+          {
+            "title": "SPRAY - AĞ",
+            "price": 3.3
+          },
+          {
+            "title": "SPRAY - MAVİ",
+            "price": 3.3
+          },
+          {
+            "title": "SPRAY - BOZ",
+            "price": 3.3
+          },
+          {
+            "title": "SPRAY - QEHVEYİ",
+            "price": 3.3
+          },
+          {
+            "title": "SPRAY - QIRMIZI",
+            "price": 3.3
+          }
+        ]
+      },
+      {
+        "name": "THİNNER 646",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "THİNNER 646 0.5 LT - ARAZ",
+            "price": 2
+          },
+          {
+            "title": "THİNNER 646 3 LT - ARAZ",
+            "price": 8.5
+          },
+          {
+            "title": "THİNNER 646 5 LT - ARAZ",
+            "price": 12
+          },
+          {
+            "title": "THİNNER 646 17.5 LT - ARAZ",
+            "price": 40
+          }
+        ]
+      },
+      {
+        "name": "TİNNER - METAL - SEL",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "TİNNER - METAL - SEL - 12 KG",
+            "price": 35
+          }
+        ]
+      },
+      {
+        "name": "TİNNER (646)",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "TİNNER (646) 0.5 LT - SİLVA",
+            "price": 2
+          },
+          {
+            "title": "TİNNER (646) 1 LT - SİLVA",
+            "price": 3.2
+          },
+          {
+            "title": "TİNNER (646) 3 LT - SİLVA",
+            "price": 9
+          },
+          {
+            "title": "TİNNER (646) 5 LT - SİLVA",
+            "price": 13
+          },
+          {
+            "title": "TİNNER (646) 17.5 LT - SİLVA",
+            "price": 40
+          }
+        ]
+      },
+      {
+        "name": "TİNNER BITAK",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "TİNNER BITAK 0.5 LT",
+            "price": 2
+          },
+          {
+            "title": "TİNNER BITAK 1 LT",
+            "price": 3.2
+          },
+          {
+            "title": "TİNNER BITAK 3 LT",
+            "price": 9
+          },
+          {
+            "title": "TİNNER BITAK 5 LT",
+            "price": 13
+          },
+          {
+            "title": "TİNNER BITAK 20 LT",
+            "price": 45
+          }
+        ]
+      },
+      {
+        "name": "TİNNER TANIL",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "TİNNER TANIL 0.5 LT",
+            "price": 2
+          },
+          {
+            "title": "TİNNER TANIL 1 LT",
+            "price": 3
+          },
+          {
+            "title": "TİNNER TANIL 3 LT",
+            "price": 9
+          },
+          {
+            "title": "TİNNER TANIL 5 LT",
+            "price": 13
+          }
+        ]
+      },
+      {
+        "name": "CEKME",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "CEKME - 40 OLCU",
+            "price": 8
+          },
+          {
+            "title": "CEKME - 42 OLCU",
+            "price": 8.3
+          },
+          {
+            "title": "CEKME - 43 OLCU",
+            "price": 8.5
+          },
+          {
+            "title": "CEKME - 44 OLCU",
+            "price": 9
+          }
+        ]
+      },
+      {
+        "name": "ELCEK",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "ELCEK - YAŞIL",
+            "price": 0.7
+          },
+          {
+            "title": "ELCEK - ZEBRO",
+            "price": 0.7
+          },
+          {
+            "title": "ELCEK - NARINCI - GOY",
+            "price": 0.8
+          },
+          {
+            "title": "ELCEK - SARI - QIRMIZI",
+            "price": 1.3
+          }
+        ]
+      },
+      {
+        "name": "KONTAKT SİM ELEKTROD",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "KONTAKT SİM ELEKTROD (15 KG)",
+            "price": 6.5
+          },
+          {
+            "title": "KONTAKT SİM ELEKTROD (5 KG - F 0,8)",
+            "price": 6
+          },
+          {
+            "title": "KONTAKT SİM ELEKTROD (5 KG - F 1)",
+            "price": 6
+          }
+        ]
+      },
+      {
+        "name": "ELEKTROD-NOTRON",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "ELEKTROD-NOTRON № 2",
+            "price": 9
+          },
+          {
+            "title": "ELEKTROD-NOTRON № 3",
+            "price": 13
+          },
+          {
+            "title": "ELEKTROD-NOTRON № 4",
+            "price": 18
+          }
+        ]
+      },
+      {
+        "name": "BEL - LOPATKA",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "BEL - LOPATKA - ÇALO",
+            "price": 4
+          },
+          {
+            "title": "BEL - LOPATKA - ŞİŞ",
+            "price": 3.5
+          }
+        ]
+      },
+      {
+        "name": "BEL SAPI",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "BEL SAPI (125 SM - BİRİNCİ NÖV - RUS)",
+            "price": 3
+          }
+        ]
+      },
+      {
+        "name": "QRANİT KLEY",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "QRANİT KLEY 1 KQ",
+            "price": 6
+          }
+        ]
+      },
+      {
+        "name": "QAZ ŞLANKI",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "QAZ ŞLANKI - EKENOMİK (25 m)",
+            "price": 1.5
+          },
+          {
+            "title": "QAZ ŞLANKI - VRC 18B-0.4 (50 M)",
+            "price": 2.3
+          },
+          {
+            "title": "QAZ ŞLANKI - VRC 25B-0.4 (50 M)",
+            "price": 3
+          }
+        ]
+      },
+      {
+        "name": "DUPİL",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "DUPİL 30 MM - 25 KG",
+            "price": 4.5
+          },
+          {
+            "title": "DUPİL 50 MM - 25 KG",
+            "price": 4.5
+          },
+          {
+            "title": "DUPİL 70 MM - 25 KG",
+            "price": 4.5
+          },
+          {
+            "title": "DUPİL 80 MM - 25 KG",
+            "price": 4.5
+          },
+          {
+            "title": "DUPİL 100 MM - 25 KG",
+            "price": 4.5
+          },
+          {
+            "title": "DUPİL 120 MM - 25 KG",
+            "price": 4.5
+          }
+        ]
+      },
+      {
+        "name": "LACUNDA DAŞI",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "LACUNDA DAŞI 115 * 1",
+            "price": 0.8
+          },
+          {
+            "title": "LACUNDA DAŞI 115 * 2.5",
+            "price": 1
+          },
+          {
+            "title": "LACUNDA DAŞI 125 * 1",
+            "price": 0.9
+          },
+          {
+            "title": "LACUNDA DAŞI 125 * 2.5",
+            "price": 1.3
+          },
+          {
+            "title": "LACUNDA DAŞI 180 * 1.6",
+            "price": 1.5
+          },
+          {
+            "title": "LACUNDA DAŞI 180 * 2.5",
+            "price": 2
+          },
+          {
+            "title": "LACUNDA DAŞI 180 * 6",
+            "price": 3
+          },
+          {
+            "title": "LACUNDA DAŞI 230 * 1.6",
+            "price": 2.3
+          },
+          {
+            "title": "LACUNDA DAŞI 230 * 1.9",
+            "price": 2.5
+          },
+          {
+            "title": "LACUNDA DAŞI 230 * 2.5",
+            "price": 2.7
+          },
+          {
+            "title": "LACUNDA DAŞI 230 * 3",
+            "price": 3
+          },
+          {
+            "title": "LACUNDA DAŞI 230 * 6",
+            "price": 3.3
+          },
+          {
+            "title": "LUQA ABRAVİZ 350 * 3 * 25.4 PREM",
+            "price": 8
+          },
+          {
+            "title": "LUQA ABRAVİZ 350 * 3 * 32 PREM",
+            "price": 9
+          }
+        ]
+      },
+      {
+        "name": "AYAQQABI N",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "AYAQQABI N 41",
+            "price": 35
+          },
+          {
+            "title": "AYAQQABI N 42",
+            "price": 35
+          },
+          {
+            "title": "AYAQQABI N 43",
+            "price": 35
+          },
+          {
+            "title": "AYAQQABI N 44",
+            "price": 35
+          },
+          {
+            "title": "AYAQQABI N 45",
+            "price": 35
+          }
+        ]
+      },
+      {
+        "name": "KİSLOROD",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "KİSLOROD 111-9.0-2.0 (100M) - UCUZ",
+            "price": 2.5
+          }
+        ]
+      },
+      {
+        "name": "TƏKƏR",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "TƏKƏR (SADƏ)",
+            "price": 7
+          },
+          {
+            "title": "TƏKƏR (DİYİRCEKLİ)",
+            "price": 8
+          }
+        ]
+      },
+      {
+        "name": "BEL - BALACA - 200 GR",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "BEL - BALACA - 200 GR",
+            "price": 3
+          }
+        ]
+      },
+      {
+        "name": "QAPI ÜZLÜYÜ",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "QAPI ÜZLÜYÜ - 4 mm",
+            "price": 18
+          },
+          {
+            "title": "QAPI ÜZLÜYÜ - SADƏ",
+            "price": 13
+          },
+          {
+            "title": "HOLCİM 300 MARKA",
+            "price": 8.7
+          },
+          {
+            "title": "HOLCİM 400 MARKA",
+            "price": 9.6
+          },
+          {
+            "title": "AZCEMENT 300 MARKA",
+            "price": 8.5
+          },
+          {
+            "title": "AZCEMENT 400 MARKA",
+            "price": 8.8
+          }
+        ]
+      },
+      {
+        "name": "BORU",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "BORU 100/3 mt",
+            "price": 15.5
+          },
+          {
+            "title": "BORU 100/2 mt",
+            "price": 11.5
+          },
+          {
+            "title": "BORU 100/1 mt",
+            "price": 5.8
+          },
+          {
+            "title": "BORU 100/50 sm",
+            "price": 4.5
+          },
+          {
+            "title": "BORU 100/30 sm",
+            "price": 3.4
+          },
+          {
+            "title": "BORU 70/3 mt",
+            "price": 11.4
+          },
+          {
+            "title": "BORU 70/2 mt",
+            "price": 7.6
+          },
+          {
+            "title": "BORU 70/1 mt",
+            "price": 4.4
+          },
+          {
+            "title": "BORU 70/50 sm",
+            "price": 3.3
+          },
+          {
+            "title": "BORU 70/30 sm",
+            "price": 2.5
+          },
+          {
+            "title": "BORU 50/3 mt",
+            "price": 6.3
+          },
+          {
+            "title": "BORU 50/2 mt",
+            "price": 4.6
+          },
+          {
+            "title": "BORU 50/1 mt",
+            "price": 3.2
+          },
+          {
+            "title": "BORU 50/50 sm",
+            "price": 2.3
+          },
+          {
+            "title": "BORU 50/30 sm",
+            "price": 1.8
+          }
+        ]
+      },
+      {
+        "name": "DİRSƏK",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "DİRSƏK 50/45°",
+            "price": 1.2
+          },
+          {
+            "title": "DİRSƏK 100/45°",
+            "price": 2.6
+          },
+          {
+            "title": "DİRSƏK 100/90°",
+            "price": 2.6
+          },
+          {
+            "title": "DİRSƏK 20/45°",
+            "price": 0.8
+          },
+          {
+            "title": "DİRSƏK 25/90°",
+            "price": 0.9
+          },
+          {
+            "title": "DİRSƏK 32/90°",
+            "price": 1
+          },
+          {
+            "title": "DİRSƏK 32/45°",
+            "price": 1
+          },
+          {
+            "title": "DİRSƏK 25/15 dd",
+            "price": 2.8
+          }
+        ]
+      },
+      {
+        "name": "TROYNİK",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "TROYNİK 50/50 ÇƏP",
+            "price": 2.1
+          },
+          {
+            "title": "TROYNİK 50/50 DÜZ",
+            "price": 2
+          },
+          {
+            "title": "TROYNİK 70/50 ÇƏP",
+            "price": 2.6
+          },
+          {
+            "title": "TROYNİK 70/50 DÜZ",
+            "price": 2.6
+          },
+          {
+            "title": "TROYNİK 70/70 ÇƏP",
+            "price": 3.6
+          },
+          {
+            "title": "TROYNİK 100/50 ÇƏP",
+            "price": 3
+          },
+          {
+            "title": "TROYNİK 100/50 DÜZ",
+            "price": 3
+          },
+          {
+            "title": "TROYNİK 100/70 DÜZ",
+            "price": 3.4
+          },
+          {
+            "title": "TROYNİK 100/100 ÇƏP",
+            "price": 4.2
+          },
+          {
+            "title": "TROYNİK 100/100 DÜZ",
+            "price": 4.2
+          },
+          {
+            "title": "TROYNİK 20 mm",
+            "price": 0.7
+          },
+          {
+            "title": "TROYNİK 25 mm",
+            "price": 0.9
+          },
+          {
+            "title": "TROYNİK 32 mm",
+            "price": 1.1
+          },
+          {
+            "title": "TROYNİK 32-25-35 mm",
+            "price": 1.2
+          }
+        ]
+      },
+      {
+        "name": "RİVİZİYA",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "RİVİZİYA 100",
+            "price": 6.6
+          }
+        ]
+      },
+      {
+        "name": "GİLZA",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "GİLZA 100",
+            "price": 6.8
+          }
+        ]
+      },
+      {
+        "name": "QAPAMA",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "QAPAMA 50",
+            "price": 1
+          },
+          {
+            "title": "QAPAMA 70",
+            "price": 1.2
+          },
+          {
+            "title": "QAPAMA 100",
+            "price": 1.4
+          },
+          {
+            "title": "QAPAMA 20 mm",
+            "price": 0.5
+          },
+          {
+            "title": "QAPAMA 25 mm",
+            "price": 0.6
+          },
+          {
+            "title": "QAPAMA 32 mm",
+            "price": 0.8
+          }
+        ]
+      },
+      {
+        "name": "MUFTA",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "MUFTA 50",
+            "price": 1.5
+          },
+          {
+            "title": "MUFTA 70",
+            "price": 2.4
+          },
+          {
+            "title": "MUFTA 100",
+            "price": 3
+          },
+          {
+            "title": "MUFTA 20 mm",
+            "price": 0.8
+          },
+          {
+            "title": "MUFTA 25 mm",
+            "price": 0.8
+          },
+          {
+            "title": "MUFTA 32 mm",
+            "price": 0.9
+          }
+        ]
+      },
+      {
+        "name": "KEÇİD",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "KEÇİD 100/50",
+            "price": 3
+          },
+          {
+            "title": "KEÇİD 70/50",
+            "price": 2.6
+          },
+          {
+            "title": "KEÇİD 32/25 mm",
+            "price": 0.8
+          },
+          {
+            "title": "KEÇİD 25/20 mm",
+            "price": 0.7
+          },
+          {
+            "title": "KEÇİD 20/15 BRONZA",
+            "price": 2
+          }
+        ]
+      },
+      {
+        "name": "YERDƏN İSİTMƏ BORUSU",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "YERDƏN İSİTMƏ BORUSU 16mm PERT",
+            "price": 1.1
+          }
+        ]
+      },
+      {
+        "name": "SU BORUSU",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "SU BORUSU 20 mm SADƏ",
+            "price": 1.5
+          },
+          {
+            "title": "SU BORUSU 20 mm KOMPOZİT",
+            "price": 1.6
+          },
+          {
+            "title": "SU BORUSU 25 mm SADƏ",
+            "price": 2.4
+          },
+          {
+            "title": "SU BORUSU 25 mm KOMPOZİT",
+            "price": 2.6
+          },
+          {
+            "title": "SU BORUSU 32 mm SADƏ",
+            "price": 3.4
+          },
+          {
+            "title": "SU BORUSU 32 mm KOMPOZİT",
+            "price": 4.2
+          }
+        ]
+      },
+      {
+        "name": "RAKOR",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "RAKOR 25/15 dd",
+            "price": 2.6
+          }
+        ]
+      },
+      {
+        "name": "AKSESSUAR",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "AKSESSUAR 25 id",
+            "price": 5.1
+          }
+        ]
+      },
+      {
+        "name": "AMERİKANKA",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "AMERİKANKA 25 dd",
+            "price": 5.5
+          }
+        ]
+      },
+      {
+        "name": "KÖRPÜ",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "KÖRPÜ 32 mm",
+            "price": 2.3
+          }
+        ]
+      },
+      {
+        "name": "FİLTR",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "FİLTR 25 mm",
+            "price": 4.6
+          }
+        ]
+      },
+      {
+        "name": "KÜRESEL VANA",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "KÜRESEL VANA 20 mm",
+            "price": 3.6
+          },
+          {
+            "title": "KÜRESEL VANA 25 mm",
+            "price": 4.8
+          },
+          {
+            "title": "KÜRESEL VANA 32 mm",
+            "price": 5.7
+          }
+        ]
+      },
+      {
+        "name": "İZOLYASİYA",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "İZOLYASİYA 20 mm",
+            "price": 1.5
+          },
+          {
+            "title": "İZOLYASİYA 25 mm",
+            "price": 1.4
+          },
+          {
+            "title": "İZOLYASİYA 32 mm",
+            "price": 2.2
+          }
+        ]
+      },
+      {
+        "name": "KOMBİ",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "KOMBİ 24 KV TERRA (TƏK ESENJOR)",
+            "price": 590
+          },
+          {
+            "title": "KOMBİ 24 KV TERRA (CÜT ESENJOR)",
+            "price": 640
+          },
+          {
+            "title": "KOMBİ 28 KV TERRA (CÜT ESENJOR)",
+            "price": 750
+          },
+          {
+            "title": "KOMBİ 32 KV TERRA (CÜT ESENJOR)",
+            "price": 880
+          },
+          {
+            "title": "KOMBİ 24 KV SENEKS (CÜT ESENJOR)",
+            "price": 680
+          },
+          {
+            "title": "KOMBİ 28 KV SENEKS (CÜT ESENJOR)",
+            "price": 740
+          },
+          {
+            "title": "KOMBİ 32 KV SENEKS (CÜT ESENJOR)",
+            "price": 760
+          },
+          {
+            "title": "KOMBİ 40 KV SENEKS (CÜT ESENJOR)",
+            "price": 940
+          }
+        ]
+      },
+      {
+        "name": "PANEL RADİATOR",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "PANEL RADİATOR 500/1 mt",
+            "price": 140
+          }
+        ]
+      },
+      {
+        "name": "RADİATOR ALLÜMİNİUM",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "RADİATOR ALLÜMİNİUM SENEKS VD500",
+            "price": 15
+          }
+        ]
+      },
+      {
+        "name": "RADİATOR AKSESSUARI",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "RADİATOR AKSESSUARI",
+            "price": 5.2
+          }
+        ]
+      },
+      {
+        "name": "RADİATOR VİNTİLİ",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "RADİATOR VİNTİLİ 15 mm KÖŞƏ, CONTALI",
+            "price": 6.3
+          },
+          {
+            "title": "RADİATOR VİNTİLİ 16 mm KÖŞƏ, CONTALI",
+            "price": 8.4
+          }
+        ]
+      },
+      {
+        "name": "SUŞİLKA ALLÜMİNİUM",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "SUŞİLKA ALLÜMİNİUM 500/800",
+            "price": 67
+          },
+          {
+            "title": "SUŞİLKA ALLÜMİNİUM 500/800 AĞ",
+            "price": 90
+          }
+        ]
+      },
+      {
+        "name": "SUŞİLKA VİNTİLİ",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "SUŞİLKA VİNTİLİ 15 mm XROM",
+            "price": 12.5
+          },
+          {
+            "title": "SUŞİLKA VİNTİLİ 16 mm XROM",
+            "price": 13.5
+          }
+        ]
+      },
+      {
+        "name": "STABİLİZATOR ELEKTRİK SENEKS",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "STABİLİZATOR ELEKTRİK SENEKS",
+            "price": 42
+          }
+        ]
+      },
+      {
+        "name": "QAZ REQULYATORU",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "QAZ REQULYATORU 15 mm SENEKS",
+            "price": 19
+          }
+        ]
+      },
+      {
+        "name": "QAZ ŞLANQI",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "QAZ ŞLANQI 15/60 sm VALFEX",
+            "price": 8
+          }
+        ]
+      },
+      {
+        "name": "BAÇONKA",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "BAÇONKA 15 mm BRONZA",
+            "price": 2
+          }
+        ]
+      },
+      {
+        "name": "QAZ VİNTİLİ",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "QAZ VİNTİLİ 15 mm",
+            "price": 8.1
+          }
+        ]
+      },
+      {
+        "name": "VİNTİL",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "VİNTİL 15 mm",
+            "price": 8.1
+          },
+          {
+            "title": "VİNTİL 20 mm",
+            "price": 12.8
+          },
+          {
+            "title": "VİNTİL 25 mm",
+            "price": 18.5
+          }
+        ]
+      },
+      {
+        "name": "KOMBİ SETİ",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "KOMBİ SETİ",
+            "price": 19
+          }
+        ]
+      },
+      {
+        "name": "PROFİL",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "PROFİL 100x50x4 mm Ст3сп",
+            "price": 15.6
+          },
+          {
+            "title": "PROFİL 100x100x3 mm Ст3сп",
+            "price": 17.3
+          },
+          {
+            "title": "PROFİL 100x100x4 mm Ст3сп",
+            "price": 19.5
+          },
+          {
+            "title": "PROFİL 120x120x4 mm Ст3сп",
+            "price": 22.4
+          }
+        ]
+      },
+      {
+        "name": "KÜNCLÜK",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "KÜNCLÜK 50x50x4 mm Ст3сп",
+            "price": 5.5
+          },
+          {
+            "title": "KÜNCLÜK 63x63x5 mm Ст3сп",
+            "price": 8.6
+          },
+          {
+            "title": "KÜNCLÜK 75x75x5 mm Ст3сп",
+            "price": 9.8
+          },
+          {
+            "title": "KÜNCLÜK 90x90x6 mm Ст3сп",
+            "price": 14.4
+          },
+          {
+            "title": "KÜNCLÜK 100x100x7 mm Ст3сп",
+            "price": 18.5
+          },
+          {
+            "title": "KÜNCLÜK 40x40x4 mm Ст3сп",
+            "price": 4.8
+          }
+        ]
+      },
+      {
+        "name": "ŞVELLER",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "ŞVELLER 80 mm Ст3сп",
+            "price": 13.3
+          },
+          {
+            "title": "ŞVELLER 100 mm Ст3сп",
+            "price": 16.4
+          },
+          {
+            "title": "ŞVELLER 120 mm Ст3сп",
+            "price": 18.5
+          },
+          {
+            "title": "ŞVELLER 140 mm Ст3сп",
+            "price": 22.6
+          },
+          {
+            "title": "ŞVELLER 160 mm Ст3сп",
+            "price": 27.5
+          },
+          {
+            "title": "ŞVELLER 180 mm Ст3сп",
+            "price": 33.6
+          }
+        ]
+      },
+      {
+        "name": "METAL LÖVHƏ",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "METAL LÖVHƏ 1.5 mm 1000x2000 Ст3сп",
+            "price": 44.5
+          },
+          {
+            "title": "METAL LÖVHƏ 1.5 mm 1200x2400 Ст3сп",
+            "price": 58.6
+          },
+          {
+            "title": "METAL LÖVHƏ 2 mm 1200x2400 Ст3сп",
+            "price": 67.6
+          }
+        ]
+      },
+      {
+        "name": "İPE",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "İPE 160 mm S275JR",
+            "price": 34.6
+          }
+        ]
+      },
+      {
+        "name": "SETKA",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "SETKA (075x3) - 4 LÜK",
+            "price": 7.3
+          }
+        ]
+      },
+      {
+        "name": "TAXTA",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "TAXTA 5x15x6",
+            "price": 18.6
+          },
+          {
+            "title": "TAXTA 5x15x4",
+            "price": 12.4
+          },
+          {
+            "title": "TAXTA 5x10x6",
+            "price": 12.4
+          },
+          {
+            "title": "TAXTA 5x10x4",
+            "price": 8.7
+          },
+          {
+            "title": "TAXTA 2.5x10x6",
+            "price": 7.5
+          },
+          {
+            "title": "TAXTA 3x10x4",
+            "price": 6.4
+          }
+        ]
+      },
+      {
+        "name": "APŞİPQA (M2)",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "APŞİPQA DÜYÜNLÜ 0.100 4M",
+            "price": 10.8
+          },
+          {
+            "title": "APŞİPQA DÜYÜNLÜ 0.100 6M",
+            "price": 11.3
+          }
+        ]
+      },
+      {
+        "name": "POL (M2)",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "POL 084x4M - 2.5",
+            "price": 16.6
+          },
+          {
+            "title": "POL 0100x6M - 2.5 RUS",
+            "price": 18.4
+          }
+        ]
+      },
+      {
+        "name": "DIK (EDED)",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "DİK 5 YAKIR",
+            "price": 11.7
+          },
+          {
+            "title": "DİK 6",
+            "price": 13.4
+          },
+          {
+            "title": "DİK 12",
+            "price": 21.3
+          },
+          {
+            "title": "DİK 18",
+            "price": 30.6
+          },
+          {
+            "title": "DİK 8",
+            "price": 17.6
+          },
+          {
+            "title": "DİK 10",
+            "price": 18.5
+          },
+          {
+            "title": "DİK 15",
+            "price": 28.4
+          }
+        ]
+      },
+      {
+        "name": "YANMIŞ SİM (KG)",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "SİM YANMIŞ NAZİK",
+            "price": 2.6
+          }
+        ]
+      },
+      {
+        "name": "KÖVƏ (M)",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "KÖVƏ K9",
+            "price": 1.3
+          },
+          {
+            "title": "KÖVƏ K5",
+            "price": 2.2
+          },
+          {
+            "title": "KÖVƏ K4",
+            "price": 1.8
+          },
+          {
+            "title": "KÖVƏ U2",
+            "price": 1.9
+          },
+          {
+            "title": "KÖVƏ U1",
+            "price": 2.1
+          }
+        ]
+      },
+      {
+        "name": "MİSMAR",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "MİSMAR 100",
+            "price": 2.7
+          },
+          {
+            "title": "MİSMAR 70",
+            "price": 2.7
+          },
+          {
+            "title": "MİSMAR 120",
+            "price": 2.7
+          },
+          {
+            "title": "MİSMAR 150",
+            "price": 2.7
+          }
+        ]
+      },
+      {
+        "name": "DƏMİR KÖŞƏ",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "DƏMİR KÖŞƏ",
+            "price": 1.7
+          }
+        ]
+      },
+      {
+        "name": "VANNA / VEDRƏ",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "EMUSİYA VANNASI",
+            "price": 2.2
+          },
+          {
+            "title": "QIRMIZI VANNA",
+            "price": 3.2
+          },
+          {
+            "title": "QARA VANNA",
+            "price": 3.5
+          },
+          {
+            "title": "VEDRƏ",
+            "price": 2.7
+          }
+        ]
+      },
+      {
+        "name": "VİLKA",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "VİLKA",
+            "price": 1.4
+          }
+        ]
+      },
+      {
+        "name": "ŞURUP",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "ŞURUP 3.5x32",
+            "price": 3.2
+          },
+          {
+            "title": "ŞURUP 4.0x50",
+            "price": 3.2
+          },
+          {
+            "title": "ŞURUP 4.2x65",
+            "price": 3.2
+          },
+          {
+            "title": "ŞURUP 5x50",
+            "price": 3.2
+          }
+        ]
+      },
+      {
+        "name": "HÖRGÜ İPİ",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "HÖRGÜ İPİ",
+            "price": 1.5
+          }
+        ]
+      },
+      {
+        "name": "İSTEHSAL OLUNMUŞ MƏHSULLAR",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "REYKA 5x5x4 (M)",
+            "price": 1.2
+          },
+          {
+            "title": "REYKA 5x5x6 (M)",
+            "price": 1.2
+          }
+        ]
+      }
+    ]
+  }
+}

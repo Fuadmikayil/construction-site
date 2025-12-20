@@ -86,10 +86,10 @@ export default function Header() {
     href === "/" ? pathname === "/" : pathname.startsWith(href);
 
   return (
-    <header
-      ref={headerRef}
-      className="w-full border-b border-black/10 bg-white"
-    >
+   <header
+  ref={headerRef}
+  className="sticky top-0 z-50 w-full border-b text-black! border-black/10 bg-white/80 text-black backdrop-blur-md"
+>
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 ">
         {/* Logo */}
         <Link href="/" className="flex items-center">
@@ -98,14 +98,14 @@ export default function Header() {
               src={site.logo}
               alt={site.name}
               fill
-              className="object-contain scale-110 md:scale-140"
+              className="object-contain scale-110 md:scale-116"
               priority
             />
           </div>
         </Link>
 
         {/* Desktop nav */}
-        <nav className="hidden items-center gap-6 lg:flex lg:gap-10">
+        <nav className="hidden items-center gap-6 z-50! lg:flex lg:gap-10">
           {nav.map((item) => {
             const active = isActive(item.href);
 
@@ -123,7 +123,7 @@ export default function Header() {
                   <button
                     type="button"
                     onClick={() => setOpenDropdown(opened ? null : item.href)}
-                    className={`group flex items-center gap-2 text-[13px] lg:text-sm font-semibold tracking-wide transition
+                    className={`group flex items-center z-50! gap-2 text-[13px] lg:text-sm font-semibold tracking-wide transition
                       ${
                         active
                           ? "text-[#F2A900]"
@@ -132,7 +132,7 @@ export default function Header() {
                   >
                     {item.label}
                     <ChevronDownIcon
-                      className={`h-4 w-4 transition ${
+                      className={`h-4 w-4  z-50! transition ${
                         opened ? "rotate-180" : ""
                       }`}
                     />
@@ -147,7 +147,7 @@ export default function Header() {
                   />
 
                   {opened && (
-                    <div className="absolute left-0 top-full z-50 mt-3 w-56 rounded-xl border border-black/10 bg-white p-2 shadow-lg">
+                    <div className="absolute  left-0 top-full z-50! mt-3 w-56 rounded-xl border border-black/10 bg-white p-2 shadow-lg">
                       {item.children.map((child) => (
                         <Link
                           key={child.href}

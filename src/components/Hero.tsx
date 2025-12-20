@@ -90,7 +90,7 @@ export default function Hero() {
 
   return (
     <section
-      className="relative h-[520px] w-full select-none overflow-hidden md:h-[640px] touch-pan-y"
+      className="relative h-[520px] w-full select-none overflow-hidden text-white! md:h-[640px] touch-pan-y"
       onTouchStart={onTouchStart}
       onTouchMove={onTouchMove}
       onTouchEnd={onTouchEnd}

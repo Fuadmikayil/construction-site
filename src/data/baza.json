@@ -35,5 +35,49 @@
         "image": "/images/hero/slide-2.png"
       }
     ]
+  }, "servicesSection": {
+    "title": "Xidmətlərimiz",
+    "items": [
+      {
+        "title": "⁠Plastik sexi ",
+        "description": "Plastikdən qapı pencərə istehsalı",
+        "image": "/images/services/⁠Plastik.jpg",
+        "href": "/xidmetler/⁠Plastik",
+        "buttonText": "Daha ətraflı"
+      },
+      {
+        "title": "⁠Qaynaq sexi ",
+        "description": "⁠Qaynaq dəmir qapı darvaza raşotka yığılır məhəccərlərin yığılması",
+        "image": "/images/services/⁠Qaynaq.png",
+        "href": "/xidmetler/⁠Qaynaq",
+        "buttonText": "Daha ətraflı"
+      }
+      
+    ]
+  },
+   "partnersSection": {
+    "title": "Bizim tərəfdaşlarımız",
+    "about": {
+      "logo": "/images/logo.png",
+      "text": [
+        "Şirkətimiz inşaat sektorunda 10 ildən çox təcrübəyə malik şəxs tərəfindən yaradılmışdır.",
+        "Şirkətimizin əsas fərqi hər bir işə individual yanaşmasıdır.",
+        "Əkbəroğlu inşaat sifarişçilərə Tikinti, Təmir, Exteryer, İnteryer və Landşaft xidmətləri göstərir.",
+        "Biz işə başlamadan öncə sifarişçi ilə rəsmi müqavilə bağlayırıq. Bu müqavilədə tikinti və təmirdə istifadə olunacaq materialların xüsusi cədvəli və rəsmi zəmanət qeyd olunur."
+      ],
+      "signature": "Əkbəroğlu İnşaat"
+    },
+    "logos": [
+      { "name": "Norm", "src": "/images/partners/norm.png" },
+      { "name": "Prysmian", "src": "/images/partners/prysmian.png" },
+      { "name": "DemirDöküm", "src": "/images/partners/demirdokum.png" },
+      { "name": "Gilan & Knauf", "src": "/images/partners/gilan-knauf.png" },
+      { "name": "KAS", "src": "/images/partners/kas.png" },
+      { "name": "MatanatA", "src": "/images/partners/matanata.png" },
+      { "name": "Mr.Fix", "src": "/images/partners/mrfix.png" },
+      { "name": "Akabe", "src": "/images/partners/akabe.png" },
+      { "name": "Corella", "src": "/images/partners/corella.png" }
+    ]
   }
+  
 }
