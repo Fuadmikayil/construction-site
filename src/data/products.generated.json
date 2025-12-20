@@ -2413,6 +2413,201 @@
             "title": "EKOSTAR GKLN 12.5 mm (AĞ ALÇİPAN)"
           }
         ]
+      },
+      {
+        "name": "EKOMAKS",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "EKOMAKS 25 KG (MƏTANƏT)"
+          }
+        ]
+      },
+      {
+        "name": "FİBER",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "FİBER STANDART 25 KG"
+          }
+        ]
+      },
+      {
+        "name": "GİPER ASTAR",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "GİPER ASTAR SİVA - 30 KG"
+          }
+        ]
+      },
+      {
+        "name": "GİPER İNŞAAT GİPSİ - 15 KG",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "GİPER İNŞAAT GİPSİ - 15 KG"
+          },
+          {
+            "title": "GİPER İNŞAAT GİPSİ - 30 KG"
+          }
+        ]
+      },
+      {
+        "name": "GİPER MAKİNA SUVAĞI",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "GİPER MAKİNA SUVAĞI - 30 KG"
+          }
+        ]
+      },
+      {
+        "name": "GİPER PROFİPAN ",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "GİPER PROFİPAN - 10 KG"
+          }
+        ]
+      },
+      {
+        "name": "GİPER ÜZLÜK SATEN ",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "GİPER ÜZLÜK SATEN - 25 KG"
+          }
+        ]
+      },
+      {
+        "name": " BƏZƏKLİ LAMBRİN",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "LAMBRİN D - 41"
+          },
+          {
+            "title": "LAMBRİN D - 33"
+          },
+          {
+            "title": "LAMBRİN D - 110"
+          },
+          {
+            "title": "LAMBRİN D - 6"
+          },
+          {
+            "title": "LAMBRİN D - 7"
+          },
+          {
+            "title": "LAMBRİN D - 102"
+          },
+          {
+            "title": "LAMBRİN D - 16"
+          },
+          {
+            "title": "LAMBRİN D - 364"
+          },
+          {
+            "title": "LAMBRİN D - 128"
+          },
+          {
+            "title": "LAMBRİN D - 122"
+          }
+        ]
+      },
+      {
+        "name": "BƏZƏKLİ KANT",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "BƏZƏKLİ KANT -- D - 7"
+          },
+          {
+            "title": "BƏZƏKLİ KANT -- D - 6"
+          },
+          {
+            "title": "BƏZƏKLİ KANT -- D - 106"
+          },
+          {
+            "title": "BƏZƏKLİ KANT -- D - 503"
+          },
+          {
+            "title": "BƏZƏKLİ KANT -- D - 501"
+          },
+          {
+            "title": "RƏNGLİ KANT"
+          }
+        ]
+      },
+      {
+        "name": "SANCAQ",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "SANCAQ"
+          }
+        ]
+      },
+      {
+        "name": "STOP",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "STOP"
+          }
+        ]
+      },
+      {
+        "name": "KARNİZ",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "3 XƏT KARNİZ 6 mt"
+          }, {
+            "title": "3 XƏT KARNİZ 5 mt"
+          }, {
+            "title": "3 XƏT KARNİZ 4 mt"
+          }
+        ]
+      },{
+        "name": "KÖŞƏ",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "KÜNCLÜK KÖŞƏ"
+          }, {
+            "title": "PRKO KÖŞƏ"
+          }, {
+            "title": "DƏMİR KÖŞƏ"
+          }
+        ]
+      },{
+        "name": "MAYAK",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "MAYAK 1"
+          }, {
+            "title": "MAYAK 0.60"
+          }
+        ]
+      },,{
+        "name": "KANT",
+        "image": "/images/products/default.jpg",
+        "variants": [
+          {
+            "title": "PL KANT AĞ"
+          }, {
+            "title": "PADUQA KANT AĞ"
+          }, {
+            "title": "İÇ KANT"
+          }, {
+            "title": "ÇÖL KANT"
+          }, {
+            "title": "CALAQ KANT"
+          }
+        ]
       }
     ]
   }
