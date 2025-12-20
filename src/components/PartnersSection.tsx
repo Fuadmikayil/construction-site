@@ -29,7 +29,7 @@ export default function PartnersSection() {
                       src={section.about.logo}
                       alt="Company logo"
                       fill
-                      className="object-contain p-4"
+                      className="object-contain scale-100!"
                       priority={false}
                     />
                   </div>

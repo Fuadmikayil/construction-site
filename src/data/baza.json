@@ -60,23 +60,18 @@
     "about": {
       "logo": "/images/logo.png",
       "text": [
-        "Şirkətimiz inşaat sektorunda 10 ildən çox təcrübəyə malik şəxs tərəfindən yaradılmışdır.",
-        "Şirkətimizin əsas fərqi hər bir işə individual yanaşmasıdır.",
-        "Əkbəroğlu inşaat sifarişçilərə Tikinti, Təmir, Exteryer, İnteryer və Landşaft xidmətləri göstərir.",
-        "Biz işə başlamadan öncə sifarişçi ilə rəsmi müqavilə bağlayırıq. Bu müqavilədə tikinti və təmirdə istifadə olunacaq materialların xüsusi cədvəli və rəsmi zəmanət qeyd olunur."
+        "Rəşidoğlu İnşaat MMC uzun müddətdir tikinti sektorunda fəaliyyət göstərən, keyfiyyət və etibarı əsas prinsip seçmiş bir şirkətdir. Şirkətimiz tikinti materiallarının istehsalı və satışı sahəsində müasir tələblərə uyğun xidmət göstərir.",
+        "Plastik, qaynaq və taxta sexlərimizdə qapı-pəncərə, dəmir konstruksiyalar, məhəccərlər və müxtəlif taxta işləri peşəkar şəkildə həyata keçirilir. Bununla yanaşı, sement, üzlük, dəmir, taxta materialları və geniş xırdavat çeşidinin satışı da təmin olunur.",
+        "Keyfiyyət və etibar bizim Ən böyük zəmanətimizdir.",
+        "Rəşidoğlu İnşaat MMC müştərilərinə bir ünvandan tam və etibarlı tikinti məhsulları təqdim edir."
       ],
-      "signature": "Əkbəroğlu İnşaat"
+      "signature": "Rəşidoğlu İnşaat"
     },
     "logos": [
-      { "name": "Norm", "src": "/images/partners/norm.png" },
-      { "name": "Prysmian", "src": "/images/partners/prysmian.png" },
-      { "name": "DemirDöküm", "src": "/images/partners/demirdokum.png" },
-      { "name": "Gilan & Knauf", "src": "/images/partners/gilan-knauf.png" },
-      { "name": "KAS", "src": "/images/partners/kas.png" },
-      { "name": "MatanatA", "src": "/images/partners/matanata.png" },
-      { "name": "Mr.Fix", "src": "/images/partners/mrfix.png" },
-      { "name": "Akabe", "src": "/images/partners/akabe.png" },
-      { "name": "Corella", "src": "/images/partners/corella.png" }
+      { "name": "Holsium Azcement", "src": "/images/partners/norm.png" },
+      { "name": "Mətanət", "src": "/images/partners/prysmian.png" },
+      { "name": "Giper", "src": "/images/partners/demirdokum.png" },
+      { "name": "Holcim", "src": "/images/partners/gilan-knauf.png" }
     ]
   }
   
