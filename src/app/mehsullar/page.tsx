@@ -225,7 +225,7 @@ export default function ProductsPage() {
 
   if (!groupsWithAll.length) {
     return (
-      <main className="mx-auto max-w-7xl px-4 py-16 text-black">
+      <main className="mx-auto max-w-7xl px-4 py-16 ">
         <h1 className="text-3xl font-extrabold text-white!">Məhsullar</h1>
         <p className="mt-3 text-black">productsSection.items tapılmadı</p>
       </main>
@@ -236,7 +236,7 @@ export default function ProductsPage() {
     <main className="mx-auto max-w-7xl px-4 py-10 text-black">
       {/* HEADER */}
       <div>
-        <h1 className="text-3xl font-extrabold text-black">Məhsullar</h1>
+        <h1 className="text-3xl font-extrabold text-white">Məhsullar</h1>
         <div className="mt-3 h-1 w-14 bg-[#F2A900]" />
       </div>
 
