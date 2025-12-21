@@ -39,7 +39,7 @@ function embedToMapsLink(embedUrl: string) {
   // pb paramı varsa, onu maps linkinə keçirək:
   const pbMatch = u.match(/pb=([^&]+)/);
   if (pbMatch?.[1]) {
-    return `https://www.google.com/maps?pb=${pbMatch[1]}`;
+    return `https://maps.app.goo.gl/kDf82EsXG2rF3ud8A`;
   }
   return u;
 }
