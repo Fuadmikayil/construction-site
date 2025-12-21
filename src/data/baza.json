@@ -74,10 +74,10 @@
       "signature": "Rəşidoğlu İnşaat"
     },
     "logos": [
-      { "name": "Holsium Azcement", "src": "/images/partners/azcement.png" },
-      { "name": "Mətanət", "src": "/images/partners/metaneta.png" },
-      { "name": "Giper", "src": "/images/partners/giper.png" },
-      { "name": "Holcim", "src": "/images/partners/holcim.jpg" }
+      { "name": "Holsium Azcement", "src": "/images/Partners/azcement.png" },
+      { "name": "Mətanət", "src": "/images/Partners/metaneta.png" },
+      { "name": "Giper", "src": "/images/Partners/giper.png" },
+      { "name": "Holcim", "src": "/images/Partners/holcim.jpg" }
     ]
   },"contactSection": {
   "hero": {
