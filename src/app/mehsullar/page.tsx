@@ -51,7 +51,7 @@ type SearchHit = {
   brand: string;
   productName: string;
   variantTitle?: string;
-  score: number; // sort üçün
+  score: number;
 };
 
 const ALL_BRAND_KEY = "__ALL__";
@@ -69,6 +69,21 @@ export default function ProductsPage() {
 
   // sağ tərəfdə məhsula scroll üçün refs
   const productRefs = useRef<Record<string, HTMLDivElement | null>>({});
+
+  // ✅ səhifəni “nəticələr” blokuna atmaq üçün ref
+  const resultsSectionRef = useRef<HTMLDivElement | null>(null);
+
+  // ✅ sağ scroll konteyner ref
+  const rightListRef = useRef<HTMLDivElement | null>(null);
+
+  // ✅ clickdən sonra hansı məhsula scroll edəcəyik
+  const [pendingScroll, setPendingScroll] = useState<string | null>(null);
+
+  // ✅ 2 saniyə sonra auto-scroll üçün timer
+  const autoScrollTimerRef = useRef<number | null>(null);
+
+  // ✅ user yazmağa başlayanda aktivləşsin (ilk açılışda boş yerə scroll etməsin)
+  const userInteractedRef = useRef(false);
 
   /* ===== NORMALIZE ITEMS ===== */
   const normalizedItems = useMemo<ProductItem[]>(() => {
@@ -131,13 +146,11 @@ export default function ProductsPage() {
     const q = normalize(query);
     if (!q) return activeGroup;
 
-    // prefix match əvvəl
     const prefix = activeGroup.products.filter((p) => {
       if (startsWithQuery(p.name, q)) return true;
       return p.variants?.some((v) => startsWithQuery(v.title, q));
     });
 
-    // contains match sonra
     const contains = activeGroup.products.filter((p) => {
       const hit =
         includesQuery(p.name, q) ||
@@ -159,14 +172,12 @@ export default function ProductsPage() {
     for (const p of normalizedItems) {
       const brand = getBrand(p.name);
 
-      // product name hits
       if (startsWithQuery(p.name, q)) {
         hits.push({ brand, productName: p.name, score: 1 });
       } else if (includesQuery(p.name, q)) {
         hits.push({ brand, productName: p.name, score: 3 });
       }
 
-      // variant hits
       for (const v of p.variants ?? []) {
         if (startsWithQuery(v.title, q)) {
           hits.push({ brand, productName: p.name, variantTitle: v.title, score: 2 });
@@ -176,14 +187,11 @@ export default function ProductsPage() {
       }
     }
 
-    // eyni productName təkrarlanmasın (variant hitləri ayrı olsun)
-    // sort: score az -> daha yaxşı, sonra alfabet
     hits.sort((a, b) => {
       if (a.score !== b.score) return a.score - b.score;
       return a.productName.localeCompare(b.productName, "tr");
     });
 
-    // limit (çox dolmasın)
     return hits.slice(0, 20);
   }, [query, normalizedItems]);
 
@@ -192,20 +200,65 @@ export default function ProductsPage() {
 
   /* ===== CLICK SUGGESTION: BRAND SET + SCROLL PRODUCT ===== */
   const onPickSuggestion = (hit: SearchHit) => {
-    setActiveBrand(hit.brand); // solda firma seçilsin
-
-    // istəsən inputu sıfırla:
-    // setQuery("");
+    setActiveBrand(hit.brand);
+    setPendingScroll(hit.productName);
     setOpenSuggest(false);
-
-    // next tick scroll
-    setTimeout(() => {
-      const el = productRefs.current[hit.productName];
-      if (el) {
-        el.scrollIntoView({ behavior: "smooth", block: "start" });
-      }
-    }, 30);
   };
+
+  /* ✅ Suggestion clickdən sonra səhifə + sağ panel scroll */
+  useEffect(() => {
+    if (!pendingScroll) return;
+
+    resultsSectionRef.current?.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+
+    const t = window.setTimeout(() => {
+      const container = rightListRef.current;
+      const target = productRefs.current[pendingScroll];
+
+      if (container && target) {
+        const top = target.offsetTop - container.offsetTop;
+        container.scrollTo({ top: Math.max(0, top - 12), behavior: "smooth" });
+      } else if (target) {
+        target.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+
+      setPendingScroll(null);
+    }, 120);
+
+    return () => window.clearTimeout(t);
+  }, [pendingScroll]);
+
+  /* ✅ 2 SANİYƏ “dayananda” avtomatik aşağı scroll */
+  useEffect(() => {
+    // ilk açılışda scroll etməsin
+    if (!userInteractedRef.current) return;
+
+    // timer varsa ləğv et
+    if (autoScrollTimerRef.current) {
+      window.clearTimeout(autoScrollTimerRef.current);
+      autoScrollTimerRef.current = null;
+    }
+
+    // query boşdursa scroll etmə
+    if (!query.trim()) return;
+
+    autoScrollTimerRef.current = window.setTimeout(() => {
+      resultsSectionRef.current?.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    }, 2000);
+
+    return () => {
+      if (autoScrollTimerRef.current) {
+        window.clearTimeout(autoScrollTimerRef.current);
+        autoScrollTimerRef.current = null;
+      }
+    };
+  }, [query]);
 
   /* ===== OPEN/CLOSE SUGGEST PANEL ===== */
   useEffect(() => {
@@ -216,7 +269,6 @@ export default function ProductsPage() {
     setOpenSuggest(true);
   }, [query]);
 
-  // səhifədə boş yerə klik -> suggest bağla
   useEffect(() => {
     const onDoc = () => setOpenSuggest(false);
     document.addEventListener("mousedown", onDoc);
@@ -225,8 +277,8 @@ export default function ProductsPage() {
 
   if (!groupsWithAll.length) {
     return (
-      <main className="mx-auto max-w-7xl px-4 py-16 ">
-        <h1 className="text-3xl font-extrabold text-white!">Məhsullar</h1>
+      <main className="mx-auto max-w-7xl px-4 py-16">
+        <h1 className="text-3xl font-extrabold text-black">Məhsullar</h1>
         <p className="mt-3 text-black">productsSection.items tapılmadı</p>
       </main>
     );
@@ -236,22 +288,27 @@ export default function ProductsPage() {
     <main className="mx-auto max-w-7xl px-4 py-10 text-black">
       {/* HEADER */}
       <div>
-        <h1 className="text-3xl font-extrabold text-white">Məhsullar</h1>
+        <h1 className="text-3xl font-extrabold text-black">Məhsullar</h1>
         <div className="mt-3 h-1 w-14 bg-[#F2A900]" />
       </div>
 
       {/* SEARCH + SUGGEST */}
-      <div className="relative mt-6 max-w-md" onMouseDown={(e) => e.stopPropagation()}>
+      <div
+        className="relative mt-6 max-w-md"
+        onMouseDown={(e) => e.stopPropagation()}
+      >
         <input
           type="text"
           placeholder="Məhsul və ya variant axtar..."
           value={query}
-          onChange={(e) => setQuery(e.target.value)}
+          onChange={(e) => {
+            userInteractedRef.current = true; // ✅ user yazmağa başladı
+            setQuery(e.target.value);
+          }}
           onFocus={() => query.trim() && setOpenSuggest(true)}
           className="h-12 w-full rounded-xl border border-black/10 bg-white px-4 text-sm text-black outline-none transition focus:border-[#F2A900]/60 focus:ring-4 focus:ring-[#F2A900]/15"
         />
 
-        {/* ✅ INPUT ALTINDA AXTARIŞ NƏTİCƏLƏRİ */}
         {openSuggest && suggestions.length > 0 && (
           <div className="absolute left-0 right-0 top-[calc(100%+10px)] z-50 overflow-hidden rounded-2xl border border-black/10 bg-white shadow-xl">
             <div className="max-h-[360px] overflow-auto p-2">
@@ -295,6 +352,9 @@ export default function ProductsPage() {
         )}
       </div>
 
+      {/* ✅ 2 saniyə sonra auto-scroll buraya gətirəcək */}
+      <div ref={resultsSectionRef} />
+
       <section className="mt-8 grid grid-cols-1 gap-6 lg:grid-cols-12">
         {/* LEFT: BRAND LIST */}
         <aside className="lg:col-span-4">
@@ -331,7 +391,10 @@ export default function ProductsPage() {
 
         {/* RIGHT: PRODUCTS (SCROLL) */}
         <div className="lg:col-span-8">
-          <div className="max-h-[520px] overflow-auto rounded-3xl border border-black/10 bg-white p-6">
+          <div
+            ref={rightListRef}
+            className="max-h-[520px] overflow-auto rounded-3xl border border-black/10 bg-white p-6"
+          >
             <h2 className="text-2xl font-extrabold text-black">{activeTitle}</h2>
 
             <div className="mt-6 space-y-5">
