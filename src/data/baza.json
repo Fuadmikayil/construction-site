@@ -24,14 +24,14 @@
         "title": "Güvən və Keyfiyyətin Adı",
         "description": "Müxtəlif materiallarda peşəkar istehsal və satış.",
         "buttonText": "Daha ətraflı",
-        "buttonHref": "/xidmetler/plastik",
+        "buttonHref": "/xidmetler",
         "image": "/images/hero/slide-1.png"
       },
       {
         "title": "Etibarlı Tərəfdaşınız",
         "description": "İstehsal və satışda mükəmməllik.",
         "buttonText": "Daha ətraflı",
-        "buttonHref": "/xidmetler/qaynaq",
+        "buttonHref": "/mehsullar",
         "image": "/images/hero/slide-2.png"
       }
     ]
