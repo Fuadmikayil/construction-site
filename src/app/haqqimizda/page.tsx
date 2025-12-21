@@ -2,6 +2,19 @@ import Image from "next/image";
 import Link from "next/link";
 import data from "../../data/baza.json";
 
+import {
+  FiCheckCircle,
+  FiShield,
+  FiTool,
+  FiLayers,
+  FiUsers,
+  FiAward,
+  FiMapPin,
+  FiArrowRight,
+} from "react-icons/fi";
+
+/* ================= TYPES ================= */
+
 type PartnerLogo = { name: string; src: string };
 
 type PartnersSection = {
@@ -14,6 +27,8 @@ type PartnersSection = {
   logos?: PartnerLogo[];
 };
 
+/* ================= HELPERS ================= */
+
 function cleanText(input?: unknown) {
   if (input == null) return "";
   return String(input)
@@ -23,10 +38,7 @@ function cleanText(input?: unknown) {
 }
 
 export default function AboutPage() {
-  const partnersSection = (data as any)?.partnersSection as
-    | PartnersSection
-    | undefined;
-
+  const partnersSection = (data as any)?.partnersSection as PartnersSection | undefined;
   const about = partnersSection?.about;
 
   if (!about) {
@@ -45,10 +57,17 @@ export default function AboutPage() {
   const logos = partnersSection?.logos ?? [];
 
   const highlights = [
-    { title: "Təcrübə + etibar", desc: paragraphs[0] || "" },
-    { title: "Sexlər və istehsal", desc: paragraphs[1] || "" },
-    { title: "Zəmanət", desc: paragraphs[2] || "" },
-    { title: "Bir ünvandan həll", desc: paragraphs[3] || "" },
+    { title: "Təcrübə + etibar", desc: paragraphs[0] || "", Icon: FiAward },
+    { title: "Sexlər və istehsal", desc: paragraphs[1] || "", Icon: FiTool },
+    { title: "Zəmanət", desc: paragraphs[2] || "", Icon: FiShield },
+    { title: "Bir ünvandan həll", desc: paragraphs[3] || "", Icon: FiLayers },
+  ];
+
+  const stats = [
+    { k: "10+", v: "İl təcrübə", Icon: FiCheckCircle },
+    { k: "3", v: "Sex fəaliyyəti", Icon: FiTool },
+    { k: "100+", v: "Sifariş", Icon: FiUsers },
+    { k: "1", v: "Ünvandan xidmət", Icon: FiMapPin },
   ];
 
   return (
@@ -80,10 +99,11 @@ export default function AboutPage() {
               <div className="mt-8 flex flex-wrap items-center gap-3">
                 <Link
                   href="/elaqe"
-                  className="inline-flex items-center justify-center rounded-xl bg-[#F2A900] px-6 py-3 text-sm font-semibold text-black transition hover:brightness-95"
+                  className="inline-flex items-center justify-center gap-2 rounded-xl bg-[#F2A900] px-6 py-3 text-sm font-semibold text-black transition hover:brightness-95"
                 >
-                  Əlaqə saxla
+                  Əlaqə saxla <FiArrowRight className="h-4 w-4" />
                 </Link>
+
                 <Link
                   href="/xidmetler"
                   className="inline-flex items-center justify-center rounded-xl border border-black/10 bg-white px-6 py-3 text-sm font-semibold text-black transition hover:bg-black/[0.03]"
@@ -94,18 +114,18 @@ export default function AboutPage() {
 
               {/* mini stats */}
               <div className="mt-10 grid max-w-xl grid-cols-2 gap-4 sm:grid-cols-4">
-                {[
-                  { k: "10+", v: "İl təcrübə" },
-                  { k: "3", v: "Sex fəaliyyəti" },
-                  { k: "100+", v: "Sifariş" },
-                  { k: "1", v: "Ünvandan xidmət" },
-                ].map((s) => (
+                {stats.map((s) => (
                   <div
                     key={s.v}
                     className="rounded-2xl border border-black/10 bg-white px-4 py-4"
                   >
-                    <div className="text-2xl font-extrabold text-black">{s.k}</div>
-                    <div className="mt-1 text-xs font-medium text-black/60">{s.v}</div>
+                    <div className="flex items-center gap-2">
+                      <div className="grid h-9 w-9 place-items-center rounded-xl bg-[#F2A900]/15 ring-1 ring-[#F2A900]/30">
+                        <s.Icon className="h-5 w-5 text-black/70" />
+                      </div>
+                      <div className="text-2xl font-extrabold text-black">{s.k}</div>
+                    </div>
+                    <div className="mt-2 text-xs font-medium text-black/60">{s.v}</div>
                   </div>
                 ))}
               </div>
@@ -161,7 +181,10 @@ export default function AboutPage() {
                 className="rounded-3xl border border-black/10 bg-white p-7 transition hover:-translate-y-0.5 hover:shadow-[0_18px_45px_rgba(0,0,0,0.08)]"
               >
                 <div className="flex items-start gap-4">
-                  <div className="mt-1 h-10 w-10 shrink-0 rounded-2xl bg-[#F2A900]/15 ring-1 ring-[#F2A900]/30" />
+                  <div className="mt-1 grid h-11 w-11 shrink-0 place-items-center rounded-2xl bg-[#F2A900]/15 ring-1 ring-[#F2A900]/30">
+                    <h.Icon className="h-5 w-5 text-black/70" />
+                  </div>
+
                   <div>
                     <div className="text-lg font-extrabold text-black">{h.title}</div>
                     <p className="mt-2 text-[14px] leading-7 text-black/70">
@@ -181,7 +204,7 @@ export default function AboutPage() {
           <div className="mx-auto max-w-7xl px-4">
             <div>
               <h2 className="text-3xl font-extrabold text-black">
-                Bizim tərəfdaşlarımız
+                {cleanText(partnersSection?.title) || "Bizim tərəfdaşlarımız"}
               </h2>
               <div className="mt-3 h-1 w-14 bg-[#F2A900]" />
             </div>
@@ -194,7 +217,12 @@ export default function AboutPage() {
                   title={l.name}
                 >
                   <div className="relative h-10 w-full">
-                    <Image src={cleanText(l.src)} alt={l.name} fill className="object-contain" />
+                    <Image
+                      src={cleanText(l.src)}
+                      alt={cleanText(l.name)}
+                      fill
+                      className="object-contain"
+                    />
                   </div>
                 </div>
               ))}
