@@ -16,8 +16,8 @@ type NavItem = {
 
 type SiteData = {
   name: string;
-  logoStatic: string;   // /images/logo.png
-  logoAnimated: string; // /images/logo.gif
+  logoStatic: string;
+  logoAnimated: string;
 };
 
 /* ================= ICONS ================= */
@@ -57,11 +57,8 @@ export default function Header() {
   const { nav, site } = data as { nav: NavItem[]; site: SiteData };
 
   const [mobileOpen, setMobileOpen] = useState(false);
-
-  // desktop dropdown (hover) + mobile dropdown (click) üçün eyni state
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
 
-  // logo gif control
   const [playLogo, setPlayLogo] = useState(false);
   const [gifKey, setGifKey] = useState(0);
 
@@ -69,16 +66,14 @@ export default function Header() {
 
   const isActive = (href: string) => (href === "/" ? pathname === "/" : pathname.startsWith(href));
 
-  // Sarı xətt yalnız bu label altında olsun:
-  const SERVICES_LABEL = "Xidmətlər";
+  // Sarı xətt yalnız bu label altında olsun (case-insensitive)
+  const SERVICES_LABEL = "xidmətlər";
 
-  /* route dəyişəndə menyu bağlansın */
   useEffect(() => {
     setMobileOpen(false);
     setOpenDropdown(null);
   }, [pathname]);
 
-  /* outside click dropdown bağlasın */
   useEffect(() => {
     const handler = (e: MouseEvent) => {
       if (!headerRef.current) return;
@@ -90,27 +85,20 @@ export default function Header() {
     return () => document.removeEventListener("mousedown", handler);
   }, []);
 
-  /* LOGO GIF: girişdə + hər 4 dəq */
   useEffect(() => {
-    const GIF_DURATION = 3000; // 3 saniyə oynasın
-    const INTERVAL = 240000;   // 4 dəqiqə
+    const GIF_DURATION = 3000;
+    const INTERVAL = 240000;
 
     let timeoutId: number | null = null;
 
     const play = () => {
       if (timeoutId) window.clearTimeout(timeoutId);
-
-      // gif restart (remount)
       setGifKey((k) => k + 1);
       setPlayLogo(true);
-
-      timeoutId = window.setTimeout(() => {
-        setPlayLogo(false);
-      }, GIF_DURATION);
+      timeoutId = window.setTimeout(() => setPlayLogo(false), GIF_DURATION);
     };
 
-    play(); // ilk girişdə 1 dəfə
-
+    play();
     const intervalId = window.setInterval(play, INTERVAL);
 
     return () => {
@@ -155,9 +143,8 @@ export default function Header() {
           {nav.map((item) => {
             const opened = openDropdown === item.href;
 
-            // Dropdown item (hover ONLY)
             if (item.children?.length) {
-              const showYellowLine = item.label === SERVICES_LABEL;
+              const showYellowLine = item.label.toLowerCase() === SERVICES_LABEL;
 
               return (
                 <div
@@ -166,9 +153,9 @@ export default function Header() {
                   onMouseEnter={() => setOpenDropdown(item.href)}
                   onMouseLeave={() => setOpenDropdown(null)}
                 >
-                  {/* Trigger (click yoxdur) */}
-                  <div className="group inline-flex cursor-default items-center gap-2 text-sm font-semibold text-black">
-                    <span className="relative">
+                  {/* ✅ CLICK OLUNAN LINK (route-a gedir) */}
+                  <div className="group inline-flex items-center gap-2 text-sm font-semibold text-black">
+                    <Link href={item.href} className="relative hover:text-black">
                       {item.label}
 
                       {/* Sarı xətt yalnız Xidmətlər üçün */}
@@ -179,17 +166,18 @@ export default function Header() {
                           }`}
                         />
                       )}
-                    </span>
+                    </Link>
 
+                    {/* ✅ Dropdown üçün ikon (click etməsin deyə button deyil, sadəcə göstərir) */}
                     <ChevronDownIcon
                       className={`h-4 w-4 transition ${opened ? "rotate-180" : ""}`}
+                      aria-hidden="true"
                     />
                   </div>
 
-                  {/* ✅ Hover bridge: trigger ↔ dropdown arası boşluqda itirməsin */}
+                  {/* hover bridge */}
                   <div className="absolute left-0 top-full h-4 w-56" />
 
-                  {/* Dropdown panel */}
                   {opened && (
                     <div className="absolute left-0 top-full z-50 mt-4 w-56 rounded-xl border border-black/10 bg-white p-2 shadow-xl">
                       {item.children.map((child) => (
@@ -210,7 +198,6 @@ export default function Header() {
               );
             }
 
-            // Normal item (sarı xətt YOX)
             return (
               <Link
                 key={item.href}
@@ -245,14 +232,30 @@ export default function Header() {
                 if (item.children?.length) {
                   return (
                     <div key={item.href} className="rounded-xl border border-black/10">
-                      <button
-                        type="button"
-                        className="flex w-full items-center justify-between px-4 py-3 text-sm font-semibold text-black"
-                        onClick={() => setOpenDropdown(opened ? null : item.href)}
-                      >
-                        <span>{item.label}</span>
-                        <ChevronDownIcon className={`h-4 w-4 transition ${opened ? "rotate-180" : ""}`} />
-                      </button>
+                      <div className="flex items-center justify-between px-4 py-3">
+                        {/* ✅ Mobile-da da Link işləsin */}
+                        <Link
+                          href={item.href}
+                          className="text-sm font-semibold text-black"
+                          onClick={() => {
+                            setMobileOpen(false);
+                            setOpenDropdown(null);
+                          }}
+                        >
+                          {item.label}
+                        </Link>
+
+                        <button
+                          type="button"
+                          className="rounded-lg p-2 hover:bg-black/5"
+                          onClick={() => setOpenDropdown(opened ? null : item.href)}
+                          aria-label="Open submenu"
+                        >
+                          <ChevronDownIcon
+                            className={`h-4 w-4 transition ${opened ? "rotate-180" : ""}`}
+                          />
+                        </button>
+                      </div>
 
                       {opened && (
                         <div className="border-t border-black/10 p-2">
