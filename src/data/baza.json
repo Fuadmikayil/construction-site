@@ -21,15 +21,15 @@
   "hero": {
     "slides": [
       {
-        "title": "Plastik Sexi",
-        "description": "Rəşidoğlu İnşaat MMC-nin qaynaq sexi müasir avadanlıqlar və peşəkar ustalarla fəaliyyət göstərir. Seximizdə svarka üsulu ilə dəmir qapılar, darvazalar, raşotkalar, məhəccərlər və müxtəlif metal konstruksiyalar yüksək keyfiyyət standartlarına uyğun şəkildə hazırlanır. İstehsal prosesində möhkəmlik, təhlükəsizlik və uzunömürlülük əsas prioritetlərimizdir. Hər bir məhsul funksionallıq və estetik görünüş nəzərə alınaraq hazırlanır və müştəri tələblərinə uyğun fərdi yanaşma təmin edilir.",
+        "title": "Güvən və Keyfiyyətin Adı",
+        "description": "Müxtəlif materiallarda peşəkar istehsal və satış.",
         "buttonText": "Daha ətraflı",
         "buttonHref": "/xidmetler/plastik",
         "image": "/images/hero/slide-1.png"
       },
       {
-        "title": "⁠Qaynaq Sexi",
-        "description": "Rəşidoğlu İnşaat MMC-nin plastik sexində yüksək keyfiyyətli plastik qapı və pəncərələrin istehsalı həyata keçirilir. Müasir texnologiyalar və peşəkar işçi heyəti sayəsində məhsullarımız uzunömürlü, estetik və funksional olur. Hər sifariş müştərinin tələblərinə uyğun fərdi yanaşma ilə hazırlanır, təhlükəsizlik və keyfiyyət prioritetimizdir.",
+        "title": "Etibarlı Tərəfdaşınız",
+        "description": "İstehsal və satışda mükəmməllik.",
         "buttonText": "Daha ətraflı",
         "buttonHref": "/xidmetler/qaynaq",
         "image": "/images/hero/slide-2.png"
