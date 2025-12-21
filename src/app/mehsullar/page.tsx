@@ -168,9 +168,7 @@ export default function ProductsPage() {
           onChange={(e) => setQuery(e.target.value)}
           className="h-12 w-full rounded-xl border border-black/10 bg-white px-4 text-sm text-black outline-none transition focus:border-[#F2A900]/60 focus:ring-4 focus:ring-[#F2A900]/15"
         />
-        <div className="mt-2 text-xs text-black">
-          * Axtarışda əvvəl yazdığın sözlə başlayanlar, sonra içində olanlar çıxır.
-        </div>
+       
       </div>
 
       <section className="mt-8 grid grid-cols-1 gap-6 lg:grid-cols-12">
