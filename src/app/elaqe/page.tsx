@@ -1,5 +1,8 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
+import { useMemo, useState } from "react";
 import data from "../../data/baza.json";
 
 /* ================= HELPERS ================= */
@@ -19,13 +22,12 @@ function toArray(v: unknown): any[] {
 /* ================= PAGE ================= */
 
 export default function ContactPage() {
-  const site = (data && data.site) ? data.site : { name: "Rəşidoğlu İnşaat" };
-  const partnersAbout = data?.partnersSection?.about;
+  const site: any = (data as any)?.site ?? { name: "Rəşidoğlu İnşaat" };
+  const partnersAbout = (data as any)?.partnersSection?.about;
 
-  // contactSection varsa ordan çəkirik
-  const contact = data?.contactSection || {};
+  const contact: any = (data as any)?.contactSection ?? {};
 
-  const hero = contact.hero || {};
+  const hero = contact.hero ?? {};
   const heroTitle = cleanText(hero.title) || "Əlaqə";
   const heroSubtitle =
     cleanText(hero.subtitle) ||
@@ -36,29 +38,31 @@ export default function ContactPage() {
   const cards = toArray(contact.cards);
   const socials = toArray(contact.socials);
 
-  const form = contact.form || {};
+  const form = contact.form ?? {};
   const formTitle = cleanText(form.title) || "Mesaj göndər";
   const formNote = cleanText(form.note) || "Formu doldurun — tez zamanda geri dönüş edək.";
 
-  const fields = form.fields || {};
+  const fields = form.fields ?? {};
   const labelName = cleanText(fields.name) || "Ad Soyad";
   const labelPhone = cleanText(fields.phone) || "Telefon";
   const labelService = cleanText(fields.service) || "Xidmət seç";
   const labelMessage = cleanText(fields.message) || "Mesajınız";
   const submitText = cleanText(form.submitText) || "Göndər";
 
-  // xidmət options: əvvəl contact.form.services, yoxdursa servicesSection.items title-ları
-  const serviceOptions = toArray(form.services).length
-    ? toArray(form.services).map((x) => cleanText(x)).filter(Boolean)
-    : toArray(data?.servicesSection?.items)
-        .map((x) => cleanText(x?.title))
-        .filter(Boolean);
+  const serviceOptions = useMemo(() => {
+    const fromForm = toArray(form.services).map((x) => cleanText(x)).filter(Boolean);
+    if (fromForm.length) return fromForm;
 
-  const map = contact.map || {};
+    return toArray((data as any)?.servicesSection?.items)
+      .map((x) => cleanText(x?.title))
+      .filter(Boolean);
+  }, [form.services]);
+
+  const map = contact.map ?? {};
   const mapTitle = cleanText(map.title) || "Xəritədə bax";
   const mapEmbedUrl = cleanText(map.embedUrl);
 
-  const cta = contact.cta || {};
+  const cta = contact.cta ?? {};
   const ctaTitle = cleanText(cta.title) || "Qiymət və sifariş üçün";
   const ctaSubtitle = cleanText(cta.subtitle) || "1 dəqiqəyə əlaqə saxlayın — məsləhət verək.";
   const ctaPrimaryText = cleanText(cta.primaryText) || "WhatsApp-a yaz";
@@ -66,7 +70,6 @@ export default function ContactPage() {
   const ctaSecondaryText = cleanText(cta.secondaryText) || "Zəng et";
   const ctaSecondaryHref = cleanText(cta.secondaryHref) || "#";
 
-  // cards yoxdursa fallback
   const fallbackCards = [
     { title: "Ünvan", value: "Bakı, ... (ünvanı bazaya əlavə et)", hint: "Mağazaya yaxınlaşa bilərsiniz", type: "address" },
     { title: "Telefon", value: "+994 .. ... .. ..", hint: "Zəng / WhatsApp", type: "phone" },
@@ -77,9 +80,13 @@ export default function ContactPage() {
   const listCards = cards.length ? cards : fallbackCards;
 
   const aboutText = partnersAbout?.text?.[0] ? cleanText(partnersAbout.text[0]) : "";
-  const aboutLogo = partnersAbout?.logo
-    ? cleanText(partnersAbout.logo)
-    : cleanText((site && 'logoStatic' in site ? site.logoStatic : "") ?? "");
+  const aboutLogo = partnersAbout?.logo ? cleanText(partnersAbout.logo) : cleanText(site?.logoStatic);
+
+  /* ================= FORM STATE (sadəcə UX üçün) ================= */
+  const [sent, setSent] = useState(false);
+
+  // ✅ BURADA öz mailini yaz
+  const YOUR_EMAIL = "rashidoglu.inshaatmmc@gmail.com";
 
   return (
     <main className="bg-white">
@@ -134,8 +141,8 @@ export default function ContactPage() {
               const value = cleanText(c?.value);
               const hint = cleanText(c?.hint);
 
-              const isEmail = title.toLowerCase().includes("email") || (c?.type === "email");
-              const isPhone = title.toLowerCase().includes("telefon") || (c?.type === "phone");
+              const isEmail = title.toLowerCase().includes("email") || c?.type === "email";
+              const isPhone = title.toLowerCase().includes("telefon") || c?.type === "phone";
 
               return (
                 <div
@@ -147,7 +154,7 @@ export default function ContactPage() {
                     <div className="min-w-0">
                       <div className="text-sm font-bold text-black">{title}</div>
 
-                      {/* value: email/phone üçün link + uzun text qırılması */}
+                      {/* uzun gmail pozulmasın */}
                       {isEmail ? (
                         <a
                           href={`mailto:${value}`}
@@ -178,7 +185,6 @@ export default function ContactPage() {
             })}
           </div>
 
-          {/* socials */}
           {socials.length > 0 && (
             <div className="mt-8 flex flex-wrap items-center gap-3">
               {socials.map((s, idx) => (
@@ -203,25 +209,34 @@ export default function ContactPage() {
           {/* LEFT: FORM */}
           <div className="lg:col-span-7">
             <div className="rounded-3xl border border-black/10 bg-white p-7 shadow-[0_15px_40px_rgba(0,0,0,0.06)] md:p-10">
-              <h2 className="text-2xl font-extrabold text-black md:text-3xl">
-                {formTitle}
-              </h2>
-              <p className="mt-3 text-[14px] leading-7 text-black/60">
-                {formNote}
-              </p>
+              <h2 className="text-2xl font-extrabold text-black md:text-3xl">{formTitle}</h2>
+              <p className="mt-3 text-[14px] leading-7 text-black/60">{formNote}</p>
 
-              {/* NOTE: Bu form backendə göndərmir */}
-              <form className="mt-8 grid grid-cols-1 gap-4">
+              {/* ✅ FORM SUBMIT: FormSubmit-a gedir (şifrə/API key YOX) */}
+              <form
+                className="mt-8 grid grid-cols-1 gap-4"
+                action={`https://formsubmit.co/${encodeURIComponent(YOUR_EMAIL)}`}
+                method="POST"
+                onSubmit={() => setSent(true)}
+              >
+                {/* FormSubmit config */}
+                <input type="hidden" name="_subject" value="Saytdan yeni mesaj (Əlaqə formu)" />
+                <input type="hidden" name="_captcha" value="false" />
+                {/* İstəsən success page: /elaqe?ok=1 */}
+                <input type="hidden" name="_next" value={`${typeof window !== "undefined" ? window.location.origin : ""}/elaqe?ok=1`} />
+
                 <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
                   <input
                     className="h-12 w-full rounded-xl border border-black/10 bg-white px-4 text-sm text-black outline-none transition focus:border-[#F2A900]/60 focus:ring-4 focus:ring-[#F2A900]/15"
                     placeholder={labelName}
                     name="name"
+                    required
                   />
                   <input
                     className="h-12 w-full rounded-xl border border-black/10 bg-white px-4 text-sm text-black outline-none transition focus:border-[#F2A900]/60 focus:ring-4 focus:ring-[#F2A900]/15"
                     placeholder={labelPhone}
                     name="phone"
+                    required
                   />
                 </div>
 
@@ -230,13 +245,9 @@ export default function ContactPage() {
                   className="h-12 w-full rounded-xl border border-black/10 bg-white px-4 text-sm text-black outline-none transition focus:border-[#F2A900]/60 focus:ring-4 focus:ring-[#F2A900]/15"
                   defaultValue=""
                 >
-                  <option value="" disabled>
-                    {labelService}
-                  </option>
+                  <option value="" disabled>{labelService}</option>
                   {serviceOptions.map((opt) => (
-                    <option key={opt} value={opt}>
-                      {opt}
-                    </option>
+                    <option key={opt} value={opt}>{opt}</option>
                   ))}
                 </select>
 
@@ -245,18 +256,25 @@ export default function ContactPage() {
                   rows={5}
                   className="w-full rounded-xl border border-black/10 bg-white px-4 py-3 text-sm text-black outline-none transition focus:border-[#F2A900]/60 focus:ring-4 focus:ring-[#F2A900]/15"
                   placeholder={labelMessage}
+                  required
                 />
 
                 <button
-                  type="button"
+                  type="submit"
                   className="mt-2 inline-flex h-12 items-center justify-center rounded-xl bg-[#F2A900] px-6 text-sm font-semibold text-black transition hover:brightness-95"
                 >
                   {submitText}
                 </button>
 
                 <div className="pt-2 text-xs text-black/50">
-                  * Göndər düyməsi hazırda demo-dur. İstəsən bunu WhatsApp-a yönləndirə bilərik.
+                  * Birinci dəfə göndərəndə FormSubmit mailinə təsdiq linki gələ bilər (1 dəfəlik).
                 </div>
+
+                {sent && (
+                  <div className="text-sm font-semibold text-green-600">
+                    Göndərilir... (mailə yönləndiriləcək)
+                  </div>
+                )}
               </form>
             </div>
           </div>
@@ -266,21 +284,14 @@ export default function ContactPage() {
             <div className="rounded-3xl border border-black/10 bg-white p-7 shadow-[0_15px_40px_rgba(0,0,0,0.06)] md:p-9">
               <div className="flex items-start gap-5">
                 <div className="relative h-16 w-16 overflow-hidden rounded-2xl border border-black/10 bg-white">
-                  {aboutLogo ? (
-                    <Image src={aboutLogo} alt={cleanText(site?.name)} fill className="object-contain" />
-                  ) : null}
+                  {aboutLogo ? <Image src={aboutLogo} alt={cleanText(site?.name)} fill className="object-contain" /> : null}
                 </div>
 
                 <div className="flex-1">
                   <div className="text-sm font-semibold text-black">Şirkət</div>
-                  <div className="mt-1 text-xl font-extrabold text-black">
-                    {cleanText(site?.name)}
-                  </div>
-
+                  <div className="mt-1 text-xl font-extrabold text-black">{cleanText(site?.name)}</div>
                   {aboutText ? (
-                    <p className="mt-3 text-[13px] leading-6 text-black/70">
-                      {aboutText}
-                    </p>
+                    <p className="mt-3 text-[13px] leading-6 text-black/70">{aboutText}</p>
                   ) : (
                     <p className="mt-3 text-[13px] leading-6 text-black/60">
                       `partnersSection.about.text[0]` əlavə etsən burada avtomatik çıxacaq.
@@ -292,24 +303,13 @@ export default function ContactPage() {
               <div className="mt-7 h-px bg-black/10" />
 
               <div className="mt-7 grid grid-cols-1 gap-3">
-                <Link
-                  href="/haqqimizda"
-                  className="inline-flex h-12 items-center justify-center rounded-xl border border-black/10 bg-white text-sm font-semibold text-black transition hover:bg-black/[0.03]"
-                >
+                <Link href="/haqqimizda" className="inline-flex h-12 items-center justify-center rounded-xl border border-black/10 bg-white text-sm font-semibold text-black transition hover:bg-black/[0.03]">
                   Haqqımızda səhifəsi
                 </Link>
-
-                <Link
-                  href="/mehsullar"
-                  className="inline-flex h-12 items-center justify-center rounded-xl border border-black/10 bg-white text-sm font-semibold text-black transition hover:bg-black/[0.03]"
-                >
+                <Link href="/mehsullar" className="inline-flex h-12 items-center justify-center rounded-xl border border-black/10 bg-white text-sm font-semibold text-black transition hover:bg-black/[0.03]">
                   Məhsullara bax
                 </Link>
-
-                <Link
-                  href="/xidmetler"
-                  className="inline-flex h-12 items-center justify-center rounded-xl bg-black text-sm font-semibold text-white transition hover:opacity-95"
-                >
+                <Link href="/xidmetler" className="inline-flex h-12 items-center justify-center rounded-xl bg-black text-sm font-semibold text-white transition hover:opacity-95">
                   Xidmət seç
                 </Link>
               </div>
@@ -350,26 +350,16 @@ export default function ContactPage() {
           <div className="rounded-3xl border border-black/10 bg-[linear-gradient(90deg,rgba(242,169,0,0.18),rgba(0,0,0,0.02))] p-8 md:p-10">
             <div className="grid grid-cols-1 gap-8 lg:grid-cols-12 lg:items-center">
               <div className="lg:col-span-8">
-                <h3 className="text-2xl font-extrabold text-black md:text-3xl">
-                  {ctaTitle}
-                </h3>
-                <p className="mt-3 text-[14px] leading-7 text-black/70">
-                  {ctaSubtitle}
-                </p>
+                <h3 className="text-2xl font-extrabold text-black md:text-3xl">{ctaTitle}</h3>
+                <p className="mt-3 text-[14px] leading-7 text-black/70">{ctaSubtitle}</p>
               </div>
 
               <div className="lg:col-span-4">
                 <div className="flex flex-col gap-3 sm:flex-row lg:flex-col">
-                  <a
-                    href={ctaPrimaryHref}
-                    className="inline-flex h-12 items-center justify-center rounded-xl bg-[#F2A900] px-6 text-sm font-semibold text-black transition hover:brightness-95"
-                  >
+                  <a href={ctaPrimaryHref} className="inline-flex h-12 items-center justify-center rounded-xl bg-[#F2A900] px-6 text-sm font-semibold text-black transition hover:brightness-95">
                     {ctaPrimaryText}
                   </a>
-                  <a
-                    href={ctaSecondaryHref}
-                    className="inline-flex h-12 items-center justify-center rounded-xl border border-black/10 bg-white px-6 text-sm font-semibold text-black transition hover:bg-black/[0.03]"
-                  >
+                  <a href={ctaSecondaryHref} className="inline-flex h-12 items-center justify-center rounded-xl border border-black/10 bg-white px-6 text-sm font-semibold text-black transition hover:bg-black/[0.03]">
                     {ctaSecondaryText}
                   </a>
                 </div>
