@@ -226,8 +226,8 @@ export default function ProductsPage() {
   if (!groupsWithAll.length) {
     return (
       <main className="mx-auto max-w-7xl px-4 py-16 text-black">
-        <h1 className="text-3xl font-extrabold text-black">Məhsullar</h1>
-        <p className="mt-3 text-black">productsSection.items tapılmadı</p>
+        <h1 className="text-3xl font-extrabold text-white">Məhsullar</h1>
+        <p className="mt-3 text-white">productsSection.items tapılmadı</p>
       </main>
     );
   }
