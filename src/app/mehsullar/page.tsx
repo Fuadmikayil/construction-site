@@ -36,6 +36,15 @@ function getBrand(name: string) {
   return beforeSlash.split(" ")[0].toUpperCase();
 }
 
+/** səhifəni ref-ə scroll edərkən bir az “aşağı” offset verək */
+function scrollToRefWithOffset(ref: React.RefObject<HTMLElement>, offset = -400) {
+  const el = ref.current;
+  if (!el) return;
+
+  const y = el.getBoundingClientRect().top + window.scrollY - offset;
+  window.scrollTo({ top: Math.max(0, y), behavior: "smooth" });
+}
+
 /* ================= TYPES ================= */
 
 type Variant = { title: string };
@@ -78,12 +87,6 @@ export default function ProductsPage() {
 
   // ✅ clickdən sonra hansı məhsula scroll edəcəyik
   const [pendingScroll, setPendingScroll] = useState<string | null>(null);
-
-  // ✅ 2 saniyə sonra auto-scroll üçün timer
-  const autoScrollTimerRef = useRef<number | null>(null);
-
-  // ✅ user yazmağa başlayanda aktivləşsin (ilk açılışda boş yerə scroll etməsin)
-  const userInteractedRef = useRef(false);
 
   /* ===== NORMALIZE ITEMS ===== */
   const normalizedItems = useMemo<ProductItem[]>(() => {
@@ -180,9 +183,19 @@ export default function ProductsPage() {
 
       for (const v of p.variants ?? []) {
         if (startsWithQuery(v.title, q)) {
-          hits.push({ brand, productName: p.name, variantTitle: v.title, score: 2 });
+          hits.push({
+            brand,
+            productName: p.name,
+            variantTitle: v.title,
+            score: 2,
+          });
         } else if (includesQuery(v.title, q)) {
-          hits.push({ brand, productName: p.name, variantTitle: v.title, score: 4 });
+          hits.push({
+            brand,
+            productName: p.name,
+            variantTitle: v.title,
+            score: 4,
+          });
         }
       }
     }
@@ -209,10 +222,8 @@ export default function ProductsPage() {
   useEffect(() => {
     if (!pendingScroll) return;
 
-    resultsSectionRef.current?.scrollIntoView({
-      behavior: "smooth",
-      block: "start",
-    });
+    // səhifə aşağı
+    scrollToRefWithOffset(resultsSectionRef as any, -400);
 
     const t = window.setTimeout(() => {
       const container = rightListRef.current;
@@ -226,39 +237,10 @@ export default function ProductsPage() {
       }
 
       setPendingScroll(null);
-    }, 120);
+    }, 140);
 
     return () => window.clearTimeout(t);
   }, [pendingScroll]);
-
-  /* ✅ 2 SANİYƏ “dayananda” avtomatik aşağı scroll */
-  useEffect(() => {
-    // ilk açılışda scroll etməsin
-    if (!userInteractedRef.current) return;
-
-    // timer varsa ləğv et
-    if (autoScrollTimerRef.current) {
-      window.clearTimeout(autoScrollTimerRef.current);
-      autoScrollTimerRef.current = null;
-    }
-
-    // query boşdursa scroll etmə
-    if (!query.trim()) return;
-
-    autoScrollTimerRef.current = window.setTimeout(() => {
-      resultsSectionRef.current?.scrollIntoView({
-        behavior: "smooth",
-        block: "start",
-      });
-    }, 2000);
-
-    return () => {
-      if (autoScrollTimerRef.current) {
-        window.clearTimeout(autoScrollTimerRef.current);
-        autoScrollTimerRef.current = null;
-      }
-    };
-  }, [query]);
 
   /* ===== OPEN/CLOSE SUGGEST PANEL ===== */
   useEffect(() => {
@@ -274,6 +256,17 @@ export default function ProductsPage() {
     document.addEventListener("mousedown", onDoc);
     return () => document.removeEventListener("mousedown", onDoc);
   }, []);
+
+  /* ✅ AXTAR BUTTON: basanda nəticələrə scroll */
+  const onSearch = () => {
+    setOpenSuggest(false);
+
+    // sağ paneli yuxarı qaldır (istəmirsənsə bu 2 sətri sil)
+    rightListRef.current?.scrollTo({ top: 0, behavior: "smooth" });
+
+    // səhifəni nəticələr hissəsinə bir az aşağı offsetlə gətir
+    scrollToRefWithOffset(resultsSectionRef as any, -400);
+  };
 
   if (!groupsWithAll.length) {
     return (
@@ -292,23 +285,34 @@ export default function ProductsPage() {
         <div className="mt-3 h-1 w-14 bg-[#F2A900]" />
       </div>
 
-      {/* SEARCH + SUGGEST */}
+      {/* SEARCH + BUTTON + SUGGEST */}
       <div
-        className="relative mt-6 max-w-md"
+        className="relative mt-6 max-w-xl"
         onMouseDown={(e) => e.stopPropagation()}
       >
-        <input
-          type="text"
-          placeholder="Məhsul və ya variant axtar..."
-          value={query}
-          onChange={(e) => {
-            userInteractedRef.current = true; // ✅ user yazmağa başladı
-            setQuery(e.target.value);
-          }}
-          onFocus={() => query.trim() && setOpenSuggest(true)}
-          className="h-12 w-full rounded-xl border border-black/10 bg-white px-4 text-sm text-black outline-none transition focus:border-[#F2A900]/60 focus:ring-4 focus:ring-[#F2A900]/15"
-        />
+        <div className="flex gap-3">
+          <input
+            type="text"
+            placeholder="Məhsul və ya variant axtar..."
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
+            onKeyDown={(e) => {
+              if (e.key === "Enter") onSearch();
+            }}
+            onFocus={() => query.trim() && setOpenSuggest(true)}
+            className="h-12 w-full rounded-xl border border-black/10 bg-white px-4 text-sm text-black outline-none transition focus:border-[#F2A900]/60 focus:ring-4 focus:ring-[#F2A900]/15"
+          />
 
+          <button
+            type="button"
+            onClick={onSearch}
+            className="h-12 shrink-0 rounded-xl bg-[#F2A900] px-5 text-sm font-extrabold text-black transition hover:brightness-95"
+          >
+            AXTAR
+          </button>
+        </div>
+
+        {/* Suggest panel */}
         {openSuggest && suggestions.length > 0 && (
           <div className="absolute left-0 right-0 top-[calc(100%+10px)] z-50 overflow-hidden rounded-2xl border border-black/10 bg-white shadow-xl">
             <div className="max-h-[360px] overflow-auto p-2">
@@ -352,7 +356,7 @@ export default function ProductsPage() {
         )}
       </div>
 
-      {/* ✅ 2 saniyə sonra auto-scroll buraya gətirəcək */}
+      {/* ✅ scroll buraya gələcək (offset ilə) */}
       <div ref={resultsSectionRef} />
 
       <section className="mt-8 grid grid-cols-1 gap-6 lg:grid-cols-12">
@@ -412,7 +416,10 @@ export default function ProductsPage() {
                     {!!p.variants?.length && (
                       <ul className="mt-3 space-y-2">
                         {p.variants.map((v, i) => (
-                          <li key={v.title + i} className="flex gap-3 text-sm font-semibold text-black">
+                          <li
+                            key={v.title + i}
+                            className="flex gap-3 text-sm font-semibold text-black"
+                          >
                             <span className="mt-2 h-2 w-2 rounded-full bg-[#F2A900]" />
                             {v.title}
                           </li>
