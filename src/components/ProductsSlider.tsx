@@ -158,9 +158,7 @@ export default function ProductsSlider() {
           </div>
 
           {/* Mobile hint */}
-          <p className="mt-2 text-center text-xs text-black/60 lg:hidden">
-            Sürüşdürərək bax (swipe)
-          </p>
+        
         </div>
 
         {/* ✅ ALL PRODUCTS BUTTON */}
