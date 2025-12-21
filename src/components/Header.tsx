@@ -114,15 +114,15 @@ export default function Header() {
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3">
         {/* LOGO */}
-        <Link href="/" className="flex items-center">
-          <div className="relative h-14 w-56 overflow-hidden sm:w-64 md:w-64 lg:h-16 lg:w-72">
+        <Link href="/" className="flex items-center  cursor-pointer">
+          <div className="relative h-14 w-56 overflow-hidden sm:w-64 cursor-pointer md:w-64 lg:h-16 lg:w-72">
             {playLogo ? (
               <Image
                 key={gifKey}
                 src={site.logoAnimated}
                 alt={site.name}
                 fill
-                className="object-contain"
+                className="object-contain cursor-pointer"
                 priority
                 unoptimized
               />
