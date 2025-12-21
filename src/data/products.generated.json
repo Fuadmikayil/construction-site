@@ -1095,15 +1095,7 @@
           }
         ]
       },
-      {
-        "name": "ƏLCƏK",
-        "image": "/images/products/default.jpg",
-        "variants": [
-          {
-            "title": "ƏLCƏK"
-          }
-        ]
-      },
+      
       {
         "name": "STAR SLİKONLU ASTAR",
         "image": "/images/products/default.jpg",
@@ -1415,20 +1407,23 @@
         ]
       },
       {
-        "name": "ELCEK",
+        "name": "ƏLCƏK",
         "image": "/images/products/default.jpg",
         "variants": [
-          {
-            "title": "ELCEK - YAŞIL"
+            {
+            "title": "ƏLCƏK"
           },
           {
-            "title": "ELCEK - ZEBRO"
+            "title": "ƏLCƏK - YAŞIL"
           },
           {
-            "title": "ELCEK - NARINCI - GOY"
+            "title": "ƏLCƏK - ZEBRO"
           },
           {
-            "title": "ELCEK - SARI - QIRMIZI"
+            "title": "ƏLCƏK - NARINCI - GOY"
+          },
+          {
+            "title": "ƏLCƏK - SARI - QIRMIZI"
           }
         ]
       },
