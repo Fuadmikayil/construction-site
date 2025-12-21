@@ -21,17 +21,24 @@
   "hero": {
     "slides": [
       {
-        "title": "Tikinti Layihələrimiz",
-        "description": "Mövcud tikililərinizi müasir və funksional hala gətiririk. Yeniləmə layihələrimizlə yaşam keyfiyyətinizi artırın.",
-        "buttonText": "Təmir Paketləri",
-        "buttonHref": "/temir-paketleri",
+        "title": "Plastik Sexi",
+        "description": "Rəşidoğlu İnşaat MMC-nin qaynaq sexi müasir avadanlıqlar və peşəkar ustalarla fəaliyyət göstərir. Seximizdə svarka üsulu ilə dəmir qapılar, darvazalar, raşotkalar, məhəccərlər və müxtəlif metal konstruksiyalar yüksək keyfiyyət standartlarına uyğun şəkildə hazırlanır. İstehsal prosesində möhkəmlik, təhlükəsizlik və uzunömürlülük əsas prioritetlərimizdir. Hər bir məhsul funksionallıq və estetik görünüş nəzərə alınaraq hazırlanır və müştəri tələblərinə uyğun fərdi yanaşma təmin edilir.",
+        "buttonText": "Daha ətraflı",
+        "buttonHref": "/xidmetler/plastik",
         "image": "/images/hero/slide-1.png"
       },
       {
-        "title": "Müasir Dizayn",
-        "description": "Estetik və rahat interyer həlləri ilə evinizin dəyərini yüksəldin.",
-        "buttonText": "Layihələr",
-        "buttonHref": "/layiheler",
+        "title": "⁠Qaynaq Sexi",
+        "description": "Rəşidoğlu İnşaat MMC-nin plastik sexində yüksək keyfiyyətli plastik qapı və pəncərələrin istehsalı həyata keçirilir. Müasir texnologiyalar və peşəkar işçi heyəti sayəsində məhsullarımız uzunömürlü, estetik və funksional olur. Hər sifariş müştərinin tələblərinə uyğun fərdi yanaşma ilə hazırlanır, təhlükəsizlik və keyfiyyət prioritetimizdir.",
+        "buttonText": "Daha ətraflı",
+        "buttonHref": "/xidmetler/qaynaq",
+        "image": "/images/hero/slide-2.png"
+      },
+      {
+        "title": "Taxta Sexi",
+        "description": "Rəşidoğlu İnşaat MMC-nin taxta sexində müxtəlif taxta məhsulların, o cümlədən reykaların və digər tikinti elementlərinin istehsalı həyata keçirilir. Peşəkar ustalar və müasir avadanlıqlar sayəsində məhsullarımız həm möhkəm, həm də estetik olur. Hər sifariş fərdi yanaşma ilə hazırlanır və keyfiyyətimiz hər zaman prioritetdir.",
+        "buttonText": "Daha ətraflı",
+        "buttonHref": "/xidmetler/taxta",
         "image": "/images/hero/slide-2.png"
       }
     ]
@@ -43,20 +50,20 @@
         "title": "⁠Plastik Sexi ",
         "description": "Plastikdən qapı pencərə istehsalı",
         "image": "/images/services/⁠Plastik.jpg",
-        "href": "/xidmetler/⁠Plastik",
+        "href": "/xidmetler/plastik",
         "buttonText": "Daha ətraflı"
       },
       {
         "title": "⁠Qaynaq Sexi ",
         "description": "⁠Qaynaq dəmir qapı darvaza raşotka yığılır məhəccərlərin yığılması",
         "image": "/images/services/⁠Qaynaq.png",
-        "href": "/xidmetler/⁠Qaynaq",
+        "href": "/xidmetler/qaynaq",
         "buttonText": "Daha ətraflı"
       },{
         "title": "Taxta Sexi",
         "description": "Müxtəlif taxta məhsullarının istehsalı",
         "image": "/images/services/⁠Plastik.jpg",
-        "href": "/xidmetler/⁠Plastik",
+        "href": "/xidmetler/taxta",
         "buttonText": "Daha ətraflı"
       }
     ]
@@ -79,5 +86,63 @@
       { "name": "Giper", "src": "/images/partners/giper.png" },
       { "name": "Holcim", "src": "/images/partners/holcim.jpg" }
     ]
+  },"contactSection": {
+  "hero": {
+    "title": "Əlaqə",
+    "subtitle": "Sifariş, qiymət və əməkdaşlıq üçün bizimlə rahat şəkildə əlaqə saxlayın.",
+    "image": "/images/contact/hero.jpg",
+    "badge": "24/7 dəstək"
+  },
+  "cards": [
+    {
+      "title": "Ünvan",
+      "value": "Qarabağ/Xankəndi",
+      "hint": "Mağazaya yaxınlaşa bilərsiniz"
+    },
+    {
+      "title": "Telefon",
+      "value": "+994 51 722 05 27",
+      "hint": "Zəng / WhatsApp"
+    },
+    {
+      "title": "Email",
+      "value": "rashidoglu.inshaatmmc@gmail.com",
+      "hint": "Təklif və sorğular"
+    },
+    {
+      "title": "İş saatı",
+      "value": "Hər gün 09:00 — 19:00",
+      "hint": "Bazar günü də açıq"
+    }
+  ],
+  "socials": [
+    { "label": "WhatsApp", "href": "https://wa.me/994517220527" },
+    { "label": "Instagram", "href": "https://www.instagram.com/rashadogluinshaat/" }
+  ],
+  "form": {
+    "title": "Mesaj göndər",
+    "note": "Formu doldurun — tez zamanda geri dönüş edək.",
+    "fields": {
+      "name": "Ad Soyad",
+      "phone": "Telefon",
+      "service": "Xidmət seç",
+      "message": "Mesajınız"
+    },
+    "services": ["Plastik Sexi", "Qaynaq Sexi", "Taxta Sexi"],
+    "submitText": "Göndər"
+  },
+  "map": {
+    "title": "Xəritədə bax",
+    "embedUrl": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d832.3156091366584!2d46.76698826648588!3d39.87145997153252!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e1!3m2!1saz!2saz!4v1766314296321!5m2!1saz!2saz"
+  },
+  "cta": {
+    "title": "Qiymət və sifariş üçün",
+    "subtitle": "1 dəqiqəyə əlaqə saxlayın — məsləhət verək.",
+    "primaryText": "WhatsApp-a yaz",
+    "primaryHref": "https://wa.me/994517220527",
+    "secondaryText": "Zəng et",
+    "secondaryHref": "tel:+994517220527"
   }
+}
+
 }
