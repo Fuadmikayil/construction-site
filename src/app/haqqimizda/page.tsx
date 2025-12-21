@@ -66,7 +66,7 @@ export default function AboutPage() {
   const stats = [
     { k: "10+", v: "İl təcrübə", Icon: FiCheckCircle },
     { k: "3", v: "Sex fəaliyyəti", Icon: FiTool },
-    { k: "100+", v: "Sifariş", Icon: FiUsers },
+    { k: "500+", v: "Sifariş", Icon: FiUsers },
     { k: "1", v: "Ünvandan xidmət", Icon: FiMapPin },
   ];
 
@@ -226,10 +226,6 @@ export default function AboutPage() {
                   </div>
                 </div>
               ))}
-            </div>
-
-            <div className="mt-8 text-sm text-black/50">
-              * Tərəfdaş loqoları nümunədir, istənilən vaxt yeniləyə bilərik.
             </div>
           </div>
         </section>

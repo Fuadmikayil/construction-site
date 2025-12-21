@@ -4,7 +4,7 @@
     "items": [
       {
         "name": "STAR SUPER",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/STAR SUPER.webp",
         "variants": [
           {
             "title": "STAR SUPER PARLAQ 3.75 LT"
@@ -19,7 +19,7 @@
       },
       {
         "name": "STAR PARLAQ",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "STAR PARLAQ 0.75LT - AĞ"
@@ -43,7 +43,7 @@
       },
       {
         "name": "STAR MAT",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/STAR MAT.webp",
         "variants": [
           {
             "title": "STAR MAT 0.75LT"
@@ -58,7 +58,7 @@
       },
       {
         "name": "STAR ANTİPAS",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/STAR ANTİPAS.webp",
         "variants": [
           {
             "title": "STAR ANTİPAS 0.75LT - AĞ"
@@ -106,7 +106,7 @@
       },
       {
         "name": "STAR HAMERTON",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "STAR HAMERTON 2.5LT - V6318 TÜND QƏHVƏ"
@@ -175,7 +175,7 @@
       },
       {
         "name": "STAR PARKET",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/STAR PARKET.webp",
         "variants": [
           {
             "title": "STAR PARKET LAKI 0.75LT"
@@ -190,7 +190,7 @@
       },
       {
         "name": "STAR RƏNGLİ LAK",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "STAR RƏNGLİ LAK 0.75LT - SARI"
@@ -238,7 +238,7 @@
       },
       {
         "name": "STAR SELÜLOZİK DOLĞU",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "STAR SELÜLOZİK DOLĞU 0.75LT"
@@ -253,7 +253,7 @@
       },
       {
         "name": "STAR ALÜMİNİUM",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "STAR ALÜMİNİUM BOYA 0.75 KQ"
@@ -268,7 +268,7 @@
       },
       {
         "name": "SUPER STAR PLASTİK",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "SUPER STAR PLASTİK 3.5 KQ - AĞ"
@@ -283,7 +283,7 @@
       },
       {
         "name": "SUPER STAR FASAD",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "SUPER STAR FASAD 10KQ - AĞ"
@@ -298,7 +298,7 @@
       },
       {
         "name": "STAR PLUS YUYULAN",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "STAR PLUS YUYULAN 3.5KQ - AĞ"
@@ -313,7 +313,7 @@
       },
       {
         "name": "STAR SİLİKONLU",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "STAR SİLİKONLU FASAD 10KQ - AĞ"
@@ -328,7 +328,7 @@
       },
       {
         "name": "STAR BETON KONTAKT",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "STAR BETON KONTAKT 3.5KQ"
@@ -343,7 +343,7 @@
       },
       {
         "name": "STAR MƏCUN",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "STAR MƏCUN 4.5KQ"
@@ -358,7 +358,7 @@
       },
       {
         "name": "STAR PLASTİK",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "STAR PLASTİK 3.5KQ"
@@ -373,7 +373,7 @@
       },
       {
         "name": "STAR FASAD",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "STAR FASAD 3.5KQ"
@@ -388,7 +388,7 @@
       },
       {
         "name": "STAR TAVAN BOYASI",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "STAR TAVAN BOYASI 3.5KQ"
@@ -403,7 +403,7 @@
       },
       {
         "name": "STAR BİNDER",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "STAR BİNDER 1LT"
@@ -421,7 +421,7 @@
       },
       {
         "name": "STAR SUTUT",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "STAR SUTUT 10KQ"
@@ -433,7 +433,7 @@
       },
       {
         "name": "STAR UNİVERSAL BOYA",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "STAR UNİVERSAL BOYA 100ML - MAVİ"
@@ -511,7 +511,7 @@
       },
       {
         "name": "STAR KOLOR",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "STAR KOLOR 300ML - MAVİ"
@@ -589,7 +589,7 @@
       },
       {
         "name": "VİM PARLAQ",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "VİM PARLAQ 0.75LT - AĞ"
@@ -676,7 +676,7 @@
       },
       {
         "name": "VİM MAT",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "VİM MAT 0.75LT"
@@ -691,7 +691,7 @@
       },
       {
         "name": "VİM PLASTİK",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "VİM PLASTİK 3.5KQ"
@@ -706,7 +706,7 @@
       },
       {
         "name": "VİM FASAD",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "VİM FASAD 3.5KQ"
@@ -721,7 +721,7 @@
       },
       {
         "name": "PVA SanaWood",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "PVA SanaWood - 100 GR"
@@ -730,7 +730,7 @@
       },
       {
         "name": "VİM PVA",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "VİM PVA 0.75KQ"
@@ -745,7 +745,7 @@
       },
       {
         "name": "İNTEQRAL PLASTİK",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "İNTEQRAL PLASTİK 3.5KQ - AĞ"
@@ -760,7 +760,7 @@
       },
       {
         "name": "İNTEQRAL FASAD",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "İNTEQRAL FASAD 3.5KQ - AĞ"
@@ -775,7 +775,7 @@
       },
       {
         "name": "STAR SELLÜLOZİK DAŞ LAKI",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "STAR SELLÜLOZİK DAŞ LAKI 0.75LT"
@@ -784,7 +784,7 @@
       },
       {
         "name": "STAR SELLÜLOZİK BOYA",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "STAR SELLÜLOZİK BOYA 2.5LT - 90-195 AÇIQ KREM"
@@ -901,7 +901,7 @@
       },
       {
         "name": "STAR SELLÜLOZİK QIZILI",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "STAR SELLÜLOZİK QIZILI (GOLD STAR) 0.25LT"
@@ -910,7 +910,7 @@
       },
       {
         "name": "METAL SELLÜLOZİK ASTAR",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "METAL SELLÜLOZİK ASTAR 2.5LT - QARA"
@@ -925,7 +925,7 @@
       },
       {
         "name": "SELLÜLOZİK ASTAR MEBEL",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "SELLÜLOZİK ASTAR MEBEL 2.5LT - AĞ"
@@ -935,7 +935,7 @@
 
       {
         "name": "BOYA RULOSU (VALİK)",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "EKO STAR 20120 (20 SM) SATEN (KIRMIZI)"
@@ -962,7 +962,7 @@
       },
       {
         "name": "STAR FIRÇA",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "STAR FIRÇA 1 UNİVERSAL"
@@ -986,7 +986,7 @@
       },
       {
         "name": "REDSAN PARKET LAKI",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "REDSAN PARKET LAKI 0.75LT"
@@ -1001,7 +1001,7 @@
       },
       {
         "name": "REDSAN SELLÜLOZİK DOLĞU",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "REDSAN SELLÜLOZİK DOLĞU 0.75LT"
@@ -1016,7 +1016,7 @@
       },
       {
         "name": "EKOREDSAN PLASTİK",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "EKOREDSAN PLASTİK 18LT"
@@ -1031,7 +1031,7 @@
       },
       {
         "name": "EKOREDSAN FASAD",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "EKOREDSAN FASAD 25KQ - AĞ"
@@ -1046,7 +1046,7 @@
       },
       {
         "name": "STAR TİNER",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "STAR TİNER (KOLA) 0.5LT"
@@ -1067,7 +1067,7 @@
       },
       {
         "name": "FURKAN SELLÜLOZİK TİNER",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "FURKAN SELLÜLOZİK TİNER 646 NEW 3L"
@@ -1088,7 +1088,7 @@
       },
       {
         "name": "ARABA",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "ARABA"
@@ -1098,7 +1098,7 @@
       
       {
         "name": "STAR SLİKONLU ASTAR",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "STAR SLİKONLU ASTAR 16KQ"
@@ -1107,7 +1107,7 @@
       },
       {
         "name": "STAR LÜKS RULO",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "STAR LÜKS RULO POLYEMİD 20 SM"
@@ -1116,7 +1116,7 @@
       },
       {
         "name": "STAR SELLÜLOZİK PARLAQ LAK",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "STAR SELLÜLOZİK PARLAQ LAK 0.75LT"
@@ -1128,7 +1128,7 @@
       },
       {
         "name": "STAR TUTKAL",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "STAR TUTKAL 1KQ"
@@ -1143,7 +1143,7 @@
       },
       {
         "name": "STAR 10325",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "STAR 10325 (25 SM) PLASTİK"
@@ -1152,7 +1152,7 @@
       },
       {
         "name": "KONTAKT KLEY",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "KONTAKT KLEY 100 ML + 25 GR"
@@ -1167,7 +1167,7 @@
       },
       {
         "name": "PUR TAXTA",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "PUR - TAXTA - SanaMarine"
@@ -1176,7 +1176,7 @@
       },
       {
         "name": "KOPUK ESA",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "KOPUK ESA 750 ML - 600GR"
@@ -1188,7 +1188,7 @@
       },
       {
         "name": "KOPUK ESA EXTRA",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "KOPUK ESA EXTRA 750 ML 800 GR"
@@ -1197,7 +1197,7 @@
       },
       {
         "name": "KOPUK ESA TAPANCA",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "KOPUK ESA - TAPANCA - 850 GR"
@@ -1206,7 +1206,7 @@
       },
       {
         "name": "SİLKON SOLDİER",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "SİLKON SOLDİER - AĞ"
@@ -1218,7 +1218,7 @@
       },
       {
         "name": "WD - 40 - ANTIPAS - 450 ML",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "WD - 40 - ANTIPAS - 450 ML"
@@ -1227,7 +1227,7 @@
       },
       {
         "name": "SPREY ESA",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "SPREY ESA - AĞ"
@@ -1272,7 +1272,7 @@
       },
       {
         "name": "QARA SPRAY",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "QARA SPRAY COLOR (PARLAQ)"
@@ -1284,7 +1284,7 @@
       },
       {
         "name": "ZƏR UCUZ",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "ZƏR UCUZ"
@@ -1293,7 +1293,7 @@
       },
       {
         "name": "SPRAY",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "SPRAY - SARI"
@@ -1327,7 +1327,7 @@
 
       {
         "name": "THİNNER / TİNNER 646",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "TİNNER (646) 0.5 LT - SİLVA"
@@ -1390,7 +1390,7 @@
       },
       {
         "name": "CEKME",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "CEKME - 40 OLCU"
@@ -1408,7 +1408,7 @@
       },
       {
         "name": "ƏLCƏK",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
             {
             "title": "ƏLCƏK"
@@ -1429,7 +1429,7 @@
       },
       {
         "name": "KONTAKT SİM ELEKTROD",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "KONTAKT SİM ELEKTROD (15 KG)"
@@ -1444,7 +1444,7 @@
       },
       {
         "name": "ELEKTROD-NOTRON",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "ELEKTROD-NOTRON № 2"
@@ -1459,7 +1459,7 @@
       },
       {
         "name": "BEL - LOPATKA",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "BEL - LOPATKA - ÇALO"
@@ -1471,7 +1471,7 @@
       },
       {
         "name": "BEL SAPI",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "BEL SAPI (125 SM - BİRİNCİ NÖV - RUS)"
@@ -1480,7 +1480,7 @@
       },
       {
         "name": "QRANİT KLEY",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "QRANİT KLEY 1 KQ"
@@ -1489,7 +1489,7 @@
       },
       {
         "name": "QAZ ŞLANKI",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "QAZ ŞLANKI - EKENOMİK (25 m)"
@@ -1504,7 +1504,7 @@
       },
       {
         "name": "DUPİL",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "DUPİL 30 MM - 25 KG"
@@ -1528,7 +1528,7 @@
       },
       {
         "name": "LACUNDA DAŞI",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "LACUNDA DAŞI 115 * 1"
@@ -1576,7 +1576,7 @@
       },
       {
         "name": "AYAQQABI N",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "AYAQQABI N 41"
@@ -1597,7 +1597,7 @@
       },
       {
         "name": "KİSLOROD",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "KİSLOROD 111-9.0-2.0 (100M) - UCUZ"
@@ -1606,7 +1606,7 @@
       },
       {
         "name": "TƏKƏR",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "TƏKƏR (SADƏ)"
@@ -1618,7 +1618,7 @@
       },
       {
         "name": "BEL - BALACA - 200 GR",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "BEL - BALACA - 200 GR"
@@ -1627,7 +1627,7 @@
       },
       {
         "name": "SEMENT",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "HOLCİM 300 MARKA"
@@ -1645,7 +1645,7 @@
       },
       {
         "name": "BORU",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "BORU 100/3 mt"
@@ -1696,7 +1696,7 @@
       },
       {
         "name": "DİRSƏK",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "DİRSƏK 50/45°"
@@ -1726,7 +1726,7 @@
       },
       {
         "name": "TROYNİK",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "TROYNİK 50/50 ÇƏP"
@@ -1774,7 +1774,7 @@
       },
       {
         "name": "RİVİZİYA",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "RİVİZİYA 100"
@@ -1783,7 +1783,7 @@
       },
       {
         "name": "GİLZA",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "GİLZA 100"
@@ -1792,7 +1792,7 @@
       },
       {
         "name": "QAPAMA",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "QAPAMA 50"
@@ -1816,7 +1816,7 @@
       },
       {
         "name": "MUFTA",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "MUFTA 50"
@@ -1840,7 +1840,7 @@
       },
       {
         "name": "KEÇİD",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "KEÇİD 100/50"
@@ -1861,7 +1861,7 @@
       },
       {
         "name": "YERDƏN İSİTMƏ BORUSU",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "YERDƏN İSİTMƏ BORUSU 16mm PERT"
@@ -1870,7 +1870,7 @@
       },
       {
         "name": "SU BORUSU",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "SU BORUSU 20 mm SADƏ"
@@ -1894,7 +1894,7 @@
       },
       {
         "name": "RAKOR",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "RAKOR 25/15 dd"
@@ -1903,7 +1903,7 @@
       },
       {
         "name": "AKSESSUAR",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "AKSESSUAR 25 id"
@@ -1912,7 +1912,7 @@
       },
       {
         "name": "AMERİKANKA",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "AMERİKANKA 25 dd"
@@ -1921,7 +1921,7 @@
       },
       {
         "name": "KÖRPÜ",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "KÖRPÜ 32 mm"
@@ -1930,7 +1930,7 @@
       },
       {
         "name": "FİLTR",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "FİLTR 25 mm"
@@ -1939,7 +1939,7 @@
       },
       {
         "name": "KÜRESEL VANA",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "KÜRESEL VANA 20 mm"
@@ -1954,7 +1954,7 @@
       },
       {
         "name": "İZOLYASİYA",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "İZOLYASİYA 20 mm"
@@ -1969,7 +1969,7 @@
       },
       {
         "name": "KOMBİ",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "KOMBİ 24 KV TERRA (TƏK ESENJOR)"
@@ -1999,7 +1999,7 @@
       },
       {
         "name": "PANEL RADİATOR",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "PANEL RADİATOR 500/1 mt"
@@ -2008,7 +2008,7 @@
       },
       {
         "name": "RADİATOR ALLÜMİNİUM",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "RADİATOR ALLÜMİNİUM SENEKS VD500"
@@ -2017,7 +2017,7 @@
       },
       {
         "name": "RADİATOR AKSESSUARI",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "RADİATOR AKSESSUARI"
@@ -2026,7 +2026,7 @@
       },
       {
         "name": "RADİATOR VİNTİLİ",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "RADİATOR VİNTİLİ 15 mm KÖŞƏ, CONTALI"
@@ -2038,7 +2038,7 @@
       },
       {
         "name": "SUŞİLKA ALLÜMİNİUM",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "SUŞİLKA ALLÜMİNİUM 500/800"
@@ -2050,7 +2050,7 @@
       },
       {
         "name": "SUŞİLKA VİNTİLİ",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "SUŞİLKA VİNTİLİ 15 mm XROM"
@@ -2062,7 +2062,7 @@
       },
       {
         "name": "STABİLİZATOR ELEKTRİK SENEKS",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "STABİLİZATOR ELEKTRİK SENEKS"
@@ -2071,7 +2071,7 @@
       },
       {
         "name": "QAZ REQULYATORU",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "QAZ REQULYATORU 15 mm SENEKS"
@@ -2080,7 +2080,7 @@
       },
       {
         "name": "QAZ ŞLANQI",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "QAZ ŞLANQI 15/60 sm VALFEX"
@@ -2089,7 +2089,7 @@
       },
       {
         "name": "BAÇONKA",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "BAÇONKA 15 mm BRONZA"
@@ -2098,7 +2098,7 @@
       },
       {
         "name": "QAZ VİNTİLİ",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "QAZ VİNTİLİ 15 mm"
@@ -2107,7 +2107,7 @@
       },
       {
         "name": "VİNTİL",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "VİNTİL 15 mm"
@@ -2122,7 +2122,7 @@
       },
       {
         "name": "KOMBİ SETİ",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "KOMBİ SETİ"
@@ -2132,7 +2132,7 @@
 
       {
         "name": "DƏMİR MATERİALLAR",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "KÜNCLÜK 50x50x4 mm Ст3сп"
@@ -2202,7 +2202,7 @@
 
       {
         "name": "TAXTA MATERİALLAR",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "TAXTA 5x15x6"
@@ -2287,7 +2287,7 @@
 
       {
         "name": "YANMIŞ SİM",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "SİM YANMIŞ NAZİK"
@@ -2297,7 +2297,7 @@
 
       {
         "name": "MİSMAR",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "MİSMAR 100"
@@ -2315,7 +2315,7 @@
       },
       {
         "name": "DƏMİR KÖŞƏ",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "DƏMİR KÖŞƏ"
@@ -2324,7 +2324,7 @@
       },
       {
         "name": "VANNA / VEDRƏ",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "EMUSİYA VANNASI"
@@ -2342,7 +2342,7 @@
       },
       {
         "name": "VİLKA",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "VİLKA"
@@ -2351,7 +2351,7 @@
       },
       {
         "name": "ŞURUP",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "ŞURUP 3.5x32"
@@ -2369,7 +2369,7 @@
       },
       {
         "name": "HÖRGÜ İPİ",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "HÖRGÜ İPİ"
@@ -2378,7 +2378,7 @@
       },
       {
         "name": "KABEL BORUSU",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "HBORU 16 T"
@@ -2393,7 +2393,7 @@
       },
       {
         "name": "ALÇİPAN",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "EKOSTAR GKLN 9.5 mm (YAŞIL ALÇİPAN)"
@@ -2411,7 +2411,7 @@
       },
       {
         "name": "EKOMAKS",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "EKOMAKS 25 KG (MƏTANƏT)"
@@ -2420,7 +2420,7 @@
       },
       {
         "name": "FİBER",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "FİBER STANDART 25 KG"
@@ -2429,7 +2429,7 @@
       },
       {
         "name": "GİPER ASTAR",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "GİPER ASTAR SİVA - 30 KG"
@@ -2438,7 +2438,7 @@
       },
       {
         "name": "GİPER İNŞAAT GİPSİ - 15 KG",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "GİPER İNŞAAT GİPSİ - 15 KG"
@@ -2450,7 +2450,7 @@
       },
       {
         "name": "GİPER MAKİNA SUVAĞI",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "GİPER MAKİNA SUVAĞI - 30 KG"
@@ -2459,7 +2459,7 @@
       },
       {
         "name": "GİPER PROFİPAN ",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "GİPER PROFİPAN - 10 KG"
@@ -2468,7 +2468,7 @@
       },
       {
         "name": "GİPER ÜZLÜK SATEN ",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "GİPER ÜZLÜK SATEN - 25 KG"
@@ -2477,7 +2477,7 @@
       },
       {
         "name": " BƏZƏKLİ LAMBRİN",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "LAMBRİN D - 41"
@@ -2513,7 +2513,7 @@
       },
       {
         "name": "BƏZƏKLİ KANT",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "BƏZƏKLİ KANT -- D - 7"
@@ -2537,7 +2537,7 @@
       },
       {
         "name": "SANCAQ",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "SANCAQ"
@@ -2546,7 +2546,7 @@
       },
       {
         "name": "STOP",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "STOP"
@@ -2555,7 +2555,7 @@
       },
       {
         "name": "KARNİZ",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "3 XƏT KARNİZ 6 mt"
@@ -2567,7 +2567,7 @@
         ]
       },{
         "name": "KÖŞƏ",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "KÜNCLÜK KÖŞƏ"
@@ -2579,7 +2579,7 @@
         ]
       },{
         "name": "MAYAK",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "MAYAK 1"
@@ -2589,7 +2589,7 @@
         ]
       },{
         "name": "KANT",
-        "image": "/images/products/default.jpg",
+        "image": "/images/products/default.webp",
         "variants": [
           {
             "title": "PL KANT AĞ"

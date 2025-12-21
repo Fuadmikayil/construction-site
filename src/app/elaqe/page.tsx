@@ -52,6 +52,13 @@ export default function ContactPage() {
   const cards = toArray(contact.cards);
   const socials = toArray(contact.socials);
 
+  const fallbackCards = [
+    { title: "Telefon", value: "+994 50 000 00 00", hint: "İş saatlarında", type: "phone" },
+    { title: "Email", value: "info@example.com", hint: "24 saat", type: "email" },
+    { title: "Ünvan", value: "Bakı, Azərbaycan", hint: "Ofis", type: "address" },
+    { title: "İş Saatları", value: "09:00 - 18:00", hint: "Bazar günü - Cümə", type: "hours" },
+  ];
+
   const form = contact.form ?? {};
   const formTitle = cleanText(form.title) || "Mesaj göndər";
   const formNote =
@@ -88,32 +95,7 @@ export default function ContactPage() {
   const ctaSecondaryText = cleanText(cta.secondaryText) || "Zəng et";
   const ctaSecondaryHref = cleanText(cta.secondaryHref) || "#";
 
-  const fallbackCards = [
-    {
-      title: "Ünvan",
-      value: "Bakı, ... (ünvanı bazaya əlavə et)",
-      hint: "Mağazaya yaxınlaşa bilərsiniz",
-      type: "address",
-    },
-    {
-      title: "Telefon",
-      value: "+994 .. ... .. ..",
-      hint: "Zəng / WhatsApp",
-      type: "phone",
-    },
-    {
-      title: "Email",
-      value: "info@....az",
-      hint: "Təklif və sorğular",
-      type: "email",
-    },
-    {
-      title: "İş saatı",
-      value: "Hər gün 09:00 — 19:00",
-      hint: "Əlavə info üçün zəng edin",
-      type: "hours",
-    },
-  ];
+  
   const listCards = cards.length ? cards : fallbackCards;
 
   const aboutText = partnersAbout?.text?.[0]
@@ -139,13 +121,6 @@ export default function ContactPage() {
       {/* ================= HERO ================= */}
       <section className="relative overflow-hidden">
         <div className="absolute inset-0">
-          <Image
-            src={heroImage}
-            alt={heroTitle}
-            fill
-            className="object-cover"
-            priority
-          />
           <div className="absolute inset-0 bg-black/50" />
           <div className="absolute inset-0 bg-[radial-gradient(70%_70%_at_25%_15%,rgba(242,169,0,0.22)_0%,rgba(242,169,0,0)_60%)]" />
         </div>
