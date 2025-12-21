@@ -81,7 +81,7 @@ export default function PartnersSection() {
             </div>
 
             {/* optional: subtle note */}
-            <div className="mt-10 text-sm text-black/50">
+            <div className="mt-10 text-sm text-white/80">
               * Tərəfdaş loqoları nümunədir, istənilən vaxt yeniləyə bilərik.
             </div>
           </div>
