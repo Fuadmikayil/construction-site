@@ -37,7 +37,10 @@ function getBrand(name: string) {
 }
 
 /** səhifəni ref-ə scroll edərkən bir az “aşağı” offset verək */
-function scrollToRefWithOffset(ref: React.RefObject<HTMLElement>, offset = -400) {
+function scrollToRefWithOffset(
+  ref: React.RefObject<HTMLElement>,
+  offset = -400
+) {
   const el = ref.current;
   if (!el) return;
 
@@ -73,19 +76,12 @@ export default function ProductsPage() {
   const [query, setQuery] = useState("");
   const [activeBrand, setActiveBrand] = useState<string>(ALL_BRAND_KEY);
 
-  // input altı nəticə paneli
   const [openSuggest, setOpenSuggest] = useState(false);
 
-  // sağ tərəfdə məhsula scroll üçün refs
   const productRefs = useRef<Record<string, HTMLDivElement | null>>({});
-
-  // ✅ səhifəni “nəticələr” blokuna atmaq üçün ref
   const resultsSectionRef = useRef<HTMLDivElement | null>(null);
-
-  // ✅ sağ scroll konteyner ref
   const rightListRef = useRef<HTMLDivElement | null>(null);
 
-  // ✅ clickdən sonra hansı məhsula scroll edəcəyik
   const [pendingScroll, setPendingScroll] = useState<string | null>(null);
 
   /* ===== NORMALIZE ITEMS ===== */
@@ -165,7 +161,7 @@ export default function ProductsPage() {
     return { ...activeGroup, products: [...prefix, ...contains] };
   }, [activeGroup, query]);
 
-  /* ===== SEARCH SUGGESTIONS (INPUT ALTINDA, HƏMİŞƏ BÜTÜN MƏHSULLARDA AXTARIR) ===== */
+  /* ===== SEARCH SUGGESTIONS (INPUT ALTINDA) ===== */
   const suggestions = useMemo<SearchHit[]>(() => {
     const q = normalize(query);
     if (!q) return [];
@@ -222,7 +218,6 @@ export default function ProductsPage() {
   useEffect(() => {
     if (!pendingScroll) return;
 
-    // səhifə aşağı
     scrollToRefWithOffset(resultsSectionRef as any, -400);
 
     const t = window.setTimeout(() => {
@@ -261,10 +256,8 @@ export default function ProductsPage() {
   const onSearch = () => {
     setOpenSuggest(false);
 
-    // sağ paneli yuxarı qaldır (istəmirsənsə bu 2 sətri sil)
     rightListRef.current?.scrollTo({ top: 0, behavior: "smooth" });
 
-    // səhifəni nəticələr hissəsinə bir az aşağı offsetlə gətir
     scrollToRefWithOffset(resultsSectionRef as any, -400);
   };
 
@@ -303,10 +296,11 @@ export default function ProductsPage() {
             className="h-12 w-full rounded-xl border border-black/10 bg-white px-4 text-sm text-black outline-none transition focus:border-[#F2A900]/60 focus:ring-4 focus:ring-[#F2A900]/15"
           />
 
+          {/* ✅ LG+ (notebook) ekranlarda gizlət */}
           <button
             type="button"
             onClick={onSearch}
-            className="h-12 shrink-0 rounded-xl bg-[#F2A900] px-5 text-sm font-extrabold text-black transition hover:brightness-95"
+            className="lg:hidden h-12 shrink-0 rounded-xl bg-[#F2A900] px-5 text-sm font-extrabold text-black transition hover:brightness-95"
           >
             AXTAR
           </button>
@@ -368,7 +362,8 @@ export default function ProductsPage() {
             <div className="mt-4 max-h-[520px] space-y-2 overflow-auto">
               {groupsWithAll.map((g) => {
                 const active = g.brand === activeBrand;
-                const label = g.brand === ALL_BRAND_KEY ? "BÜTÜN MƏHSULLAR" : g.brand;
+                const label =
+                  g.brand === ALL_BRAND_KEY ? "BÜTÜN MƏHSULLAR" : g.brand;
 
                 return (
                   <button
