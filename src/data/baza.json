@@ -42,7 +42,7 @@
       {
         "title": "⁠Plastik Sexi ",
         "description": "Plastikdən qapı pencərə istehsalı",
-        "image": "/images/services/⁠Plastik.jpg",
+        "image": "/images/services/⁠Plastik.png",
         "href": "/xidmetler/plastik",
         "buttonText": "Daha ətraflı"
       },
@@ -55,7 +55,7 @@
       },{
         "title": "Taxta Sexi",
         "description": "Müxtəlif taxta məhsullarının istehsalı",
-        "image": "/images/services/Taxta.jpg",
+        "image": "/images/services/Taxta.png",
         "href": "/xidmetler/taxta",
         "buttonText": "Daha ətraflı"
       }
