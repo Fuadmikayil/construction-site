@@ -1453,21 +1453,8 @@
           }
         ]
       },
-      {
-        "name": "QAZ ŞLANKI",
-        "image": "/images/products/QAZ ŞLANKI.jpg",
-        "variants": [
-          {
-            "title": "QAZ ŞLANKI - EKENOMİK (25 m)"
-          },
-          {
-            "title": "QAZ ŞLANKI - VRC 18B-0.4 (50 M)"
-          },
-          {
-            "title": "QAZ ŞLANKI - VRC 25B-0.4 (50 M)"
-          }
-        ]
-      },
+    
+       
       {
         "name": "DUPİL",
         "image": "/images/products/DUPİL.jpg",
@@ -1941,6 +1928,14 @@
 
           {
             "title": "QAZ VİNTİLİ 15 mm"
+          },   {
+            "title": "QAZ ŞLANKI - EKENOMİK (25 m)"
+          },
+          {
+            "title": "QAZ ŞLANKI - VRC 18B-0.4 (50 M)"
+          },
+          {
+            "title": "QAZ ŞLANKI - VRC 25B-0.4 (50 M)"
           }
         ]
       },
