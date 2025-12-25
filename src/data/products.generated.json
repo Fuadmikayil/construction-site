@@ -1436,18 +1436,14 @@
           },
           {
             "title": "BEL - LOPATKA - ŞİŞ"
-          }
-        ]
-      },
-      {
-        "name": "BEL SAPI",
-        "image": "/images/products/BEL SAPI.jpg",
-        "variants": [
-          {
+          }, 
+           {
             "title": "BEL SAPI (125 SM - BİRİNCİ NÖV - RUS)"
           }
         ]
       },
+      
+        
       {
         "name": "QRANİT KLEY",
         "image": "/images/products/QRANİT KLEY.jpg",
