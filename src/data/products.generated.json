@@ -1173,64 +1173,8 @@
           }
         ]
       },
-      {
-        "name": "SPREY ESA",
-        "image": "/images/products/SPREY ESA.jpg",
-        "variants": [
-          {
-            "title": "SPREY ESA - AĞ"
-          },
-          {
-            "title": "SPREY ESA - BÜRÜNC"
-          },
-          {
-            "title": "SPREY ESA - GÖY"
-          },
-          {
-            "title": "SPREY ESA - GÜMÜŞÜ BOZ"
-          },
-          {
-            "title": "SPREY ESA - QARA MAT"
-          },
-          {
-            "title": "SPREY ESA - QIRMIZI"
-          },
-          {
-            "title": "SPREY ESA - QIZILI"
-          },
-          {
-            "title": "SPREY ESA - SARI"
-          },
-          {
-            "title": "SPREY ESA - YAŞIL"
-          },
-          {
-            "title": "SPREY ESA - BÜRÜNC"
-          },
-          {
-            "title": "SPREY ESA - GÜMÜŞÜ BOZ"
-          },
-          {
-            "title": "SPREY ESA - QIZILI"
-          },
-          {
-            "title": "SPREY ESA - SARI"
-          }
-        ]
-      },
-      {
-        "name": "QARA SPRAY",
-        "image": "/images/products/QARA SPRAY.jpg",
-        "variants": [
-          {
-            "title": "QARA SPRAY COLOR (PARLAQ)"
-          },
-          {
-            "title": "QARA SPRAY COLOR (MATE)"
-          }
-        ]
-      },
-      {
+  
+           {
         "name": "ZƏR UCUZ",
         "image": "/images/products/ZƏR UCUZ.jpg",
         "variants": [
@@ -1269,6 +1213,52 @@
           },
           {
             "title": "SPRAY - QIRMIZI"
+          },
+          {
+            "title": "QARA SPRAY COLOR (PARLAQ)"
+          },
+          {
+            "title": "QARA SPRAY COLOR (MATE)"
+          },
+
+          {
+            "title": "SPREY ESA - AĞ"
+          },
+          {
+            "title": "SPREY ESA - BÜRÜNC"
+          },
+          {
+            "title": "SPREY ESA - GÖY"
+          },
+          {
+            "title": "SPREY ESA - GÜMÜŞÜ BOZ"
+          },
+          {
+            "title": "SPREY ESA - QARA MAT"
+          },
+          {
+            "title": "SPREY ESA - QIRMIZI"
+          },
+          {
+            "title": "SPREY ESA - QIZILI"
+          },
+          {
+            "title": "SPREY ESA - SARI"
+          },
+          {
+            "title": "SPREY ESA - YAŞIL"
+          },
+          {
+            "title": "SPREY ESA - BÜRÜNC"
+          },
+          {
+            "title": "SPREY ESA - GÜMÜŞÜ BOZ"
+          },
+          {
+            "title": "SPREY ESA - QIZILI"
+          },
+          {
+            "title": "SPREY ESA - SARI"
           }
         ]
       },
