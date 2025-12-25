@@ -2214,39 +2214,6 @@
         ]
       },
       {
-        "name": "KABEL BORUSU",
-        "image": "/images/products/KABEL BORUSU.jpg",
-        "variants": [
-          {
-            "title": "HBORU 16 T"
-          },
-          {
-            "title": "BORU 18 T"
-          },
-          {
-            "title": "BORU 25 T"
-          }
-        ]
-      },
-      {
-        "name": "ALÇİPAN",
-        "image": "/images/products/ALÇİPAN.jpg",
-        "variants": [
-          {
-            "title": "EKOSTAR GKLN 9.5 mm (YAŞIL ALÇİPAN)"
-          },
-          {
-            "title": "EKOSTAR GKLN 9.5 mm (AĞ ALÇİPAN)"
-          },
-          {
-            "title": "EKOSTAR GKLN 12.5 mm (YAŞIL ALÇİPAN)"
-          },
-          {
-            "title": "EKOSTAR GKLN 12.5 mm (AĞ ALÇİPAN)"
-          }
-        ]
-      },
-      {
         "name": "EKOMAKS",
         "image": "/images/products/EKOMAKS.jpg",
         "variants": [
@@ -2265,48 +2232,24 @@
         ]
       },
       {
-        "name": "GİPER ASTAR",
-        "image": "/images/products/GİPER ASTAR.jpg",
+        "name": "GİPER MƏHSULLARI",
+        "image": "/images/products/GİPER MƏHSULLARI.jpg",
         "variants": [
           {
             "title": "GİPER ASTAR SİVA - 30 KG"
-          }
-        ]
-      },
-      {
-        "name": "GİPER İNŞAAT GİPSİ - 15 KG",
-        "image": "/images/products/GİPER İNŞAAT GİPSİ - 15 KG.jpg",
-        "variants": [
+          },
           {
             "title": "GİPER İNŞAAT GİPSİ - 15 KG"
           },
           {
             "title": "GİPER İNŞAAT GİPSİ - 30 KG"
-          }
-        ]
-      },
-      {
-        "name": "GİPER MAKİNA SUVAĞI",
-        "image": "/images/products/GİPER MAKİNA SUVAĞI.jpg",
-        "variants": [
+          },
           {
             "title": "GİPER MAKİNA SUVAĞI - 30 KG"
-          }
-        ]
-      },
-      {
-        "name": "GİPER PROFİPAN ",
-        "image": "/images/products/GİPER PROFİPAN.jpg",
-        "variants": [
+          },
           {
             "title": "GİPER PROFİPAN - 10 KG"
-          }
-        ]
-      },
-      {
-        "name": "GİPER ÜZLÜK SATEN ",
-        "image": "/images/products/GİPER ÜZLÜK SATEN.jpg",
-        "variants": [
+          },
           {
             "title": "GİPER ÜZLÜK SATEN - 25 KG"
           }
