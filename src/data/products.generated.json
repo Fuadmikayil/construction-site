@@ -1121,15 +1121,7 @@
           }
         ]
       },
-      {
-        "name": "PUR TAXTA",
-        "image": "/images/products/PUR TAXTA.jpg",
-        "variants": [
-          {
-            "title": "PUR - TAXTA - SanaMarine"
-          }
-        ]
-      },
+     
       {
         "name": "KOPUK ESA",
         "image": "/images/products/KOPUK ESA.jpg",
