@@ -966,6 +966,9 @@
           },
           {
             "title": "STAR 10110 (10 SM) BARMAQ"
+          },
+          {
+            "title": "STAR LÜKS RULO POLYEMİD 20 SM"
           }
         ]
       },
@@ -1073,15 +1076,7 @@
           }
         ]
       },
-      {
-        "name": "STAR LÜKS RULO",
-        "image": "/images/products/STAR LÜKS RULO.jpg",
-        "variants": [
-          {
-            "title": "STAR LÜKS RULO POLYEMİD 20 SM"
-          }
-        ]
-      },
+     
       {
         "name": "STAR SELLÜLOZİK PARLAQ LAK",
         "image": "/images/products/STAR SELLÜLOZİK PARLAQ LAK.jpg",
