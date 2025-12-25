@@ -720,11 +720,14 @@
         ]
       },
       {
-        "name": "PVA SanaWood",
-        "image": "/images/products/PVA SanaWood.jpg",
+        "name": "PVA SanaWood - PUR Taxta",
+        "image": "/images/products/PVA SanaWood - PUR Taxta.jpg",
         "variants": [
           {
             "title": "PVA SanaWood - 100 GR"
+          },
+          {
+            "title": "PUR Taxta 125 GR"
           }
         ]
       },
