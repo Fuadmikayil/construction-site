@@ -64,9 +64,9 @@ export default function AboutPage() {
   ];
 
   const stats = [
-    { k: "10+", v: "İl təcrübə", Icon: FiCheckCircle },
+    { k: "25+", v: "İl təcrübə", Icon: FiCheckCircle },
     { k: "3", v: "Sex fəaliyyəti", Icon: FiTool },
-    { k: "500+", v: "Sifariş", Icon: FiUsers },
+    { k: "700+", v: "Sifariş", Icon: FiUsers },
     { k: "1", v: "Ünvandan xidmət", Icon: FiMapPin },
   ];
 
