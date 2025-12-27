@@ -1,18 +1,36 @@
-import type { Metadata } from "next";
 import "./globals.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Rəşidoğlu İnşaat MMC",
   description:
-    "Rəşidoğlu İnşaat MMC müştərilərinə bir ünvandan tam və etibarlı tikinti məhsulları təqdim edir. Construction company website",
-  icons: {
-    icon: "/images/logo.png",
-    shortcut: "/images/logo.png",
-    apple: "/images/logo.png",
+    "Rəşidoğlu İnşaat MMC müştərilərinə bir ünvandan tam və etibarlı tikinti məhsulları təqdim edir.",
+  metadataBase: new URL("https://residogluinsaat.com"),
+  openGraph: {
+    title: "Rəşidoğlu İnşaat MMC",
+    description:
+      "Rəşidoğlu İnşaat MMC müştərilərinə bir ünvandan tam və etibarlı tikinti məhsulları təqdim edir.",
+    url: "https://residogluinsaat.com",
+    siteName: "Rəşidoğlu İnşaat MMC",
+    images: [
+      {
+        url: "/logo.png", // public/og.png
+        width: 1200,
+        height: 630,
+        alt: "Rəşidoğlu İnşaat MMC",
+      },
+    ],
+    locale: "az_AZ",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    images: ["/logo.png"],
   },
 };
+
 
 export default function RootLayout({
   children,
