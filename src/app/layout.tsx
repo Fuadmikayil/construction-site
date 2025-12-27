@@ -4,11 +4,21 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 
 export const metadata: Metadata = {
-  title: "Construction Site",
-  description: "Construction company website"
+  title: "Rəşidoğlu İnşaat MMC",
+  description:
+    "Rəşidoğlu İnşaat MMC müştərilərinə bir ünvandan tam və etibarlı tikinti məhsulları təqdim edir. Construction company website",
+  icons: {
+    icon: "../../public/images/logo.gif",
+    shortcut: "../../public/images/logo.gif",
+    apple: "../../public/images/logo.gif",
+  },
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="az">
       <body>
