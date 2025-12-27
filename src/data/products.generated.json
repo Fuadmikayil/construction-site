@@ -1059,7 +1059,7 @@
 
       {
         "name": "ARABA",
-        "image": "/images/products/ARABA.jpg",
+        "image": "/images/products/ARABA.png",
         "variants": [
           {
             "title": "ARABA"
@@ -1457,7 +1457,7 @@
        
       {
         "name": "DUPİL",
-        "image": "/images/products/DUPİL.jpg",
+        "image": "/images/products/DUPİL.png",
         "variants": [
           {
             "title": "DUPİL 30 MM - 25 KG"
@@ -1580,7 +1580,7 @@
       },
       {
         "name": "SEMENT",
-        "image": "/images/products/SEMENT.jpg",
+        "image": "/images/products/SEMENT.png",
         "variants": [
           {
             "title": "HOLCİM 300 MARKA"
@@ -1598,7 +1598,7 @@
       },
       {
         "name": "BORU",
-        "image": "/images/products/BORU.jpg",
+        "image": "/images/products/BORU.png",
         "variants": [
           {
             "title": "BORU 100/3 mt"
@@ -1651,7 +1651,7 @@
 
       {
         "name": "TC / TU Profili",
-        "image": "/images/products/TU Profili.jpg",
+        "image": "/images/products/TC-TU.png",
         "variants": [
           {
             "title": "TC 75 ALMETAL 4 M "
@@ -1675,7 +1675,7 @@
       },
       {
         "name": "YERDƏN İSİTMƏ BORUSU",
-        "image": "/images/products/YERDƏN İSİTMƏ BORUSU.jpg",
+        "image": "/images/products/YERDƏN İSİTMƏ BORUSU.png",
         "variants": [
           {
             "title": "YERDƏN İSİTMƏ BORUSU 16mm PERT"
@@ -1684,7 +1684,7 @@
       },
       {
         "name": "SU BORUSU",
-        "image": "/images/products/SU BORUSU.jpg",
+        "image": "/images/products/SU BORUSU.png",
         "variants": [
           {
             "title": "SU BORUSU 20 mm SADƏ"
@@ -1797,7 +1797,7 @@
       },
       {
         "name": "QAZ LƏVAZİMATLARI",
-        "image": "/images/products/QAZ LƏVAZİMATLARI.jpg",
+        "image": "/images/products/QAZ LƏVAZİMATLARI.png",
         "variants": [
           {
             "title": "QAZ REQULYATORU 15 mm SENEKS"
@@ -1832,7 +1832,7 @@
 
       {
         "name": "DƏMİR MATERİALLAR",
-        "image": "/images/products/DƏMİR MATERİALLAR.jpg",
+        "image": "/images/products/DƏMİR MATERİALLAR.png",
         "variants": [
           {
             "title": "KÜNCLÜK 50x50x4 mm Ст3сп"
@@ -1904,7 +1904,7 @@
       },
       {
         "name": "ALÇİPAN LƏVAZİMATLARI",
-        "image": "/images/products/ALÇİPAN LƏVAZİMATLARI.jpg",
+        "image": "/images/products/ALÇİPAN.png",
         "variants": [
           {
             "title": "EKOSTAR GKLN 9.5 mm (YAŞIL ALÇİPAN)"
@@ -1937,7 +1937,7 @@
       },
       {
         "name": "TAXTA MATERİALLAR",
-        "image": "/images/products/TAXTA MATERİALLAR.jpg",
+        "image": "/images/products/TAXTA MATERİALLAR.png",
         "variants": [
           {
             "title": "TAXTA 5x15x6"
@@ -2021,7 +2021,7 @@
       },
       {
         "name": "MİSMAR",
-        "image": "/images/products/MİSMAR.jpg",
+        "image": "/images/products/MİSMAR.png",
         "variants": [
           {
             "title": "MİSMAR 100"
@@ -2215,7 +2215,7 @@
       },
       {
         "name": "EKOMAKS",
-        "image": "/images/products/EKOMAKS.jpg",
+        "image": "/images/products/EKOMAKS.png",
         "variants": [
           {
             "title": "EKOMAKS 25 KG (MƏTANƏT)"
@@ -2233,7 +2233,7 @@
       },
       {
         "name": "GİPER MƏHSULLARI",
-        "image": "/images/products/GİPER MƏHSULLARI.jpg",
+        "image": "/images/products/GİPER MƏHSULLARI.png",
         "variants": [
           {
             "title": "GİPER ASTAR SİVA - 30 KG"
@@ -2257,7 +2257,7 @@
       },
       {
         "name": " BƏZƏKLİ LAMBRİN",
-        "image": "/images/products/BƏZƏKLİ LAMBRİN.jpg",
+        "image": "/images/products/BƏZƏKLİ LAMBRİN.png",
         "variants": [
           {
             "title": "LAMBRİN D - 41"
@@ -2335,7 +2335,7 @@
       },
       {
         "name": "KARNİZ",
-        "image": "/images/products/KARNİZ.jpg",
+        "image": "/images/products/KARNİZ.png",
         "variants": [
           {
             "title": "3 XƏT KARNİZ 6 mt"
@@ -2350,7 +2350,7 @@
       },
       {
         "name": "KÖŞƏ",
-        "image": "/images/products/KÖŞƏ.jpg",
+        "image": "/images/products/KÖŞƏ.png",
         "variants": [
           {
             "title": "KÜNCLÜK KÖŞƏ"
@@ -2365,7 +2365,7 @@
       },
       {
         "name": "MAYAK",
-        "image": "/images/products/MAYAK.jpg",
+        "image": "/images/products/MAYAK.png",
         "variants": [
           {
             "title": "MAYAK 1"
@@ -2376,8 +2376,8 @@
         ]
       },
       {
-        "name": "KANT",
-        "image": "/images/products/KANT.jpg",
+        "name": "KANTLAR",
+        "image": "/images/products/KANTLAR.png",
         "variants": [
           {
             "title": "PL KANT AĞ"
