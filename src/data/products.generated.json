@@ -1550,7 +1550,7 @@
       },
       {
         "name": "KİSLOROD",
-        "image": "/images/products/KİSLOROD.jpg",
+        "image": "/images/products/KİSLOROD.png",
         "variants": [
           {
             "title": "KİSLOROD 111-9.0-2.0 (100M) - UCUZ"
@@ -1559,7 +1559,7 @@
       },
       {
         "name": "TƏKƏR",
-        "image": "/images/products/TƏKƏR.jpg",
+        "image": "/images/products/TƏKƏR.png",
         "variants": [
           {
             "title": "TƏKƏR (SADƏ)"
@@ -2134,7 +2134,7 @@
       },
       {
   "name": "ELEKTRİK MƏHSULLARI",
-  "image": "/images/products/ELEKTRİK MƏHSULLARI.jpg",
+  "image": "/images/products/ELEKTRİK.png",
   "variants": [
     { "title": "ŞUNUR 1 x 2.5" },
     { "title": "ŞUNUR 1 x 4" },
@@ -2156,7 +2156,7 @@
 ,
       {
         "name": "ŞURUPLAR",
-        "image": "/images/products/ŞURUPLAR.jpg",
+        "image": "/images/products/ŞURUP.jpg",
         "variants": [
           {
             "title": "4.2x50 TAXTA Ş."
@@ -2283,30 +2283,7 @@
           }
         ]
       },
-      {
-        "name": "BƏZƏKLİ KANT",
-        "image": "/images/products/BƏZƏKLİ KANT.jpg",
-        "variants": [
-          {
-            "title": "BƏZƏKLİ KANT -- D - 7"
-          },
-          {
-            "title": "BƏZƏKLİ KANT -- D - 6"
-          },
-          {
-            "title": "BƏZƏKLİ KANT -- D - 106"
-          },
-          {
-            "title": "BƏZƏKLİ KANT -- D - 503"
-          },
-          {
-            "title": "BƏZƏKLİ KANT -- D - 501"
-          },
-          {
-            "title": "RƏNGLİ KANT"
-          }
-        ]
-      },
+      
       {
         "name": "SANCAQ",
         "image": "/images/products/SANCAQ.jpg",
@@ -2385,6 +2362,24 @@
           },
           {
             "title": "CALAQ KANT"
+          },
+          {
+            "title": "BƏZƏKLİ KANT -- D - 7"
+          },
+          {
+            "title": "BƏZƏKLİ KANT -- D - 6"
+          },
+          {
+            "title": "BƏZƏKLİ KANT -- D - 106"
+          },
+          {
+            "title": "BƏZƏKLİ KANT -- D - 503"
+          },
+          {
+            "title": "BƏZƏKLİ KANT -- D - 501"
+          },
+          {
+            "title": "RƏNGLİ KANT"
           }
         ]
       }
