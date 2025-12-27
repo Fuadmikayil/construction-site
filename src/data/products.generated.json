@@ -2202,15 +2202,22 @@
         ]
       },
       {
-        "name": "EKOMAKS",
-        "image": "/images/products/EKOMAKS.png",
+        "name": "Mətanət A Məhsulları",
+        "image": "/images/products/MətanətA.png",
         "variants": [
           {
-            "title": "EKOMAKS 25 KG (MƏTANƏT)"
+            "title": "AĞDAĞ ASTAR ALÇI 30 KQ"
+          },{
+            "title": "AKDENİZ SİVA ALÇI 30 KQ"
+          },{
+            "title": "AKDENİZ SATEN ALÇI 25 KQ"
+          },{
+            "title": "AKDENİZ KAFEL VƏ KERAMİKA YAPIŞDIRICISI 25 KQ"
+          },{
+            "title": "MƏTANƏT A 25 KQ"
           }
         ]
       },
-
       {
         "name": "GİPER MƏHSULLARI",
         "image": "/images/products/GİPER MƏHSULLARI.png",
@@ -2235,12 +2242,15 @@
           },
           {
             "title": "FİBER STANDART 25 KG"
+          },
+           {
+            "title": "EKOMAKS 25 KG (MƏTANƏT)"
           }
         ]
       },
       {
         "name": " BƏZƏKLİ LAMBRİN",
-        "image": "/images/products/BƏZƏKLİ LAMBRİN.png",
+        "image": "/images/products/LAMBRİN.png",
         "variants": [
           {
             "title": "LAMBRİN D - 41"
