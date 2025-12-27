@@ -1755,7 +1755,7 @@
 
       {
         "name": "RADİATOR - SUŞİLKA",
-        "image": "/images/products/RADİATOR AKSESSUARI.jpg",
+        "image": "/images/products/RADİATOR AKSESSUARI.png",
         "variants": [
           {
             "title": "RADİATOR AKSESSUARI"
@@ -2037,18 +2037,10 @@
           }
         ]
       },
-      {
-        "name": "DƏMİR KÖŞƏ",
-        "image": "/images/products/DƏMİR KÖŞƏ.jpg",
-        "variants": [
-          {
-            "title": "DƏMİR KÖŞƏ"
-          }
-        ]
-      },
+     
       {
         "name": "VANNA / VEDRƏ",
-        "image": "/images/products/VANNA VEDRƏ.jpg",
+        "image": "/images/products/VANNA.jpg",
         "variants": [
           {
             "title": "EMUSİYA VANNASI"
