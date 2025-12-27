@@ -84,7 +84,7 @@ export default function ProductsSlider() {
             onClick={() => scrollByAmount("left")}
             className="absolute left-0 top-1/2 z-20 hidden -translate-x-1/2 -translate-y-1/2
                        items-center justify-center bg-black/55 p-3 text-white
-                       backdrop-blur-sm transition hover:bg-black/70 lg:flex"
+                       backdrop-blur-sm transition cursor-pointer hover:bg-black/70 lg:flex"
           >
             <ArrowLeft className="h-6 w-6" />
           </button>
@@ -93,7 +93,7 @@ export default function ProductsSlider() {
             type="button"
             aria-label="Next"
             onClick={() => scrollByAmount("right")}
-            className="absolute right-0 top-1/2 z-20 hidden translate-x-1/2 -translate-y-1/2
+            className="absolute right-0 top-1/2 z-20 cursor-pointer hidden translate-x-1/2 -translate-y-1/2
                        items-center justify-center bg-black/55 p-3 text-white
                        backdrop-blur-sm transition hover:bg-black/70 lg:flex"
           >
