@@ -8,9 +8,9 @@ export const metadata: Metadata = {
   description:
     "Rəşidoğlu İnşaat MMC müştərilərinə bir ünvandan tam və etibarlı tikinti məhsulları təqdim edir. Construction company website",
   icons: {
-    icon: "../../public/images/logo.gif",
-    shortcut: "../../public/images/logo.gif",
-    apple: "../../public/images/logo.gif",
+    icon: "/images/logo.gif",
+    shortcut: "/images/logo.gif",
+    apple: "/images/logo.gif",
   },
 };
 
