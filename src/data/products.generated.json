@@ -770,7 +770,7 @@
         ]
       },
       {
-        "name": "KOMBİ",
+        "name": "KOMBİ MƏHSULLARI",
         "image": "/images/products/KOMBİ.jpg",
         "variants": [
           {
@@ -796,6 +796,8 @@
           },
           {
             "title": "KOMBİ 40 KV SENEKS (CÜT ESENJOR)"
+          },   {
+            "title": "KOMBİ SETİ"
           }
         ]
       },
@@ -871,15 +873,7 @@
           }
         ]
       },
-      {
-        "name": "KOMBİ SETİ",
-        "image": "/images/products/KOMBİ SETİ.jpg",
-        "variants": [
-          {
-            "title": "KOMBİ SETİ"
-          }
-        ]
-      },
+    
 
       {
         "name": "DƏMİR MATERİALLAR",
