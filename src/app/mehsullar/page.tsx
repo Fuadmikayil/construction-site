@@ -382,10 +382,6 @@ export default function ProductsPage() {
                       <span className="flex-1 whitespace-normal  text-black">
                         {label}
                       </span>
-
-                      <span className="shrink-0 rounded-full border border-black/10 px-2 py-0.5 text-xs text-black">
-                        {g.products.length}
-                      </span>
                     </div>
                   </button>
                 );
