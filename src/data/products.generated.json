@@ -441,24 +441,7 @@
           }
         ]
       },
-      {
-        "name": "CEKME",
-        "image": "/images/products/CEKME.jpg",
-        "variants": [
-          {
-            "title": "CEKME - 40 OLCU"
-          },
-          {
-            "title": "CEKME - 42 OLCU"
-          },
-          {
-            "title": "CEKME - 43 OLCU"
-          },
-          {
-            "title": "CEKME - 44 OLCU"
-          }
-        ]
-      },
+     
       {
         "name": "ƏLCƏK",
         "image": "/images/products/ƏLCƏK.jpg",
@@ -609,7 +592,7 @@
         ]
       },
       {
-        "name": "AYAQQABI",
+        "name": "AYAQQABI - CEKME",
         "image": "/images/products/AYAQQABI.jpg",
         "variants": [
           {
@@ -626,6 +609,17 @@
           },
           {
             "title": "AYAQQABI  45"
+          },  {
+            "title": "CEKME - 40 OLCU"
+          },
+          {
+            "title": "CEKME - 42 OLCU"
+          },
+          {
+            "title": "CEKME - 43 OLCU"
+          },
+          {
+            "title": "CEKME - 44 OLCU"
           }
         ]
       },
