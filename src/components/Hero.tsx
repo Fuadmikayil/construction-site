@@ -138,7 +138,7 @@ export default function Hero() {
           <div className="mt-8">
             <Link
               href={slide.buttonHref}
-              className="inline-flex items-center justify-center rounded-none bg-[#F2A900] px-8 py-4 text-sm font-semibold text-black transition hover:brightness-95"
+              className="inline-flex  items-center justify-center rounded-2xl bg-[#F2A900] px-8 py-4 text-sm font-semibold text-black transition hover:brightness-95"
             >
               {slide.buttonText}
             </Link>
@@ -162,7 +162,7 @@ export default function Hero() {
             type="button"
             aria-label="Next slide"
             onClick={goNext}
-            className=" cursor-pointer absolute right-2 top-1/2 z-20 hidden -translate-y-1/2 items-center justify-center rounded-none bg-black/45 p-3 text-white transition hover:bg-black/60 lg:flex"
+            className="  cursor-pointer absolute right-2 top-1/2 z-20 hidden -translate-y-1/2 items-center justify-center rounded-none bg-black/45 p-3 text-white transition hover:bg-black/60 lg:flex"
           >
             <ArrowRight className="h-6 w-6" />
           </button>
