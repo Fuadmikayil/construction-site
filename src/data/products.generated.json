@@ -1280,7 +1280,7 @@
         ]
       },
       {
-        "name": " BƏZƏKLİ LAMBRİN",
+        "name": "LAMBRİN MƏHSULLARI",
         "image": "/images/products/LAMBRİN.png",
         "variants": [
           {
@@ -1312,6 +1312,38 @@
           },
           {
             "title": "LAMBRİN D - 122"
+          }, {
+            "title": "PL KANT AĞ"
+          },
+          {
+            "title": "PADUQA KANT AĞ"
+          },
+          {
+            "title": "İÇ KANT"
+          },
+          {
+            "title": "ÇÖL KANT"
+          },
+          {
+            "title": "CALAQ KANT"
+          },
+          {
+            "title": "BƏZƏKLİ KANT -- D - 7"
+          },
+          {
+            "title": "BƏZƏKLİ KANT -- D - 6"
+          },
+          {
+            "title": "BƏZƏKLİ KANT -- D - 106"
+          },
+          {
+            "title": "BƏZƏKLİ KANT -- D - 503"
+          },
+          {
+            "title": "BƏZƏKLİ KANT -- D - 501"
+          },
+          {
+            "title": "RƏNGLİ KANT"
           }
         ]
       },
@@ -1353,15 +1385,7 @@
         "name": "KÖŞƏ",
         "image": "/images/products/KÖŞƏ.png",
         "variants": [
-          {
-            "title": "KÜNCLÜK KÖŞƏ"
-          },
-          {
-            "title": "PRKO KÖŞƏ"
-          },
-          {
-            "title": "DƏMİR KÖŞƏ"
-          }
+         
         ]
       },
       {
@@ -1375,46 +1399,8 @@
             "title": "MAYAK 0.60"
           }
         ]
-      },
-      {
-        "name": "KANTLAR",
-        "image": "/images/products/KANTLAR.png",
-        "variants": [
-          {
-            "title": "PL KANT AĞ"
-          },
-          {
-            "title": "PADUQA KANT AĞ"
-          },
-          {
-            "title": "İÇ KANT"
-          },
-          {
-            "title": "ÇÖL KANT"
-          },
-          {
-            "title": "CALAQ KANT"
-          },
-          {
-            "title": "BƏZƏKLİ KANT -- D - 7"
-          },
-          {
-            "title": "BƏZƏKLİ KANT -- D - 6"
-          },
-          {
-            "title": "BƏZƏKLİ KANT -- D - 106"
-          },
-          {
-            "title": "BƏZƏKLİ KANT -- D - 503"
-          },
-          {
-            "title": "BƏZƏKLİ KANT -- D - 501"
-          },
-          {
-            "title": "RƏNGLİ KANT"
-          }
-        ]
       }
+      
     ]
   }
 }
