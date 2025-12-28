@@ -3,404 +3,75 @@
     "title": "Məhsullar",
     "items": [
       {
-        "name": "STAR SUPER",
-        "image": "/images/products/STAR SUPER.jpg",
-        "variants": [
-          {
-            "title": "STAR SUPER PARLAQ 3.75 LT"
-          },
-          {
-            "title": "STAR SUPER POL 3.75LT"
-          },
-          {
-            "title": "STAR SUPER MAT 3.75LT"
-          }
-        ]
-      },
-      {
-        "name": "STAR PARLAQ",
-        "image": "/images/products/STAR PARLAQ.jpg",
-        "variants": [
-          {
-            "title": "STAR PARLAQ 0.75LT - AĞ"
-          },
-          {
-            "title": "STAR PARLAQ 2.5LT - AĞ"
-          },
-          {
-            "title": "STAR PARLAQ POL 0.75LT"
-          },
-          {
-            "title": "STAR PARLAQ POL 2.5LT"
-          },
-          {
-            "title": "STAR PARLAQ 15LT - AĞ"
-          },
-          {
-            "title": "STAR PARLAQ POL 15LT"
-          }
-        ]
-      },
-      {
-        "name": "STAR MAT",
-        "image": "/images/products/STAR MAT.jpg",
-        "variants": [
-          {
-            "title": "STAR MAT 0.75LT"
-          },
-          {
-            "title": "STAR MAT 2.5LT"
-          },
-          {
-            "title": "STAR MAT 15LT"
-          }
-        ]
-      },
-      {
-        "name": "STAR ANTİPAS",
-        "image": "/images/products/STAR ANTİPAS.jpg",
-        "variants": [
-          {
-            "title": "STAR ANTİPAS 0.75LT - AĞ"
-          },
-          {
-            "title": "STAR ANTİPAS 0.75LT - VİŞNƏ"
-          },
-          {
-            "title": "STAR ANTİPAS 0.75LT - QARA"
-          },
-          {
-            "title": "STAR ANTİPAS 0.75LT - BOZ"
-          },
-          {
-            "title": "STAR ANTİPAS 0.75LT - YAŞIL"
-          },
-          {
-            "title": "STAR ANTİPAS 0.75LT - MAVİ"
-          },
-          {
-            "title": "STAR ANTİPAS 0.75LT - GÖY"
-          },
-          {
-            "title": "STAR ANTİPAS 2.5LT - AĞ"
-          },
-          {
-            "title": "STAR ANTİPAS 2.5LT - VİŞNƏ"
-          },
-          {
-            "title": "STAR ANTİPAS 2.5LT - QARA"
-          },
-          {
-            "title": "STAR ANTİPAS 2.5LT - BOZ"
-          },
-          {
-            "title": "STAR ANTİPAS 2.5LT - YAŞIL"
-          },
-          {
-            "title": "STAR ANTİPAS 2.5LT - MAVİ"
-          },
-          {
-            "title": "STAR ANTİPAS 2.5LT - GÖY"
-          }
-        ]
-      },
-      {
-        "name": "STAR HAMERTON",
-        "image": "/images/products/STAR HAMERTON.jpg",
-        "variants": [
-          {
-            "title": "STAR HAMERTON 2.5LT - V6318 TÜND QƏHVƏ"
-          },
-          {
-            "title": "STAR HAMERTON 2.5LT - BEJ"
-          },
-          {
-            "title": "STAR HAMERTON 2.5LT - BEYAZ"
-          },
-          {
-            "title": "STAR HAMERTON 2.5LT - SÜTLÜ KAHVE"
-          },
-          {
-            "title": "STAR HAMERTON 2.5LT - VERDE YEŞİL"
-          },
-          {
-            "title": "STAR HAMERTON 2.5LT - KAHVE RENGİ"
-          },
-          {
-            "title": "STAR HAMERTON 2.5LT - GOLD STAR"
-          },
-          {
-            "title": "STAR HAMERTON 2.5LT - VİŞNE"
-          },
-          {
-            "title": "STAR HAMERTON 2.5LT - KIRMIZI"
-          },
-          {
-            "title": "STAR HAMERTON 2.5LT - AÇIK KAHVE"
-          },
-          {
-            "title": "STAR HAMERTON 2.5LT - KOYU MAVİ"
-          },
-          {
-            "title": "STAR HAMERTON 2.5LT - OKEAN MAVİ"
-          },
-          {
-            "title": "STAR HAMERTON 2.5LT - KOYU GRİ"
-          },
-          {
-            "title": "STAR HAMERTON 2.5LT - KOYU YEŞİL"
-          },
-          {
-            "title": "STAR HAMERTON 2.5LT - GRANİT YEŞİL"
-          },
-          {
-            "title": "STAR HAMERTON 2.5LT - SİYAH"
-          },
-          {
-            "title": "STAR HAMERTON 2.5LT - BOZ MAVİ"
-          },
-          {
-            "title": "STAR HAMERTON 2.5LT - ÇEREPİTZA KIRMIZI"
-          },
-          {
-            "title": "STAR HAMERTON 2.5LT - YEŞİL"
-          },
-          {
-            "title": "STAR HAMERTON 2.5LT - HAKİ YEŞİL"
-          },
-          {
-            "title": "STAR HAMERTON 2.5LT - MİS"
-          }
-        ]
-      },
-      {
-        "name": "STAR PARKET",
-        "image": "/images/products/STAR PARKET.jpg",
-        "variants": [
-          {
-            "title": "STAR PARKET LAKI 0.75LT"
-          },
-          {
-            "title": "STAR PARKET LAKI 2.5LT"
-          },
-          {
-            "title": "STAR PARKET LAKI 15LT"
-          }
-        ]
-      },
-      {
-        "name": "STAR RƏNGLİ LAK",
-        "image": "/images/products/STAR Parket LAK.png",
-        "variants": [
-          {
-            "title": "STAR RƏNGLİ LAK 0.75LT - SARI"
-          },
-          {
-            "title": "STAR RƏNGLİ LAK 0.75LT - CEVİZ"
-          },
-          {
-            "title": "STAR RƏNGLİ LAK 0.75LT - TİK"
-          },
-          {
-            "title": "STAR RƏNGLİ LAK 0.75LT - KOYU MEŞƏ"
-          },
-          {
-            "title": "STAR RƏNGLİ LAK 0.75LT - AÇIQ MEŞƏ"
-          },
-          {
-            "title": "STAR RƏNGLİ LAK 0.75LT - RUSTİK MEŞƏ"
-          },
-          {
-            "title": "STAR RƏNGLİ LAK 0.75LT - ZEYTUNİ"
-          },
-          {
-            "title": "STAR RƏNGLİ LAK 2.5LT - SARI"
-          },
-          {
-            "title": "STAR RƏNGLİ LAK 2.5LT - CEVİZ"
-          },
-          {
-            "title": "STAR RƏNGLİ LAK 2.5LT - TİK"
-          },
-          {
-            "title": "STAR RƏNGLİ LAK 2.5LT - KOYU MEŞƏ"
-          },
-          {
-            "title": "STAR RƏNGLİ LAK 2.5LT - AÇIQ MEŞƏ"
-          },
-          {
-            "title": "STAR RƏNGLİ LAK 2.5LT - RUSTİK MEŞƏ"
-          },
-          {
-            "title": "STAR RƏNGLİ LAK 2.5LT - ZEYTUNİ"
-          }
-        ]
-      },
-      {
-        "name": "STAR SELÜLOZİK DOLĞU",
-        "image": "/images/products/STAR SELÜLOZİK DOLĞU.jpg",
-        "variants": [
-          {
-            "title": "STAR SELÜLOZİK DOLĞU 0.75LT"
-          },
-          {
-            "title": "STAR SELÜLOZİK DOLĞU 2.5LT"
-          },
-          {
-            "title": "STAR SELÜLOZİK DOLĞU 15LT"
-          }
-        ]
-      },
-      {
-        "name": "STAR ALÜMİNİUM",
-        "image": "/images/products/STAR ALÜMİNİUM.jpg",
-        "variants": [
-          {
-            "title": "STAR ALÜMİNİUM BOYA 0.75 KQ"
-          },
-          {
-            "title": "STAR ALÜMİNİUM BOYA 0.25LT"
-          },
-          {
-            "title": "STAR ALÜMİNİUM BOYA 2.5LT"
-          }
-        ]
-      },
-      {
-        "name": "SUPER STAR PLASTİK",
-        "image": "/images/products/SUPER STAR PLASTİK.jpg",
-        "variants": [
-          {
-            "title": "SUPER STAR PLASTİK 3.5 KQ - AĞ"
-          },
-          {
-            "title": "SUPER STAR PLASTİK 25 KQ - AĞ"
-          },
-          {
-            "title": "SUPER STAR PLASTİK 10LT - AĞ"
-          }
-        ]
-      },
-      {
-        "name": "SUPER STAR FASAD",
-        "image": "/images/products/SUPER STAR FASAD.jpg",
-        "variants": [
-          {
-            "title": "SUPER STAR FASAD 10KQ - AĞ"
-          },
-          {
-            "title": "SUPER STAR FASAD 3.5KQ - AĞ"
-          },
-          {
-            "title": "SUPER STAR FASAD 25KQ - AĞ"
-          }
-        ]
-      },
-      {
-        "name": "STAR PLUS YUYULAN",
-        "image": "/images/products/STAR PLUS YUYULAN.jpg",
-        "variants": [
-          {
-            "title": "STAR PLUS YUYULAN 3.5KQ - AĞ"
-          },
-          {
-            "title": "STAR PLUS YUYULAN 10KQ - AĞ"
-          },
-          {
-            "title": "STAR PLUS YUYULAN 25KQ - AĞ"
-          }
-        ]
-      },
-      {
-        "name": "STAR SİLİKONLU",
-        "image": "/images/products/STAR SİLİKONLU.jpg",
-        "variants": [
-          {
-            "title": "STAR SİLİKONLU FASAD 10KQ - AĞ"
-          },
-          {
-            "title": "STAR SİLİKONLU FASAD 25KQ - AĞ"
-          },
-          {
-            "title": "STAR SİLİKONLU FASAD 3.5KQ - AĞ"
-          }
-        ]
-      },
-      {
-        "name": "STAR BETON KONTAKT",
-        "image": "/images/products/STAR BETON KONTAKT.jpg",
-        "variants": [
-          {
-            "title": "STAR BETON KONTAKT 3.5KQ"
-          },
-          {
-            "title": "STAR BETON KONTAKT 10KQ"
-          },
-          {
-            "title": "STAR BETON KONTAKT 25KQ"
-          }
-        ]
-      },
-      {
-        "name": "STAR MƏCUN",
-        "image": "/images/products/STAR MƏCUN.jpg",
-        "variants": [
-          {
-            "title": "STAR MƏCUN 4.5KQ"
-          },
-          {
-            "title": "STAR MƏCUN 10KQ"
-          },
-          {
-            "title": "STAR MƏCUN 25KQ"
-          }
-        ]
-      },
-      {
-        "name": "STAR PLASTİK",
-        "image": "/images/products/STAR PLASTİK.jpg",
-        "variants": [
-          {
-            "title": "STAR PLASTİK 3.5KQ"
-          },
-          {
-            "title": "STAR PLASTİK 1OKQ"
-          },
-          {
-            "title": "STAR PLASTİK 25 KQ - AĞ"
-          }
-        ]
-      },
-      {
-        "name": "STAR FASAD",
-        "image": "/images/products/STAR FASAD.jpg",
-        "variants": [
-          {
-            "title": "STAR FASAD 3.5KQ"
-          },
-          {
-            "title": "STAR FASAD 10KQ - AĞ"
-          },
-          {
-            "title": "STAR FASAD 25KQ - AĞ"
-          }
-        ]
-      },
-      {
-        "name": "STAR TAVAN BOYASI",
-        "image": "/images/products/STAR TAVAN BOYASI.jpg",
-        "variants": [
-          {
-            "title": "STAR TAVAN BOYASI 3.5KQ"
-          },
-          {
-            "title": "STAR TAVAN BOYASI 10KQ"
-          },
-          {
-            "title": "STAR TAVAN BOYASI 25KQ"
-          }
-        ]
-      },
+  "name": "Emulsiya, Boya Məhsulları",
+  "image": "/images/products/STARLAR.png",
+  "variants": [
+    { "title": "STAR SUPER PARLAQ 3.75 LT" },
+    { "title": "STAR SUPER POL 3.75LT" },
+    { "title": "STAR SUPER MAT 3.75LT" },
+
+    { "title": "STAR PARLAQ 0.75LT - AĞ" },
+    { "title": "STAR PARLAQ 2.5LT - AĞ" },
+    { "title": "STAR PARLAQ POL 0.75LT" },
+    { "title": "STAR PARLAQ POL 2.5LT" },
+    { "title": "STAR PARLAQ 15LT - AĞ" },
+    { "title": "STAR PARLAQ POL 15LT" },
+
+    { "title": "STAR MAT 0.75LT" },
+    { "title": "STAR MAT 2.5LT" },
+    { "title": "STAR MAT 15LT" },
+
+    { "title": "STAR ANTİPAS 0.75LT - AĞ" },
+    { "title": "STAR ANTİPAS 0.75LT - VİŞNƏ" },
+    { "title": "STAR ANTİPAS 0.75LT - QARA" },
+    { "title": "STAR ANTİPAS 0.75LT - BOZ" },
+    { "title": "STAR ANTİPAS 0.75LT - YAŞIL" },
+    { "title": "STAR ANTİPAS 0.75LT - MAVİ" },
+    { "title": "STAR ANTİPAS 0.75LT - GÖY" },
+
+    { "title": "STAR ANTİPAS 2.5LT - AĞ" },
+    { "title": "STAR ANTİPAS 2.5LT - VİŞNƏ" },
+    { "title": "STAR ANTİPAS 2.5LT - QARA" },
+    { "title": "STAR ANTİPAS 2.5LT - BOZ" },
+    { "title": "STAR ANTİPAS 2.5LT - YAŞIL" },
+    { "title": "STAR ANTİPAS 2.5LT - MAVİ" },
+    { "title": "STAR ANTİPAS 2.5LT - GÖY" },
+
+    { "title": "STAR HAMERTON 2.5LT - TÜND QƏHVƏ" },
+    { "title": "STAR HAMERTON 2.5LT - BEJ" },
+    { "title": "STAR HAMERTON 2.5LT - BEYAZ" },
+    { "title": "STAR HAMERTON 2.5LT - SÜTLÜ KAHVE" },
+    { "title": "STAR HAMERTON 2.5LT - VERDE YEŞİL" },
+    { "title": "STAR HAMERTON 2.5LT - KAHVE RENGİ" },
+    { "title": "STAR HAMERTON 2.5LT - GOLD STAR" },
+    { "title": "STAR HAMERTON 2.5LT - VİŞNE" },
+    { "title": "STAR HAMERTON 2.5LT - KIRMIZI" },
+    { "title": "STAR HAMERTON 2.5LT - AÇIK KAHVE" },
+    { "title": "STAR HAMERTON 2.5LT - KOYU MAVİ" },
+    { "title": "STAR HAMERTON 2.5LT - OKEAN MAVİ" },
+    { "title": "STAR HAMERTON 2.5LT - KOYU GRİ" },
+    { "title": "STAR HAMERTON 2.5LT - KOYU YEŞİL" },
+    { "title": "STAR HAMERTON 2.5LT - GRANİT YEŞİL" },
+    { "title": "STAR HAMERTON 2.5LT - SİYAH" },
+    { "title": "STAR HAMERTON 2.5LT - BOZ MAVİ" },
+    { "title": "STAR HAMERTON 2.5LT - ÇEREPİTZA KIRMIZI" },
+    { "title": "STAR HAMERTON 2.5LT - YEŞİL" },
+    { "title": "STAR HAMERTON 2.5LT - HAKİ YEŞİL" },
+    { "title": "STAR HAMERTON 2.5LT - MİS" },
+
+    { "title": "STAR PARKET LAKI 0.75LT" },
+    { "title": "STAR PARKET LAKI 2.5LT" },
+    { "title": "STAR PARKET LAKI 15LT" },
+
+    { "title": "STAR TUTKAL 1KQ" },
+    { "title": "STAR TUTKAL 3KQ" },
+    { "title": "STAR TUTKAL 9KQ" }
+  ]
+},
+
+     
+   
+    
       {
         "name": "BİNDER",
         "image": "/images/products/BİNDER.jpg",
@@ -419,306 +90,7 @@
           }
         ]
       },
-      {
-        "name": "STAR SUTUT",
-        "image": "/images/products/STAR SUTUT.jpg",
-        "variants": [
-          {
-            "title": "STAR SUTUT 10KQ"
-          },
-          {
-            "title": "STAR SUTUT 25KQ"
-          }
-        ]
-      },
-      {
-        "name": "STAR UNİVERSAL BOYA",
-        "image": "/images/products/STAR UNİVERSAL BOYA.jpg",
-        "variants": [
-          {
-            "title": "STAR UNİVERSAL BOYA 100ML - MAVİ"
-          },
-          {
-            "title": "STAR UNİVERSAL BOYA 100ML - MİNE"
-          },
-          {
-            "title": "STAR UNİVERSAL BOYA 100ML - ERGUVAN"
-          },
-          {
-            "title": "STAR UNİVERSAL BOYA 100ML - DAMLA"
-          },
-          {
-            "title": "STAR UNİVERSAL BOYA 100ML - ROŞE"
-          },
-          {
-            "title": "STAR UNİVERSAL BOYA 100ML - PETROL"
-          },
-          {
-            "title": "STAR UNİVERSAL BOYA 100ML - SİYAH"
-          },
-          {
-            "title": "STAR UNİVERSAL BOYA 100ML - OKSİD SARI"
-          },
-          {
-            "title": "STAR UNİVERSAL BOYA 100ML - KREM"
-          },
-          {
-            "title": "STAR UNİVERSAL BOYA 100ML - KONYAK"
-          },
-          {
-            "title": "STAR UNİVERSAL BOYA 100ML - ŞAMPANYA"
-          },
-          {
-            "title": "STAR UNİVERSAL BOYA 100ML - SARI"
-          },
-          {
-            "title": "STAR UNİVERSAL BOYA 100ML - TOPRAK"
-          },
-          {
-            "title": "STAR UNİVERSAL BOYA 100ML - GÜLKURUSU"
-          },
-          {
-            "title": "STAR UNİVERSAL BOYA 100ML - BORDO"
-          },
-          {
-            "title": "STAR UNİVERSAL BOYA 100ML - MENEKŞE"
-          },
-          {
-            "title": "STAR UNİVERSAL BOYA 100ML - HAVANA"
-          },
-          {
-            "title": "STAR UNİVERSAL BOYA 100ML - BEJ"
-          },
-          {
-            "title": "STAR UNİVERSAL BOYA 100ML - HARDAL"
-          },
-          {
-            "title": "STAR UNİVERSAL BOYA 100ML - TÜTÜN"
-          },
-          {
-            "title": "STAR UNİVERSAL BOYA 100ML - AMAZON"
-          },
-          {
-            "title": "STAR UNİVERSAL BOYA 100ML - TİBET"
-          },
-          {
-            "title": "STAR UNİVERSAL BOYA 100ML - YEŞİL"
-          },
-          {
-            "title": "STAR UNİVERSAL BOYA 100ML - CAMBÖCEĞİ"
-          }
-        ]
-      },
-      {
-        "name": "STAR KOLOR",
-        "image": "/images/products/STAR KOLOR.jpg",
-        "variants": [
-          {
-            "title": "STAR KOLOR 300ML - MAVİ"
-          },
-          {
-            "title": "STAR KOLOR 300ML - ERGUVAN"
-          },
-          {
-            "title": "STAR KOLOR 300ML - DAMLA"
-          },
-          {
-            "title": "STAR KOLOR 300ML - ROŞE"
-          },
-          {
-            "title": "STAR KOLOR 300ML - SİYAH"
-          },
-          {
-            "title": "STAR KOLOR 300ML - OKSİD SARI"
-          },
-          {
-            "title": "STAR KOLOR 300ML - KREM"
-          },
-          {
-            "title": "STAR KOLOR 300ML - KONYAK"
-          },
-          {
-            "title": "STAR KOLOR 300ML - ŞAMPANYA"
-          },
-          {
-            "title": "STAR KOLOR 300ML - SARI"
-          },
-          {
-            "title": "STAR KOLOR 300ML - TOPRAK"
-          },
-          {
-            "title": "STAR KOLOR 300ML - GÜLKURUSU"
-          },
-          {
-            "title": "STAR KOLOR 300ML - BORDO"
-          },
-          {
-            "title": "STAR KOLOR 300ML - MENEKŞE"
-          },
-          {
-            "title": "STAR KOLOR 300ML - HAVANA"
-          },
-          {
-            "title": "STAR KOLOR 300ML - BEJ"
-          },
-          {
-            "title": "STAR KOLOR 300ML - HARDAL"
-          },
-          {
-            "title": "STAR KOLOR 300ML - TÜTÜN"
-          },
-          {
-            "title": "STAR KOLOR 300ML - AMAZON"
-          },
-          {
-            "title": "STAR KOLOR 300ML - TİBET"
-          },
-          {
-            "title": "STAR KOLOR 300ML - YEŞİL"
-          },
-          {
-            "title": "STAR KOLOR 300ML - CAMBÖCEĞİ"
-          },
-          {
-            "title": "STAR KOLOR 300ML - MİNE"
-          },
-          {
-            "title": "STAR KOLOR 300ML - PETROL"
-          }
-        ]
-      },
-      {
-        "name": "VİM PARLAQ",
-        "image": "/images/products/VİM PARLAQ.jpg",
-        "variants": [
-          {
-            "title": "VİM PARLAQ 0.75LT - AĞ"
-          },
-          {
-            "title": "VİM PARLAQ 0.75LT - VİŞNƏ"
-          },
-          {
-            "title": "VİM PARLAQ 0.75LT - QARA"
-          },
-          {
-            "title": "VİM PARLAQ 0.75LT - BOZ"
-          },
-          {
-            "title": "VİM PARLAQ 0.75LT - YAŞIL"
-          },
-          {
-            "title": "VİM PARLAQ 0.75LT - QIRMIZI"
-          },
-          {
-            "title": "VİM PARLAQ 0.75LT - QAZTURBASI"
-          },
-          {
-            "title": "VİM PARLAQ 0.75LT - SARI"
-          },
-          {
-            "title": "VİM PARLAQ 0.75LT - MAVİ"
-          },
-          {
-            "title": "VİM PARLAQ 0.75LT - GÖY"
-          },
-          {
-            "title": "VİM PARLAQ POL 0.75LT"
-          },
-          {
-            "title": "VİM PARLAQ POL 2.5LT"
-          },
-          {
-            "title": "VİM PARLAQ 2.5LT - AĞ"
-          },
-          {
-            "title": "VİM PARLAQ 2.5LT - VİŞNƏ"
-          },
-          {
-            "title": "VİM PARLAQ 2.5LT - QARA"
-          },
-          {
-            "title": "VİM PARLAQ 2.5LT - BOZ"
-          },
-          {
-            "title": "VİM PARLAQ 2.5LT - YAŞIL"
-          },
-          {
-            "title": "VİM PARLAQ 2.5LT - QAZTURBASI"
-          },
-          {
-            "title": "VİM PARLAQ 2.5LT - SARI"
-          },
-          {
-            "title": "VİM PARLAQ 2.5LT - MAVİ"
-          },
-          {
-            "title": "VİM PARLAQ 2.5LT - GÖY"
-          },
-          {
-            "title": "VİM PARLAQ 2.5LT - QIRMIZI"
-          },
-          {
-            "title": "VİM PARLAQ 15LT - AĞ"
-          },
-          {
-            "title": "VİM PARLAQ 15LT - QARA"
-          },
-          {
-            "title": "VİM PARLAQ 15LT - BOZ"
-          },
-          {
-            "title": "VİM PARLAQ 15LT - QAZTURBASI"
-          },
-          {
-            "title": "VİM PARLAQ POL 15LT"
-          }
-        ]
-      },
-      {
-        "name": "VİM MAT",
-        "image": "/images/products/VİM MAT.jpg",
-        "variants": [
-          {
-            "title": "VİM MAT 0.75LT"
-          },
-          {
-            "title": "VİM MAT 15LT"
-          },
-          {
-            "title": "VİM MAT 2.5LT"
-          }
-        ]
-      },
-      {
-        "name": "VİM PLASTİK",
-        "image": "/images/products/VİM PLASTİK.jpg",
-        "variants": [
-          {
-            "title": "VİM PLASTİK 3.5KQ"
-          },
-          {
-            "title": "VİM PLASTİK 10KQ"
-          },
-          {
-            "title": "VİM PLASTİK 18LT - AĞ"
-          }
-        ]
-      },
-      {
-        "name": "VİM FASAD",
-        "image": "/images/products/VİM FASAD.jpg",
-        "variants": [
-          {
-            "title": "VİM FASAD 3.5KQ"
-          },
-          {
-            "title": "VİM FASAD 10KQ"
-          },
-          {
-            "title": "VİM FASAD 25KQ"
-          }
-        ]
-      },
+   
       {
         "name": "PVA SanaWood - PUR Taxta",
         "image": "/images/products/PVA SanaWood - PUR Taxta.jpg",
@@ -746,195 +118,8 @@
           }
         ]
       },
-      {
-        "name": "İNTEQRAL PLASTİK",
-        "image": "/images/products/İNTEQRAL PLASTİK.jpg",
-        "variants": [
-          {
-            "title": "İNTEQRAL PLASTİK 3.5KQ - AĞ"
-          },
-          {
-            "title": "İNTEQRAL PLASTİK 10KQ - AĞ"
-          },
-          {
-            "title": "İNTEQRAL PLASTİK 18LT - AĞ"
-          }
-        ]
-      },
-      {
-        "name": "İNTEQRAL FASAD",
-        "image": "/images/products/İNTEQRAL FASAD.jpg",
-        "variants": [
-          {
-            "title": "İNTEQRAL FASAD 3.5KQ - AĞ"
-          },
-          {
-            "title": "İNTEQRAL FASAD 10KQ - AĞ"
-          },
-          {
-            "title": "İNTEQRAL FASAD 25KQ - AĞ"
-          }
-        ]
-      },
-      {
-        "name": "STAR SELLÜLOZİK DAŞ LAKI",
-        "image": "/images/products/STAR SELLÜLOZİK DAŞ LAKI.jpg",
-        "variants": [
-          {
-            "title": "STAR SELLÜLOZİK DAŞ LAKI 0.75LT"
-          }
-        ]
-      },
-      {
-        "name": "STAR SELLÜLOZİK BOYA",
-        "image": "/images/products/STAR SELLÜLOZİK BOYA.jpg",
-        "variants": [
-          {
-            "title": "STAR SELLÜLOZİK BOYA 2.5LT - 90-195 AÇIQ KREM"
-          },
-          {
-            "title": "STAR SELLÜLOZİK BOYA 2.5LT - BEJ"
-          },
-          {
-            "title": "STAR SELLÜLOZİK BOYA 2.5LT - OKSİD SARI"
-          },
-          {
-            "title": "STAR SELLÜLOZİK BOYA 2.5LT - KROM SARI"
-          },
-          {
-            "title": "STAR SELLÜLOZİK BOYA 2.5LT - QIRMIZI"
-          },
-          {
-            "title": "STAR SELLÜLOZİK BOYA 2.5LT - BORDO"
-          },
-          {
-            "title": "STAR SELLÜLOZİK BOYA 2.5LT - GÖY"
-          },
-          {
-            "title": "STAR SELLÜLOZİK BOYA 2.5LT - YAŞIL"
-          },
-          {
-            "title": "STAR SELLÜLOZİK BOYA 2.5LT - MAKİNA YAŞIL"
-          },
-          {
-            "title": "STAR SELLÜLOZİK BOYA 2.5LT - AÇIQ QƏHVƏ"
-          },
-          {
-            "title": "STAR SELLÜLOZİK BOYA 2.5LT - TÜND QƏHVƏ"
-          },
-          {
-            "title": "STAR SELLÜLOZİK BOYA 2.5LT - SÜDLÜ QƏHVƏ"
-          },
-          {
-            "title": "STAR SELLÜLOZİK BOYA 2.5LT - DADLI QƏHVƏ"
-          },
-          {
-            "title": "STAR SELLÜLOZİK BOYA 2.5LT - QIZILI QƏHVƏ"
-          },
-          {
-            "title": "STAR SELLÜLOZİK BOYA 2.5LT - METALLİK"
-          },
-          {
-            "title": "STAR SELLÜLOZİK BOYA 2.5LT - KREM"
-          },
-          {
-            "title": "STAR SELLÜLOZİK BOYA 2.5LT - QARA"
-          },
-          {
-            "title": "STAR SELLÜLOZİK BOYA 2.5LT - AĞ"
-          },
-          {
-            "title": "STAR SELLÜLOZİK BOYA 2.5LT - METALLÜKS"
-          },
-          {
-            "title": "STAR SELLÜLOZİK 7016 (RAL) 2.5LT"
-          },
-          {
-            "title": "STAR SELLÜLOZİK BOYA 0.75LT - 90-195"
-          },
-          {
-            "title": "STAR SELLÜLOZİK BOYA 0.75LT - OKSİD SARI"
-          },
-          {
-            "title": "STAR SELLÜLOZİK BOYA 0.75LT - KROM SARI"
-          },
-          {
-            "title": "STAR SELLÜLOZİK BOYA 0.75LT - QIRMIZI"
-          },
-          {
-            "title": "STAR SELLÜLOZİK BOYA 0.75LT - BORDO"
-          },
-          {
-            "title": "STAR SELLÜLOZİK BOYA 0.75LT - GÖY"
-          },
-          {
-            "title": "STAR SELLÜLOZİK BOYA 0.75LT - YAŞIL"
-          },
-          {
-            "title": "STAR SELLÜLOZİK BOYA 0.75LT - MAKİNA YAŞIL"
-          },
-          {
-            "title": "STAR SELLÜLOZİK BOYA 0.75LT - AÇIQ QƏHVƏ"
-          },
-          {
-            "title": "STAR SELLÜLOZİK BOYA 0.75LT - TÜND QƏHVƏ"
-          },
-          {
-            "title": "STAR SELLÜLOZİK BOYA 0.75LT - SÜDLÜ QƏHVƏ"
-          },
-          {
-            "title": "STAR SELLÜLOZİK BOYA 0.75LT - QIZILI QƏHVƏ"
-          },
-          {
-            "title": "STAR SELLÜLOZİK BOYA 0.75LT - METALLİK"
-          },
-          {
-            "title": "STAR SELLÜLOZİK BOYA 0.75LT - KREM"
-          },
-          {
-            "title": "STAR SELLÜLOZİK BOYA 0.75LT - QARA"
-          },
-          {
-            "title": "STAR SELLÜLOZİK BOYA 0.75LT - AĞ"
-          },
-          {
-            "title": "STAR SELLÜLOZİK BOYA 0.75LT - METALLÜKS"
-          }
-        ]
-      },
-      {
-        "name": "STAR SELLÜLOZİK QIZILI",
-        "image": "/images/products/STAR SELLÜLOZİK QIZILI.jpg",
-        "variants": [
-          {
-            "title": "STAR SELLÜLOZİK QIZILI (GOLD STAR) 0.25LT"
-          }
-        ]
-      },
-      {
-        "name": "METAL SELLÜLOZİK ASTAR",
-        "image": "/images/products/METAL SELLÜLOZİK ASTAR.jpg",
-        "variants": [
-          {
-            "title": "METAL SELLÜLOZİK ASTAR 2.5LT - QARA"
-          },
-          {
-            "title": "METAL SELLÜLOZİK ASTAR 2.5LT - BOZ"
-          },
-          {
-            "title": "METAL SELLÜLOZİK ASTAR 2.5LT - AĞ"
-          }
-        ]
-      },
-      {
-        "name": "SELLÜLOZİK ASTAR MEBEL",
-        "image": "/images/products/SELLÜLOZİK ASTAR MEBEL.jpg",
-        "variants": [
-          {
-            "title": "SELLÜLOZİK ASTAR MEBEL 2.5LT - AĞ"
-          }
-        ]
-      },
+     
+      
 
       {
         "name": "BOYA RULOSU (VALİK)",
@@ -996,66 +181,9 @@
           }
         ]
       },
-      {
-        "name": "REDSAN PARKET LAKI",
-        "image": "/images/products/REDSAN PARKET LAKI.jpg",
-        "variants": [
-          {
-            "title": "REDSAN PARKET LAKI 0.75LT"
-          },
-          {
-            "title": "REDSAN PARKET LAKI 2.5LT"
-          },
-          {
-            "title": "REDSAN PARKET LAKI 12LT"
-          }
-        ]
-      },
-      {
-        "name": "REDSAN SELLÜLOZİK DOLĞU",
-        "image": "/images/products/REDSAN SELLÜLOZİK DOLĞU.jpg",
-        "variants": [
-          {
-            "title": "REDSAN SELLÜLOZİK DOLĞU 0.75LT"
-          },
-          {
-            "title": "REDSAN SELLÜLOZİK DOLĞU 2.5LT"
-          },
-          {
-            "title": "REDSAN SELLÜLOZİK DOLĞU 12LT"
-          }
-        ]
-      },
-      {
-        "name": "EKOREDSAN PLASTİK",
-        "image": "/images/products/EKOREDSAN PLASTİK.jpg",
-        "variants": [
-          {
-            "title": "EKOREDSAN PLASTİK 18LT"
-          },
-          {
-            "title": "EKOREDSAN PLASTİK 3.5KQ"
-          },
-          {
-            "title": "EKOREDSAN PLASTİK 10KQ"
-          }
-        ]
-      },
-      {
-        "name": "EKOREDSAN FASAD",
-        "image": "/images/products/EKOREDSAN FASAD.jpg",
-        "variants": [
-          {
-            "title": "EKOREDSAN FASAD 25KQ - AĞ"
-          },
-          {
-            "title": "EKOREDSAN FASAD 3.5KQ"
-          },
-          {
-            "title": "EKOREDSAN FASAD 10KQ"
-          }
-        ]
-      },
+     
+     
+     
 
       {
         "name": "ARABA",
@@ -1067,43 +195,10 @@
         ]
       },
 
-      {
-        "name": "STAR SLİKONLU ASTAR",
-        "image": "/images/products/STAR SLİKONLU ASTAR.jpg",
-        "variants": [
-          {
-            "title": "STAR SLİKONLU ASTAR 16KQ"
-          }
-        ]
-      },
+    
 
-      {
-        "name": "STAR SELLÜLOZİK PARLAQ LAK",
-        "image": "/images/products/STAR SELLÜLOZİK PARLAQ LAK.jpg",
-        "variants": [
-          {
-            "title": "STAR SELLÜLOZİK PARLAQ LAK 0.75LT"
-          },
-          {
-            "title": "STAR SELLÜLOZİK PARLAQ LAK 2.25LT"
-          }
-        ]
-      },
-      {
-        "name": "STAR TUTKAL",
-        "image": "/images/products/STAR TUTKAL.jpg",
-        "variants": [
-          {
-            "title": "STAR TUTKAL 1KQ"
-          },
-          {
-            "title": "STAR TUTKAL 3KQ"
-          },
-          {
-            "title": "STAR TUTKAL 9KQ"
-          }
-        ]
-      },
+    
+    
 
       {
         "name": "KONTAKT KLEY",
