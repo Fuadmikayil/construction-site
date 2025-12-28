@@ -178,11 +178,17 @@
       },
 
       {
-        "name": "ARABA",
+        "name": "ARAB / TƏKƏR",
         "image": "/images/products/ARABA.png",
         "variants": [
           {
             "title": "ARABA"
+          },
+          {
+            "title": "TƏKƏR (SADƏ)"
+          },
+          {
+            "title": "TƏKƏR (DİYİRCEKLİ)"
           }
         ]
       },
@@ -619,28 +625,7 @@
           }
         ]
       },
-      {
-        "name": "KİSLOROD",
-        "image": "/images/products/KİSLOROD.png",
-        "variants": [
-          {
-            "title": "KİSLOROD 111-9.0-2.0 (100M) - UCUZ"
-          }
-        ]
-      },
-      {
-        "name": "TƏKƏR",
-        "image": "/images/products/TƏKƏR.png",
-        "variants": [
-          {
-            "title": "TƏKƏR (SADƏ)"
-          },
-          {
-            "title": "TƏKƏR (DİYİRCEKLİ)"
-          }
-        ]
-      },
-
+   
       {
         "name": "SEMENT",
         "image": "/images/products/SEMENT.png",
@@ -880,6 +865,9 @@
           },
           {
             "title": "QAZ ŞLANKI - VRC 25B-0.4 (50 M)"
+          },
+          {
+            "title": "KİSLOROD 111-9.0-2.0 (100M) - UCUZ"
           }
         ]
       },
