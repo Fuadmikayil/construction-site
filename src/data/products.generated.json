@@ -68,6 +68,90 @@
           { "title": "STAR TUTKAL 9KQ" }
         ]
       },
+      {
+        "name": "TAXTA MATERİALLAR",
+        "image": "/images/products/TAXTA MATERİALLAR.png",
+        "variants": [
+          {
+            "title": "TAXTA 5x15x6"
+          },
+          {
+            "title": "TAXTA 5x15x4"
+          },
+          {
+            "title": "TAXTA 5x10x6"
+          },
+          {
+            "title": "TAXTA 5x10x4"
+          },
+          {
+            "title": "TAXTA 2.5x10x6"
+          },
+          {
+            "title": "TAXTA 3x10x4"
+          },
+          {
+            "title": "APŞİPQA DÜYÜNLÜ 0.100 4M"
+          },
+          {
+            "title": "APŞİPQA DÜYÜNLÜ 0.100 6M"
+          },
+          {
+            "title": "POL 084x4M - 2.5"
+          },
+          {
+            "title": "POL 0100x6M - 2.5 RUS"
+          },
+          {
+            "title": "DİK 5 YAKIR"
+          },
+          {
+            "title": "DİK 6"
+          },
+          {
+            "title": "DİK 12"
+          },
+          {
+            "title": "DİK 18"
+          },
+          {
+            "title": "DİK 8"
+          },
+          {
+            "title": "DİK 10"
+          },
+          {
+            "title": "DİK 15"
+          },
+          {
+            "title": "KÖVƏ K9"
+          },
+          {
+            "title": "KÖVƏ K5"
+          },
+          {
+            "title": "KÖVƏ K4"
+          },
+          {
+            "title": "KÖVƏ U2"
+          },
+          {
+            "title": "KÖVƏ U1"
+          },
+          {
+            "title": "REYKA 5x5x4 (M)"
+          },
+          {
+            "title": "REYKA 5x5x6 (M)"
+          },
+          {
+            "title": "REYKA 5x3x4 (M)"
+          },
+          {
+            "title": "REYKA 5x3x6 (M)"
+          }
+        ]
+      },
 
       {
         "name": "BİNDER",
@@ -205,7 +289,8 @@
           },
           {
             "title": "KONTAKT KLEY SOLDİER 400 ML + 80 GR"
-          },{
+          },
+          {
             "title": "QRANİT KLEY 1 KQ"
           }
         ]
@@ -470,7 +555,8 @@
           },
           {
             "title": "ELEKTROD-NOTRON № 4"
-          },{
+          },
+          {
             "title": "KONTAKT SİM ELEKTROD (15 KG)"
           },
           {
@@ -499,7 +585,6 @@
           }
         ]
       },
-
 
       {
         "name": "DUPİL / MİSMAR",
@@ -618,7 +703,7 @@
           }
         ]
       },
-   
+
       {
         "name": "SEMENT",
         "image": "/images/products/SEMENT.png",
@@ -789,9 +874,11 @@
           },
           {
             "title": "KOMBİ 40 KV SENEKS (CÜT ESENJOR)"
-          },   {
+          },
+          {
             "title": "KOMBİ SETİ"
-          },  {
+          },
+          {
             "title": "STABİLİZATOR ELEKTRİK SENEKS"
           }
         ]
@@ -830,7 +917,7 @@
           }
         ]
       },
-      
+
       {
         "name": "QAZ LƏVAZİMATLARI",
         "image": "/images/products/QAZ LƏVAZİMATLARI.png",
@@ -860,7 +947,6 @@
           }
         ]
       },
-    
 
       {
         "name": "DƏMİR MATERİALLAR",
@@ -964,90 +1050,6 @@
           },
           {
             "title": "ƏQRƏB 20 SM"
-          }
-        ]
-      },
-      {
-        "name": "TAXTA MATERİALLAR",
-        "image": "/images/products/TAXTA MATERİALLAR.png",
-        "variants": [
-          {
-            "title": "TAXTA 5x15x6"
-          },
-          {
-            "title": "TAXTA 5x15x4"
-          },
-          {
-            "title": "TAXTA 5x10x6"
-          },
-          {
-            "title": "TAXTA 5x10x4"
-          },
-          {
-            "title": "TAXTA 2.5x10x6"
-          },
-          {
-            "title": "TAXTA 3x10x4"
-          },
-          {
-            "title": "APŞİPQA DÜYÜNLÜ 0.100 4M"
-          },
-          {
-            "title": "APŞİPQA DÜYÜNLÜ 0.100 6M"
-          },
-          {
-            "title": "POL 084x4M - 2.5"
-          },
-          {
-            "title": "POL 0100x6M - 2.5 RUS"
-          },
-          {
-            "title": "DİK 5 YAKIR"
-          },
-          {
-            "title": "DİK 6"
-          },
-          {
-            "title": "DİK 12"
-          },
-          {
-            "title": "DİK 18"
-          },
-          {
-            "title": "DİK 8"
-          },
-          {
-            "title": "DİK 10"
-          },
-          {
-            "title": "DİK 15"
-          },
-          {
-            "title": "KÖVƏ K9"
-          },
-          {
-            "title": "KÖVƏ K5"
-          },
-          {
-            "title": "KÖVƏ K4"
-          },
-          {
-            "title": "KÖVƏ U2"
-          },
-          {
-            "title": "KÖVƏ U1"
-          },
-          {
-            "title": "REYKA 5x5x4 (M)"
-          },
-          {
-            "title": "REYKA 5x5x6 (M)"
-          },
-          {
-            "title": "REYKA 5x3x4 (M)"
-          },
-          {
-            "title": "REYKA 5x3x6 (M)"
           }
         ]
       },
@@ -1305,7 +1307,8 @@
           },
           {
             "title": "LAMBRİN D - 122"
-          }, {
+          },
+          {
             "title": "PL KANT AĞ"
           },
           {
@@ -1377,9 +1380,7 @@
       {
         "name": "KÖŞƏ",
         "image": "/images/products/KÖŞƏ.png",
-        "variants": [
-         
-        ]
+        "variants": []
       },
       {
         "name": "MAYAK",
@@ -1393,7 +1394,6 @@
           }
         ]
       }
-      
     ]
   }
 }
