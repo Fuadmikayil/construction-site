@@ -65,7 +65,57 @@
 
           { "title": "STAR TUTKAL 1KQ" },
           { "title": "STAR TUTKAL 3KQ" },
-          { "title": "STAR TUTKAL 9KQ" }
+          { "title": "STAR TUTKAL 9KQ" },
+
+          {
+            "title": "EKO STAR 20120 (20 SM) SATEN (KIRMIZI)"
+          },
+          {
+            "title": "EKO STAR 20125 (25 SM) SATEN (KIRMIZI)"
+          },
+          {
+            "title": "EKO STAR 20420 (20 SM) PLASTİK (GÖY)"
+          },
+          {
+            "title": "EKO STAR 20425 (25 SM) PLASTİK (GÖY)"
+          },
+          {
+            "title": "STAR 10110 (10 SM) BARMAQ"
+          },
+          {
+            "title": "KOMBİ RULO 10100"
+          },
+          {
+            "title": "STAR 10320 (20 SM) PLASTİK"
+          },
+          {
+            "title": "STAR 10325 (25 SM) PLASTİK"
+          },
+          {
+            "title": "STAR 10110 (10 SM) BARMAQ"
+          },
+          {
+            "title": "STAR LÜKS RULO POLYEMİD 20 SM"
+          },
+
+          {
+            "title": "STAR FIRÇA 1 UNİVERSAL"
+          },
+          {
+            "title": "STAR FIRÇA 1.5 UNİVERSAL"
+          },
+          {
+            "title": "STAR FIRÇA 2 UNİVERSAL"
+          },
+          {
+            "title": "STAR FIRÇA 2.5 UNİVERSAL"
+          },
+          {
+            "title": "STAR FIRÇA 3 UNİVERSAL"
+          },
+          {
+            "title": "STAR FIRÇA 4 UNİVERSAL"
+          }
         ]
       },
       {
@@ -152,7 +202,123 @@
           }
         ]
       },
+      {
+        "name": "DƏMİR MATERİALLAR",
+        "image": "/images/products/DƏMİR MATERİALLAR.png",
+        "variants": [
+          {
+            "title": "KÜNCLÜK 50x50x4 mm Ст3сп"
+          },
+          {
+            "title": "KÜNCLÜK 63x63x5 mm Ст3сп"
+          },
+          {
+            "title": "KÜNCLÜK 75x75x5 mm Ст3сп"
+          },
+          {
+            "title": "KÜNCLÜK 90x90x6 mm Ст3сп"
+          },
+          {
+            "title": "KÜNCLÜK 100x100x7 mm Ст3сп"
+          },
+          {
+            "title": "KÜNCLÜK 40x40x4 mm Ст3сп"
+          },
+          {
+            "title": "ŞVELLER 80 mm Ст3сп"
+          },
+          {
+            "title": "ŞVELLER 100 mm Ст3сп"
+          },
+          {
+            "title": "ŞVELLER 120 mm Ст3сп"
+          },
+          {
+            "title": "ŞVELLER 140 mm Ст3сп"
+          },
+          {
+            "title": "ŞVELLER 160 mm Ст3сп"
+          },
+          {
+            "title": "ŞVELLER 180 mm Ст3сп"
+          },
+          {
+            "title": "PROFİL 100x50x4 mm Ст3сп"
+          },
+          {
+            "title": "PROFİL 100x100x3 mm Ст3сп"
+          },
+          {
+            "title": "PROFİL 100x100x4 mm Ст3сп"
+          },
+          {
+            "title": "PROFİL 120x120x4 mm Ст3сп"
+          },
+          {
+            "title": "METAL LÖVHƏ 1.5 mm 1000x2000 Ст3сп"
+          },
+          {
+            "title": "METAL LÖVHƏ 1.5 mm 1200x2400 Ст3сп"
+          },
+          {
+            "title": "METAL LÖVHƏ 2 mm 1200x2400 Ст3сп"
+          },
+          {
+            "title": "İPE 160 mm S275JR"
+          },
+          {
+            "title": "SETKA (075x3) - 4 LÜK"
+          },
+          {
+            "title": "SİM YANMIŞ NAZİK"
+          }
+        ]
+      },
+      {
+        "name": "ELEKTRİK MƏHSULLARI",
+        "image": "/images/products/ELEKTRİK.png",
+        "variants": [
+          { "title": "ŞUNUR 1 x 2.5" },
+          { "title": "ŞUNUR 1 x 4" },
 
+          { "title": "KABEL 2 x 1.5" },
+          { "title": "KABEL 2 x 2.5" },
+          { "title": "KABEL 2 x 4" },
+
+          { "title": "KABEL 3 x 1.5" },
+          { "title": "KABEL 3 x 2.5" },
+          { "title": "KABEL 3 x 4" },
+          { "title": "KABEL 3 x 6" },
+
+          { "title": "BORU 16 T" },
+          { "title": "BORU 18 T" },
+          { "title": "BORU 25 T" }
+        ]
+      },
+      {
+        "name": "ELEKTROD MƏHSULLARI",
+        "image": "/images/products/ELEKTROD-NOTRON.jpg",
+        "variants": [
+          {
+            "title": "ELEKTROD-NOTRON № 2"
+          },
+          {
+            "title": "ELEKTROD-NOTRON № 3"
+          },
+          {
+            "title": "ELEKTROD-NOTRON № 4"
+          },
+          {
+            "title": "KONTAKT SİM ELEKTROD (15 KG)"
+          },
+          {
+            "title": "KONTAKT SİM ELEKTROD (5 KG - F 0,8)"
+          },
+          {
+            "title": "KONTAKT SİM ELEKTROD (5 KG - F 1)"
+          }
+        ]
+      },
       {
         "name": "BİNDER",
         "image": "/images/products/BİNDER.jpg",
@@ -196,67 +362,6 @@
           },
           {
             "title": "VİM PVA 7.5KQ"
-          }
-        ]
-      },
-
-      {
-        "name": "BOYA RULOSU (VALİK)",
-        "image": "/images/products/BOYA RULOSU (VALİK).jpg",
-        "variants": [
-          {
-            "title": "EKO STAR 20120 (20 SM) SATEN (KIRMIZI)"
-          },
-          {
-            "title": "EKO STAR 20125 (25 SM) SATEN (KIRMIZI)"
-          },
-          {
-            "title": "EKO STAR 20420 (20 SM) PLASTİK (GÖY)"
-          },
-          {
-            "title": "EKO STAR 20425 (25 SM) PLASTİK (GÖY)"
-          },
-          {
-            "title": "STAR 10110 (10 SM) BARMAQ"
-          },
-          {
-            "title": "KOMBİ RULO 10100"
-          },
-          {
-            "title": "STAR 10320 (20 SM) PLASTİK"
-          },
-          {
-            "title": "STAR 10325 (25 SM) PLASTİK"
-          },
-          {
-            "title": "STAR 10110 (10 SM) BARMAQ"
-          },
-          {
-            "title": "STAR LÜKS RULO POLYEMİD 20 SM"
-          }
-        ]
-      },
-      {
-        "name": "STAR FIRÇA",
-        "image": "/images/products/STAR FIRÇA.jpg",
-        "variants": [
-          {
-            "title": "STAR FIRÇA 1 UNİVERSAL"
-          },
-          {
-            "title": "STAR FIRÇA 1.5 UNİVERSAL"
-          },
-          {
-            "title": "STAR FIRÇA 2 UNİVERSAL"
-          },
-          {
-            "title": "STAR FIRÇA 2.5 UNİVERSAL"
-          },
-          {
-            "title": "STAR FIRÇA 3 UNİVERSAL"
-          },
-          {
-            "title": "STAR FIRÇA 4 UNİVERSAL"
           }
         ]
       },
@@ -543,30 +648,7 @@
           }
         ]
       },
-      {
-        "name": "ELEKTROD MƏHSULLARI",
-        "image": "/images/products/ELEKTROD-NOTRON.jpg",
-        "variants": [
-          {
-            "title": "ELEKTROD-NOTRON № 2"
-          },
-          {
-            "title": "ELEKTROD-NOTRON № 3"
-          },
-          {
-            "title": "ELEKTROD-NOTRON № 4"
-          },
-          {
-            "title": "KONTAKT SİM ELEKTROD (15 KG)"
-          },
-          {
-            "title": "KONTAKT SİM ELEKTROD (5 KG - F 0,8)"
-          },
-          {
-            "title": "KONTAKT SİM ELEKTROD (5 KG - F 1)"
-          }
-        ]
-      },
+
       {
         "name": "BEL - LOPATKA / LƏVAZIMATLARI",
         "image": "/images/products/BEL - LOPATKA.jpg",
@@ -949,78 +1031,6 @@
       },
 
       {
-        "name": "DƏMİR MATERİALLAR",
-        "image": "/images/products/DƏMİR MATERİALLAR.png",
-        "variants": [
-          {
-            "title": "KÜNCLÜK 50x50x4 mm Ст3сп"
-          },
-          {
-            "title": "KÜNCLÜK 63x63x5 mm Ст3сп"
-          },
-          {
-            "title": "KÜNCLÜK 75x75x5 mm Ст3сп"
-          },
-          {
-            "title": "KÜNCLÜK 90x90x6 mm Ст3сп"
-          },
-          {
-            "title": "KÜNCLÜK 100x100x7 mm Ст3сп"
-          },
-          {
-            "title": "KÜNCLÜK 40x40x4 mm Ст3сп"
-          },
-          {
-            "title": "ŞVELLER 80 mm Ст3сп"
-          },
-          {
-            "title": "ŞVELLER 100 mm Ст3сп"
-          },
-          {
-            "title": "ŞVELLER 120 mm Ст3сп"
-          },
-          {
-            "title": "ŞVELLER 140 mm Ст3сп"
-          },
-          {
-            "title": "ŞVELLER 160 mm Ст3сп"
-          },
-          {
-            "title": "ŞVELLER 180 mm Ст3сп"
-          },
-          {
-            "title": "PROFİL 100x50x4 mm Ст3сп"
-          },
-          {
-            "title": "PROFİL 100x100x3 mm Ст3сп"
-          },
-          {
-            "title": "PROFİL 100x100x4 mm Ст3сп"
-          },
-          {
-            "title": "PROFİL 120x120x4 mm Ст3сп"
-          },
-          {
-            "title": "METAL LÖVHƏ 1.5 mm 1000x2000 Ст3сп"
-          },
-          {
-            "title": "METAL LÖVHƏ 1.5 mm 1200x2400 Ст3сп"
-          },
-          {
-            "title": "METAL LÖVHƏ 2 mm 1200x2400 Ст3сп"
-          },
-          {
-            "title": "İPE 160 mm S275JR"
-          },
-          {
-            "title": "SETKA (075x3) - 4 LÜK"
-          },
-          {
-            "title": "SİM YANMIŞ NAZİK"
-          }
-        ]
-      },
-      {
         "name": "ALÇİPAN LƏVAZİMATLARI",
         "image": "/images/products/ALÇİPAN.png",
         "variants": [
@@ -1148,27 +1158,7 @@
           }
         ]
       },
-      {
-        "name": "ELEKTRİK MƏHSULLARI",
-        "image": "/images/products/ELEKTRİK.png",
-        "variants": [
-          { "title": "ŞUNUR 1 x 2.5" },
-          { "title": "ŞUNUR 1 x 4" },
 
-          { "title": "KABEL 2 x 1.5" },
-          { "title": "KABEL 2 x 2.5" },
-          { "title": "KABEL 2 x 4" },
-
-          { "title": "KABEL 3 x 1.5" },
-          { "title": "KABEL 3 x 2.5" },
-          { "title": "KABEL 3 x 4" },
-          { "title": "KABEL 3 x 6" },
-
-          { "title": "BORU 16 T" },
-          { "title": "BORU 18 T" },
-          { "title": "BORU 25 T" }
-        ]
-      },
       {
         "name": "ŞURUPLAR",
         "image": "/images/products/ŞURUP.jpg",
