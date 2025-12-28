@@ -451,22 +451,7 @@
         ]
       },
       {
-        "name": "KONTAKT SİM ELEKTROD",
-        "image": "/images/products/KONTAKT SİM ELEKTROD.jpg",
-        "variants": [
-          {
-            "title": "KONTAKT SİM ELEKTROD (15 KG)"
-          },
-          {
-            "title": "KONTAKT SİM ELEKTROD (5 KG - F 0,8)"
-          },
-          {
-            "title": "KONTAKT SİM ELEKTROD (5 KG - F 1)"
-          }
-        ]
-      },
-      {
-        "name": "ELEKTROD-NOTRON",
+        "name": "ELEKTROD MƏHSULLARI",
         "image": "/images/products/ELEKTROD-NOTRON.jpg",
         "variants": [
           {
@@ -477,6 +462,14 @@
           },
           {
             "title": "ELEKTROD-NOTRON № 4"
+          }ç {
+            "title": "KONTAKT SİM ELEKTROD (15 KG)"
+          },
+          {
+            "title": "KONTAKT SİM ELEKTROD (5 KG - F 0,8)"
+          },
+          {
+            "title": "KONTAKT SİM ELEKTROD (5 KG - F 1)"
           }
         ]
       },
