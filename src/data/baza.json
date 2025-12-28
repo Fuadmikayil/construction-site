@@ -94,7 +94,7 @@
     },
     {
       "title": "Telefon",
-      "value": "+994 55 926 41 26",
+      "value": "+994 51 722 05 27",
       "hint": "Zəng / WhatsApp"
     },
     {
@@ -109,7 +109,7 @@
     }
   ],
   "socials": [
-    { "label": "WhatsApp", "href": "https://wa.me/994559264126" },
+    { "label": "WhatsApp", "href": "https://wa.me/994517220527" },
     { "label": "Instagram", "href": "https://www.instagram.com/reshidoglu_insaat/" },
     { "label": "Tiktok", "href": "https://www.tiktok.com/@reshidoglu_insaat" },
     { "label": "Facebook", "href": "https://www.facebook.com/profile.php?id=61582356913270" },
@@ -135,9 +135,9 @@
     "title": "Qiymət və sifariş üçün",
     "subtitle": "1 dəqiqəyə əlaqə saxlayın — məsləhət verək.",
     "primaryText": "WhatsApp-a yaz",
-    "primaryHref": "https://wa.me/994559264126",
+    "primaryHref": "https://wa.me/994517220527",
     "secondaryText": "Zəng et",
-    "secondaryHref": "tel:+994559264126"
+    "secondaryHref": "tel:+994517220527"
   }
 }
 
