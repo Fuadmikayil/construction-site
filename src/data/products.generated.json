@@ -798,6 +798,8 @@
             "title": "KOMBİ 40 KV SENEKS (CÜT ESENJOR)"
           },   {
             "title": "KOMBİ SETİ"
+          },  {
+            "title": "STABİLİZATOR ELEKTRİK SENEKS"
           }
         ]
       },
@@ -835,15 +837,7 @@
           }
         ]
       },
-      {
-        "name": "STABİLİZATOR ELEKTRİK SENEKS",
-        "image": "/images/products/STABİLİZATOR ELEKTRİK SENEKS.jpg",
-        "variants": [
-          {
-            "title": "STABİLİZATOR ELEKTRİK SENEKS"
-          }
-        ]
-      },
+      
       {
         "name": "QAZ LƏVAZİMATLARI",
         "image": "/images/products/QAZ LƏVAZİMATLARI.png",
