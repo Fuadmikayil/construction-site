@@ -689,6 +689,120 @@
         ]
       },
       {
+        "name": "YERDƏN İSİTMƏ BORUSU",
+        "image": "/images/products/YERDƏN İSİTMƏ BORUSU.png",
+        "variants": [
+          {
+            "title": "YERDƏN İSİTMƏ BORUSU 16mm PERT"
+          }
+        ]
+      },
+      {
+        "name": "İZOLYASİYA",
+        "image": "/images/products/İZOLYASİYA.jpg",
+        "variants": [
+          {
+            "title": "İZOLYASİYA 20 mm"
+          },
+          {
+            "title": "İZOLYASİYA 25 mm"
+          },
+          {
+            "title": "İZOLYASİYA 32 mm"
+          }
+        ]
+      },
+      {
+        "name": "LAMBRİN MƏHSULLARI",
+        "image": "/images/products/LAMBRİN.png",
+        "variants": [
+          {
+            "title": "LAMBRİN D - 41"
+          },
+          {
+            "title": "LAMBRİN D - 33"
+          },
+          {
+            "title": "LAMBRİN D - 110"
+          },
+          {
+            "title": "LAMBRİN D - 6"
+          },
+          {
+            "title": "LAMBRİN D - 7"
+          },
+          {
+            "title": "LAMBRİN D - 102"
+          },
+          {
+            "title": "LAMBRİN D - 16"
+          },
+          {
+            "title": "LAMBRİN D - 364"
+          },
+          {
+            "title": "LAMBRİN D - 128"
+          },
+          {
+            "title": "LAMBRİN D - 122"
+          },
+          {
+            "title": "PL KANT AĞ"
+          },
+          {
+            "title": "PADUQA KANT AĞ"
+          },
+          {
+            "title": "İÇ KANT"
+          },
+          {
+            "title": "ÇÖL KANT"
+          },
+          {
+            "title": "CALAQ KANT"
+          },
+          {
+            "title": "BƏZƏKLİ KANT -- D - 7"
+          },
+          {
+            "title": "BƏZƏKLİ KANT -- D - 6"
+          },
+          {
+            "title": "BƏZƏKLİ KANT -- D - 106"
+          },
+          {
+            "title": "BƏZƏKLİ KANT -- D - 503"
+          },
+          {
+            "title": "BƏZƏKLİ KANT -- D - 501"
+          },
+          {
+            "title": "RƏNGLİ KANT"
+          }
+        ]
+      },
+      {
+        "name": "KARNİZ MƏHSULLARI",
+        "image": "/images/products/KARNİZ.png",
+        "variants": [
+          {
+            "title": "3 XƏT KARNİZ 6 mt"
+          },
+          {
+            "title": "3 XƏT KARNİZ 5 mt"
+          },
+          {
+            "title": "3 XƏT KARNİZ 4 mt"
+          },
+          {
+            "title": "STOP"
+          },
+          {
+            "title": "SANCAQ"
+          }
+        ]
+      },
+      {
         "name": "BİNDER",
         "image": "/images/products/BİNDER.jpg",
         "variants": [
@@ -1158,32 +1272,7 @@
       
 
      
-      {
-        "name": "YERDƏN İSİTMƏ BORUSU",
-        "image": "/images/products/YERDƏN İSİTMƏ BORUSU.png",
-        "variants": [
-          {
-            "title": "YERDƏN İSİTMƏ BORUSU 16mm PERT"
-          }
-        ]
-      },
-   
-
-      {
-        "name": "İZOLYASİYA",
-        "image": "/images/products/İZOLYASİYA.jpg",
-        "variants": [
-          {
-            "title": "İZOLYASİYA 20 mm"
-          },
-          {
-            "title": "İZOLYASİYA 25 mm"
-          },
-          {
-            "title": "İZOLYASİYA 32 mm"
-          }
-        ]
-      },
+     
    
 
    
@@ -1269,96 +1358,7 @@
         ]
       },
 
-      {
-        "name": "LAMBRİN MƏHSULLARI",
-        "image": "/images/products/LAMBRİN.png",
-        "variants": [
-          {
-            "title": "LAMBRİN D - 41"
-          },
-          {
-            "title": "LAMBRİN D - 33"
-          },
-          {
-            "title": "LAMBRİN D - 110"
-          },
-          {
-            "title": "LAMBRİN D - 6"
-          },
-          {
-            "title": "LAMBRİN D - 7"
-          },
-          {
-            "title": "LAMBRİN D - 102"
-          },
-          {
-            "title": "LAMBRİN D - 16"
-          },
-          {
-            "title": "LAMBRİN D - 364"
-          },
-          {
-            "title": "LAMBRİN D - 128"
-          },
-          {
-            "title": "LAMBRİN D - 122"
-          },
-          {
-            "title": "PL KANT AĞ"
-          },
-          {
-            "title": "PADUQA KANT AĞ"
-          },
-          {
-            "title": "İÇ KANT"
-          },
-          {
-            "title": "ÇÖL KANT"
-          },
-          {
-            "title": "CALAQ KANT"
-          },
-          {
-            "title": "BƏZƏKLİ KANT -- D - 7"
-          },
-          {
-            "title": "BƏZƏKLİ KANT -- D - 6"
-          },
-          {
-            "title": "BƏZƏKLİ KANT -- D - 106"
-          },
-          {
-            "title": "BƏZƏKLİ KANT -- D - 503"
-          },
-          {
-            "title": "BƏZƏKLİ KANT -- D - 501"
-          },
-          {
-            "title": "RƏNGLİ KANT"
-          }
-        ]
-      },
-      {
-        "name": "KARNİZ MƏHSULLARI",
-        "image": "/images/products/KARNİZ.png",
-        "variants": [
-          {
-            "title": "3 XƏT KARNİZ 6 mt"
-          },
-          {
-            "title": "3 XƏT KARNİZ 5 mt"
-          },
-          {
-            "title": "3 XƏT KARNİZ 4 mt"
-          },
-          {
-            "title": "STOP"
-          },
-          {
-            "title": "SANCAQ"
-          }
-        ]
-      },
+     
       {
         "name": "KÖŞƏ",
         "image": "/images/products/KÖŞƏ.png",
