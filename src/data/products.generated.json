@@ -1343,27 +1343,8 @@
           }
         ]
       },
-
       {
-        "name": "SANCAQ",
-        "image": "/images/products/SANCAQ.jpg",
-        "variants": [
-          {
-            "title": "SANCAQ"
-          }
-        ]
-      },
-      {
-        "name": "STOP",
-        "image": "/images/products/STOP.jpg",
-        "variants": [
-          {
-            "title": "STOP"
-          }
-        ]
-      },
-      {
-        "name": "KARNİZ",
+        "name": "KARNİZ MƏHSULLARI",
         "image": "/images/products/KARNİZ.png",
         "variants": [
           {
@@ -1374,6 +1355,12 @@
           },
           {
             "title": "3 XƏT KARNİZ 4 mt"
+          },
+          {
+            "title": "STOP"
+          },
+          {
+            "title": "SANCAQ"
           }
         ]
       },
