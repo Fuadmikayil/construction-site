@@ -194,7 +194,7 @@
       },
 
       {
-        "name": "KONTAKT KLEY",
+        "name": "KONTAKT / QRANİT KLEY",
         "image": "/images/products/KONTAKT KLEY.jpg",
         "variants": [
           {
@@ -205,6 +205,8 @@
           },
           {
             "title": "KONTAKT KLEY SOLDİER 400 ML + 80 GR"
+          },{
+            "title": "QRANİT KLEY 1 KQ"
           }
         ]
       },
@@ -498,15 +500,6 @@
         ]
       },
 
-      {
-        "name": "QRANİT KLEY",
-        "image": "/images/products/QRANİT KLEY.jpg",
-        "variants": [
-          {
-            "title": "QRANİT KLEY 1 KQ"
-          }
-        ]
-      },
 
       {
         "name": "DUPİL / MİSMAR",
