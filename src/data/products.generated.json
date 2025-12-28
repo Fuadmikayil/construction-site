@@ -320,6 +320,375 @@
         ]
       },
       {
+        "name": "SEMENT",
+        "image": "/images/products/SEMENT.png",
+        "variants": [
+          {
+            "title": "HOLCİM 300 MARKA"
+          },
+          {
+            "title": "HOLCİM 400 MARKA"
+          },
+          {
+            "title": "AZCEMENT 300 MARKA"
+          },
+          {
+            "title": "AZCEMENT 400 MARKA"
+          }
+        ]
+      },
+      {
+        "name": "Mətanət A Məhsulları",
+        "image": "/images/products/MətanətA.png",
+        "variants": [
+          {
+            "title": "AĞDAĞ ASTAR ALÇI 30 KQ"
+          },
+          {
+            "title": "AĞDAĞ ÜZLÜK ALÇI 25 KQ"
+          },
+          {
+            "title": "AKDENİZ SİVA ALÇI 30 KQ"
+          },
+          {
+            "title": "AKDENİZ SATEN ALÇI 25 KQ"
+          },
+          {
+            "title": "AKDENİZ KAFEL VƏ KERAMİKA YAPIŞDIRICISI 25 KQ"
+          },
+          {
+            "title": "MƏTANƏT A 25 KQ"
+          }
+        ]
+      },
+      {
+        "name": "GİPER MƏHSULLARI",
+        "image": "/images/products/GİPER MƏHSULLARI.png",
+        "variants": [
+          {
+            "title": "GİPER ASTAR SİVA - 30 KG"
+          },
+          {
+            "title": "GİPER İNŞAAT GİPSİ - 15 KG"
+          },
+          {
+            "title": "GİPER İNŞAAT GİPSİ - 30 KG"
+          },
+          {
+            "title": "GİPER MAKİNA SUVAĞI - 30 KG"
+          },
+          {
+            "title": "GİPER PROFİPAN - 10 KG"
+          },
+          {
+            "title": "GİPER ÜZLÜK SATEN - 25 KG"
+          },
+          {
+            "title": "FİBER STANDART 25 KG"
+          },
+          {
+            "title": "EKOMAKS 25 KG (MƏTANƏT)"
+          }
+        ]
+      },
+      {
+        "name": "ALÇİPAN MƏHSULLARI",
+        "image": "/images/products/ALÇİPAN.png",
+        "variants": [
+          {
+            "title": "EKOSTAR GKLN 9.5 mm (YAŞIL ALÇİPAN)"
+          },
+          {
+            "title": "EKOSTAR GKLN 9.5 mm (AĞ ALÇİPAN)"
+          },
+          {
+            "title": "EKOSTAR GKLN 12.5 mm (YAŞIL ALÇİPAN)"
+          },
+          {
+            "title": "EKOSTAR GKLN 12.5 mm (AĞ ALÇİPAN)"
+          },
+          {
+            "title": "ƏQRƏB 7 SM"
+          },
+          {
+            "title": "ƏQRƏB 10 SM"
+          },
+          {
+            "title": "ƏQRƏB 12 SM"
+          },
+          {
+            "title": "ƏQRƏB 15 SM"
+          },
+          {
+            "title": "ƏQRƏB 20 SM"
+          }
+        ]
+      },
+      {
+        "name": "TC / TU Profili",
+        "image": "/images/products/TC-TU.png",
+        "variants": [
+          {
+            "title": "TC 75 ALMETAL 4 M "
+          },
+          {
+            "title": "TC 75 ALMETAL 3 M "
+          },
+          {
+            "title": "TC 80 ALMETAL 4 M "
+          },
+          {
+            "title": "TC 80 ALMETAL 3 M "
+          },
+          {
+            "title": "TU 75 ALMETAL"
+          },
+          {
+            "title": "TU 80 MM ALMETAL 3 M"
+          }
+        ]
+      },
+      {
+        "name": "BORU",
+        "image": "/images/products/BORU.png",
+        "variants": [
+          {
+            "title": "BORU 100/3 mt"
+          },
+          {
+            "title": "BORU 100/2 mt"
+          },
+          {
+            "title": "BORU 100/1 mt"
+          },
+          {
+            "title": "BORU 100/50 sm"
+          },
+          {
+            "title": "BORU 100/30 sm"
+          },
+          {
+            "title": "BORU 70/3 mt"
+          },
+          {
+            "title": "BORU 70/2 mt"
+          },
+          {
+            "title": "BORU 70/1 mt"
+          },
+          {
+            "title": "BORU 70/50 sm"
+          },
+          {
+            "title": "BORU 70/30 sm"
+          },
+          {
+            "title": "BORU 50/3 mt"
+          },
+          {
+            "title": "BORU 50/2 mt"
+          },
+          {
+            "title": "BORU 50/1 mt"
+          },
+          {
+            "title": "BORU 50/50 sm"
+          },
+          {
+            "title": "BORU 50/30 sm"
+          }
+        ]
+      },
+      {
+        "name": "SU BORUSU",
+        "image": "/images/products/SU BORUSU.png",
+        "variants": [
+          {
+            "title": "SU BORUSU 20 mm SADƏ"
+          },
+          {
+            "title": "SU BORUSU 20 mm KOMPOZİT"
+          },
+          {
+            "title": "SU BORUSU 25 mm SADƏ"
+          },
+          {
+            "title": "SU BORUSU 25 mm KOMPOZİT"
+          },
+          {
+            "title": "SU BORUSU 32 mm SADƏ"
+          },
+          {
+            "title": "SU BORUSU 32 mm KOMPOZİT"
+          }
+        ]
+      },
+      {
+        "name": "SANTEXNIK MƏHSULLARI",
+        "image": "/images/products/SANTEXNIK.png",
+        "variants": [
+          { "title": "DİRSƏK 50/45°" },
+          { "title": "DİRSƏK 100/45°" },
+          { "title": "DİRSƏK 100/90°" },
+          { "title": "DİRSƏK 20/45°" },
+          { "title": "DİRSƏK 25/90°" },
+          { "title": "DİRSƏK 32/90°" },
+          { "title": "DİRSƏK 32/45°" },
+          { "title": "DİRSƏK 25/15 dd" },
+
+          { "title": "TROYNİK 50/50 ÇƏP" },
+          { "title": "TROYNİK 50/50 DÜZ" },
+          { "title": "TROYNİK 70/50 ÇƏP" },
+          { "title": "TROYNİK 70/50 DÜZ" },
+          { "title": "TROYNİK 70/70 ÇƏP" },
+          { "title": "TROYNİK 100/50 ÇƏP" },
+          { "title": "TROYNİK 100/50 DÜZ" },
+          { "title": "TROYNİK 100/70 DÜZ" },
+          { "title": "TROYNİK 100/100 ÇƏP" },
+          { "title": "TROYNİK 100/100 DÜZ" },
+          { "title": "TROYNİK 20 mm" },
+          { "title": "TROYNİK 25 mm" },
+          { "title": "TROYNİK 32 mm" },
+          { "title": "TROYNİK 32-25-35 mm" },
+
+          { "title": "RİVİZİYA 100" },
+          { "title": "GİLZA 100" },
+
+          { "title": "QAPAMA 50" },
+          { "title": "QAPAMA 70" },
+          { "title": "QAPAMA 100" },
+          { "title": "QAPAMA 20 mm" },
+          { "title": "QAPAMA 25 mm" },
+          { "title": "QAPAMA 32 mm" },
+
+          { "title": "MUFTA 50" },
+          { "title": "MUFTA 70" },
+          { "title": "MUFTA 100" },
+          { "title": "MUFTA 20 mm" },
+          { "title": "MUFTA 25 mm" },
+          { "title": "MUFTA 32 mm" },
+
+          { "title": "KEÇİD 100/50" },
+          { "title": "KEÇİD 70/50" },
+          { "title": "KEÇİD 32/25 mm" },
+          { "title": "KEÇİD 25/20 mm" },
+          { "title": "KEÇİD 20/15 BRONZA" },
+
+          { "title": "RAKOR 25/15 dd" },
+          { "title": "AKSESSUAR 25 id" },
+          { "title": "AMERİKANKA 25 dd" },
+          { "title": "KÖRPÜ 32 mm" },
+          { "title": "FİLTR 25 mm" },
+
+          { "title": "KÜRESEL VANA 20 mm" },
+          { "title": "KÜRESEL VANA 25 mm" },
+          { "title": "KÜRESEL VANA 32 mm" },
+
+          { "title": "BAÇONKA 15 mm BRONZA" },
+          { "title": "VİNTİL 15 mm" },
+          { "title": "VİNTİL 20 mm" },
+          { "title": "VİNTİL 25 mm" }
+        ]
+      },
+      {
+        "name": "KOMBİ MƏHSULLARI",
+        "image": "/images/products/KOMBİ.jpg",
+        "variants": [
+          {
+            "title": "KOMBİ 24 KV TERRA (TƏK ESENJOR)"
+          },
+          {
+            "title": "KOMBİ 24 KV TERRA (CÜT ESENJOR)"
+          },
+          {
+            "title": "KOMBİ 28 KV TERRA (CÜT ESENJOR)"
+          },
+          {
+            "title": "KOMBİ 32 KV TERRA (CÜT ESENJOR)"
+          },
+          {
+            "title": "KOMBİ 24 KV SENEKS (CÜT ESENJOR)"
+          },
+          {
+            "title": "KOMBİ 28 KV SENEKS (CÜT ESENJOR)"
+          },
+          {
+            "title": "KOMBİ 32 KV SENEKS (CÜT ESENJOR)"
+          },
+          {
+            "title": "KOMBİ 40 KV SENEKS (CÜT ESENJOR)"
+          },
+          {
+            "title": "KOMBİ SETİ"
+          },
+          {
+            "title": "STABİLİZATOR ELEKTRİK SENEKS"
+          }
+        ]
+      },
+      {
+        "name": "RADİATOR - SUŞİLKA",
+        "image": "/images/products/RADİATOR AKSESSUARI.png",
+        "variants": [
+          {
+            "title": "RADİATOR AKSESSUARI"
+          },
+          {
+            "title": "RADİATOR VİNTİLİ 15 mm KÖŞƏ, CONTALI"
+          },
+          {
+            "title": "RADİATOR ALLÜMİNİUM SENEKS VD500"
+          },
+          {
+            "title": "RADİATOR VİNTİLİ 16 mm KÖŞƏ, CONTALI"
+          },
+          {
+            "title": "SUŞİLKA ALLÜMİNİUM 500/800"
+          },
+          {
+            "title": "SUŞİLKA ALLÜMİNİUM 500/800 AĞ"
+          },
+          {
+            "title": "PANEL RADİATOR 500/1 mt"
+          },
+          {
+            "title": "SUŞİLKA VİNTİLİ 15 mm XROM"
+          },
+          {
+            "title": "SUŞİLKA VİNTİLİ 16 mm XROM"
+          }
+        ]
+      },
+      {
+        "name": "QAZ LƏVAZİMATLARI",
+        "image": "/images/products/QAZ LƏVAZİMATLARI.png",
+        "variants": [
+          {
+            "title": "QAZ REQULYATORU 15 mm SENEKS"
+          },
+
+          {
+            "title": "QAZ ŞLANQI 15/60 sm VALFEX"
+          },
+
+          {
+            "title": "QAZ VİNTİLİ 15 mm"
+          },
+          {
+            "title": "QAZ ŞLANKI - EKENOMİK (25 m)"
+          },
+          {
+            "title": "QAZ ŞLANKI - VRC 18B-0.4 (50 M)"
+          },
+          {
+            "title": "QAZ ŞLANKI - VRC 25B-0.4 (50 M)"
+          },
+          {
+            "title": "KİSLOROD 111-9.0-2.0 (100M) - UCUZ"
+          }
+        ]
+      },
+      {
         "name": "BİNDER",
         "image": "/images/products/BİNDER.jpg",
         "variants": [
@@ -786,100 +1155,9 @@
         ]
       },
 
-      {
-        "name": "SEMENT",
-        "image": "/images/products/SEMENT.png",
-        "variants": [
-          {
-            "title": "HOLCİM 300 MARKA"
-          },
-          {
-            "title": "HOLCİM 400 MARKA"
-          },
-          {
-            "title": "AZCEMENT 300 MARKA"
-          },
-          {
-            "title": "AZCEMENT 400 MARKA"
-          }
-        ]
-      },
-      {
-        "name": "BORU",
-        "image": "/images/products/BORU.png",
-        "variants": [
-          {
-            "title": "BORU 100/3 mt"
-          },
-          {
-            "title": "BORU 100/2 mt"
-          },
-          {
-            "title": "BORU 100/1 mt"
-          },
-          {
-            "title": "BORU 100/50 sm"
-          },
-          {
-            "title": "BORU 100/30 sm"
-          },
-          {
-            "title": "BORU 70/3 mt"
-          },
-          {
-            "title": "BORU 70/2 mt"
-          },
-          {
-            "title": "BORU 70/1 mt"
-          },
-          {
-            "title": "BORU 70/50 sm"
-          },
-          {
-            "title": "BORU 70/30 sm"
-          },
-          {
-            "title": "BORU 50/3 mt"
-          },
-          {
-            "title": "BORU 50/2 mt"
-          },
-          {
-            "title": "BORU 50/1 mt"
-          },
-          {
-            "title": "BORU 50/50 sm"
-          },
-          {
-            "title": "BORU 50/30 sm"
-          }
-        ]
-      },
+      
 
-      {
-        "name": "TC / TU Profili",
-        "image": "/images/products/TC-TU.png",
-        "variants": [
-          {
-            "title": "TC 75 ALMETAL 4 M "
-          },
-          {
-            "title": "TC 75 ALMETAL 3 M "
-          },
-          {
-            "title": "TC 80 ALMETAL 4 M "
-          },
-          {
-            "title": "TC 80 ALMETAL 3 M "
-          },
-          {
-            "title": "TU 75 ALMETAL"
-          },
-          {
-            "title": "TU 80 MM ALMETAL 3 M"
-          }
-        ]
-      },
+     
       {
         "name": "YERDƏN İSİTMƏ BORUSU",
         "image": "/images/products/YERDƏN İSİTMƏ BORUSU.png",
@@ -889,30 +1167,7 @@
           }
         ]
       },
-      {
-        "name": "SU BORUSU",
-        "image": "/images/products/SU BORUSU.png",
-        "variants": [
-          {
-            "title": "SU BORUSU 20 mm SADƏ"
-          },
-          {
-            "title": "SU BORUSU 20 mm KOMPOZİT"
-          },
-          {
-            "title": "SU BORUSU 25 mm SADƏ"
-          },
-          {
-            "title": "SU BORUSU 25 mm KOMPOZİT"
-          },
-          {
-            "title": "SU BORUSU 32 mm SADƏ"
-          },
-          {
-            "title": "SU BORUSU 32 mm KOMPOZİT"
-          }
-        ]
-      },
+   
 
       {
         "name": "İZOLYASİYA",
@@ -929,140 +1184,9 @@
           }
         ]
       },
-      {
-        "name": "KOMBİ MƏHSULLARI",
-        "image": "/images/products/KOMBİ.jpg",
-        "variants": [
-          {
-            "title": "KOMBİ 24 KV TERRA (TƏK ESENJOR)"
-          },
-          {
-            "title": "KOMBİ 24 KV TERRA (CÜT ESENJOR)"
-          },
-          {
-            "title": "KOMBİ 28 KV TERRA (CÜT ESENJOR)"
-          },
-          {
-            "title": "KOMBİ 32 KV TERRA (CÜT ESENJOR)"
-          },
-          {
-            "title": "KOMBİ 24 KV SENEKS (CÜT ESENJOR)"
-          },
-          {
-            "title": "KOMBİ 28 KV SENEKS (CÜT ESENJOR)"
-          },
-          {
-            "title": "KOMBİ 32 KV SENEKS (CÜT ESENJOR)"
-          },
-          {
-            "title": "KOMBİ 40 KV SENEKS (CÜT ESENJOR)"
-          },
-          {
-            "title": "KOMBİ SETİ"
-          },
-          {
-            "title": "STABİLİZATOR ELEKTRİK SENEKS"
-          }
-        ]
-      },
+   
 
-      {
-        "name": "RADİATOR - SUŞİLKA",
-        "image": "/images/products/RADİATOR AKSESSUARI.png",
-        "variants": [
-          {
-            "title": "RADİATOR AKSESSUARI"
-          },
-          {
-            "title": "RADİATOR VİNTİLİ 15 mm KÖŞƏ, CONTALI"
-          },
-          {
-            "title": "RADİATOR ALLÜMİNİUM SENEKS VD500"
-          },
-          {
-            "title": "RADİATOR VİNTİLİ 16 mm KÖŞƏ, CONTALI"
-          },
-          {
-            "title": "SUŞİLKA ALLÜMİNİUM 500/800"
-          },
-          {
-            "title": "SUŞİLKA ALLÜMİNİUM 500/800 AĞ"
-          },
-          {
-            "title": "PANEL RADİATOR 500/1 mt"
-          },
-          {
-            "title": "SUŞİLKA VİNTİLİ 15 mm XROM"
-          },
-          {
-            "title": "SUŞİLKA VİNTİLİ 16 mm XROM"
-          }
-        ]
-      },
-
-      {
-        "name": "QAZ LƏVAZİMATLARI",
-        "image": "/images/products/QAZ LƏVAZİMATLARI.png",
-        "variants": [
-          {
-            "title": "QAZ REQULYATORU 15 mm SENEKS"
-          },
-
-          {
-            "title": "QAZ ŞLANQI 15/60 sm VALFEX"
-          },
-
-          {
-            "title": "QAZ VİNTİLİ 15 mm"
-          },
-          {
-            "title": "QAZ ŞLANKI - EKENOMİK (25 m)"
-          },
-          {
-            "title": "QAZ ŞLANKI - VRC 18B-0.4 (50 M)"
-          },
-          {
-            "title": "QAZ ŞLANKI - VRC 25B-0.4 (50 M)"
-          },
-          {
-            "title": "KİSLOROD 111-9.0-2.0 (100M) - UCUZ"
-          }
-        ]
-      },
-
-      {
-        "name": "ALÇİPAN LƏVAZİMATLARI",
-        "image": "/images/products/ALÇİPAN.png",
-        "variants": [
-          {
-            "title": "EKOSTAR GKLN 9.5 mm (YAŞIL ALÇİPAN)"
-          },
-          {
-            "title": "EKOSTAR GKLN 9.5 mm (AĞ ALÇİPAN)"
-          },
-          {
-            "title": "EKOSTAR GKLN 12.5 mm (YAŞIL ALÇİPAN)"
-          },
-          {
-            "title": "EKOSTAR GKLN 12.5 mm (AĞ ALÇİPAN)"
-          },
-          {
-            "title": "ƏQRƏB 7 SM"
-          },
-          {
-            "title": "ƏQRƏB 10 SM"
-          },
-          {
-            "title": "ƏQRƏB 12 SM"
-          },
-          {
-            "title": "ƏQRƏB 15 SM"
-          },
-          {
-            "title": "ƏQRƏB 20 SM"
-          }
-        ]
-      },
+   
 
       {
         "name": "VANNA / VEDRƏ",
@@ -1082,73 +1206,7 @@
           }
         ]
       },
-      {
-        "name": "SANTEXNIK MƏHSULLARI",
-        "image": "/images/products/SANTEXNIK.png",
-        "variants": [
-          { "title": "DİRSƏK 50/45°" },
-          { "title": "DİRSƏK 100/45°" },
-          { "title": "DİRSƏK 100/90°" },
-          { "title": "DİRSƏK 20/45°" },
-          { "title": "DİRSƏK 25/90°" },
-          { "title": "DİRSƏK 32/90°" },
-          { "title": "DİRSƏK 32/45°" },
-          { "title": "DİRSƏK 25/15 dd" },
-
-          { "title": "TROYNİK 50/50 ÇƏP" },
-          { "title": "TROYNİK 50/50 DÜZ" },
-          { "title": "TROYNİK 70/50 ÇƏP" },
-          { "title": "TROYNİK 70/50 DÜZ" },
-          { "title": "TROYNİK 70/70 ÇƏP" },
-          { "title": "TROYNİK 100/50 ÇƏP" },
-          { "title": "TROYNİK 100/50 DÜZ" },
-          { "title": "TROYNİK 100/70 DÜZ" },
-          { "title": "TROYNİK 100/100 ÇƏP" },
-          { "title": "TROYNİK 100/100 DÜZ" },
-          { "title": "TROYNİK 20 mm" },
-          { "title": "TROYNİK 25 mm" },
-          { "title": "TROYNİK 32 mm" },
-          { "title": "TROYNİK 32-25-35 mm" },
-
-          { "title": "RİVİZİYA 100" },
-          { "title": "GİLZA 100" },
-
-          { "title": "QAPAMA 50" },
-          { "title": "QAPAMA 70" },
-          { "title": "QAPAMA 100" },
-          { "title": "QAPAMA 20 mm" },
-          { "title": "QAPAMA 25 mm" },
-          { "title": "QAPAMA 32 mm" },
-
-          { "title": "MUFTA 50" },
-          { "title": "MUFTA 70" },
-          { "title": "MUFTA 100" },
-          { "title": "MUFTA 20 mm" },
-          { "title": "MUFTA 25 mm" },
-          { "title": "MUFTA 32 mm" },
-
-          { "title": "KEÇİD 100/50" },
-          { "title": "KEÇİD 70/50" },
-          { "title": "KEÇİD 32/25 mm" },
-          { "title": "KEÇİD 25/20 mm" },
-          { "title": "KEÇİD 20/15 BRONZA" },
-
-          { "title": "RAKOR 25/15 dd" },
-          { "title": "AKSESSUAR 25 id" },
-          { "title": "AMERİKANKA 25 dd" },
-          { "title": "KÖRPÜ 32 mm" },
-          { "title": "FİLTR 25 mm" },
-
-          { "title": "KÜRESEL VANA 20 mm" },
-          { "title": "KÜRESEL VANA 25 mm" },
-          { "title": "KÜRESEL VANA 32 mm" },
-
-          { "title": "BAÇONKA 15 mm BRONZA" },
-          { "title": "VİNTİL 15 mm" },
-          { "title": "VİNTİL 20 mm" },
-          { "title": "VİNTİL 25 mm" }
-        ]
-      },
+    
       {
         "name": "VİLKA",
         "image": "/images/products/VİLKA.jpg",
@@ -1210,60 +1268,7 @@
           }
         ]
       },
-      {
-        "name": "Mətanət A Məhsulları",
-        "image": "/images/products/MətanətA.png",
-        "variants": [
-          {
-            "title": "AĞDAĞ ASTAR ALÇI 30 KQ"
-          },
-          {
-            "title": "AĞDAĞ ÜZLÜK ALÇI 25 KQ"
-          },
-          {
-            "title": "AKDENİZ SİVA ALÇI 30 KQ"
-          },
-          {
-            "title": "AKDENİZ SATEN ALÇI 25 KQ"
-          },
-          {
-            "title": "AKDENİZ KAFEL VƏ KERAMİKA YAPIŞDIRICISI 25 KQ"
-          },
-          {
-            "title": "MƏTANƏT A 25 KQ"
-          }
-        ]
-      },
-      {
-        "name": "GİPER MƏHSULLARI",
-        "image": "/images/products/GİPER MƏHSULLARI.png",
-        "variants": [
-          {
-            "title": "GİPER ASTAR SİVA - 30 KG"
-          },
-          {
-            "title": "GİPER İNŞAAT GİPSİ - 15 KG"
-          },
-          {
-            "title": "GİPER İNŞAAT GİPSİ - 30 KG"
-          },
-          {
-            "title": "GİPER MAKİNA SUVAĞI - 30 KG"
-          },
-          {
-            "title": "GİPER PROFİPAN - 10 KG"
-          },
-          {
-            "title": "GİPER ÜZLÜK SATEN - 25 KG"
-          },
-          {
-            "title": "FİBER STANDART 25 KG"
-          },
-          {
-            "title": "EKOMAKS 25 KG (MƏTANƏT)"
-          }
-        ]
-      },
+
       {
         "name": "LAMBRİN MƏHSULLARI",
         "image": "/images/products/LAMBRİN.png",
