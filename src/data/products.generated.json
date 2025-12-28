@@ -1140,105 +1140,32 @@
         ]
       },
       {
-        "name": "PVA SanaWood - PUR Taxta",
-        "image": "/images/products/PVA SanaWood - PUR Taxta.jpg",
+        "name": "BEL - LOPATKA / LƏVAZIMATLARI",
+        "image": "/images/products/BEL - LOPATKA.jpg",
         "variants": [
           {
-            "title": "PVA SanaWood - 100 GR"
+            "title": "BEL - LOPATKA - ÇALO"
           },
           {
-            "title": "PUR - TAXTA - SanaMarine"
+            "title": "BEL - LOPATKA - ŞİŞ"
+          },
+          {
+            "title": "BEL SAPI (125 SM - BİRİNCİ NÖV - RUS)"
+          },
+          {
+            "title": "BEL - BALACA - 200 GR"
           }
         ]
       },
       {
-        "name": "VİM PVA",
-        "image": "/images/products/VİM PVA.jpg",
+        "name": "HÖRGÜ İPİ",
+        "image": "/images/products/HÖRGÜ İPİ.png",
         "variants": [
           {
-            "title": "VİM PVA 0.75KQ"
-          },
-          {
-            "title": "VİM PVA 2.5KQ"
-          },
-          {
-            "title": "VİM PVA 7.5KQ"
+            "title": "HÖRGÜ İPİ"
           }
         ]
       },
-
-    
-      {
-        "name": "KONTAKT / QRANİT KLEY",
-        "image": "/images/products/KONTAKT KLEY.jpg",
-        "variants": [
-          {
-            "title": "KONTAKT KLEY 100 ML + 25 GR"
-          },
-          {
-            "title": "KONTAKT KLEY GRAZZLY 200 ML + 40 GR"
-          },
-          {
-            "title": "KONTAKT KLEY SOLDİER 400 ML + 80 GR"
-          },
-          {
-            "title": "QRANİT KLEY 1 KQ"
-          }
-        ]
-      },
-
-      {
-        "name": "KOPUK ESA",
-        "image": "/images/products/KOPUK ESA.jpg",
-        "variants": [
-          {
-            "title": "KOPUK ESA 750 ML - 600GR"
-          },
-          {
-            "title": "KOPUK ESA 500 ML - 300 GR"
-          },
-
-          {
-            "title": "KOPUK ESA EXTRA 750 ML 800 GR"
-          },
-          {
-            "title": "KOPUK ESA - TAPANCA - 850 GR"
-          }
-        ]
-      },
-      {
-        "name": "SİLKON SOLDİER",
-        "image": "/images/products/SİLKON SOLDİER.jpg",
-        "variants": [
-          {
-            "title": "SİLKON SOLDİER - AĞ"
-          },
-          {
-            "title": "SİLKON SOLDİER - ŞƏFFAF"
-          }
-        ]
-      },
-      {
-        "name": "WD - 40 - ANTIPAS - 450 ML",
-        "image": "/images/products/WD - 40 - ANTIPAS - 450 ML.jpg",
-        "variants": [
-          {
-            "title": "WD - 40 - ANTIPAS - 450 ML"
-          }
-        ]
-      },
-
-      {
-        "name": "ZƏR UCUZ",
-        "image": "/images/products/ZƏR UCUZ.jpg",
-        "variants": [
-          {
-            "title": "ZƏR UCUZ"
-          }
-        ]
-      },
-    
-
       {
         "name": "ƏLCƏK",
         "image": "/images/products/ƏLCƏK.jpg",
@@ -1260,27 +1187,6 @@
           }
         ]
       },
-
-      {
-        "name": "BEL - LOPATKA / LƏVAZIMATLARI",
-        "image": "/images/products/BEL - LOPATKA.jpg",
-        "variants": [
-          {
-            "title": "BEL - LOPATKA - ÇALO"
-          },
-          {
-            "title": "BEL - LOPATKA - ŞİŞ"
-          },
-          {
-            "title": "BEL SAPI (125 SM - BİRİNCİ NÖV - RUS)"
-          },
-          {
-            "title": "BEL - BALACA - 200 GR"
-          }
-        ]
-      },
-
-   
       {
         "name": "LAQONDA DAŞI",
         "image": "/images/products/LAQONDA DAŞI.jpg",
@@ -1329,8 +1235,6 @@
           }
         ]
       },
-      
-    
       {
         "name": "VİLKA",
         "image": "/images/products/VİLKA.jpg",
@@ -1340,19 +1244,100 @@
           }
         ]
       },
-
-   
       {
-        "name": "HÖRGÜ İPİ",
-        "image": "/images/products/HÖRGÜ İPİ.png",
+        "name": "KONTAKT / QRANİT KLEY",
+        "image": "/images/products/KONTAKT KLEY.jpg",
         "variants": [
           {
-            "title": "HÖRGÜ İPİ"
+            "title": "KONTAKT KLEY 100 ML + 25 GR"
+          },
+          {
+            "title": "KONTAKT KLEY GRAZZLY 200 ML + 40 GR"
+          },
+          {
+            "title": "KONTAKT KLEY SOLDİER 400 ML + 80 GR"
+          },
+          {
+            "title": "QRANİT KLEY 1 KQ"
           }
         ]
       },
+      {
+        "name": "KOPUK ESA",
+        "image": "/images/products/KOPUK ESA.jpg",
+        "variants": [
+          {
+            "title": "KOPUK ESA 750 ML - 600GR"
+          },
+          {
+            "title": "KOPUK ESA 500 ML - 300 GR"
+          },
 
-     
+          {
+            "title": "KOPUK ESA EXTRA 750 ML 800 GR"
+          },
+          {
+            "title": "KOPUK ESA - TAPANCA - 850 GR"
+          }
+        ]
+      },
+      {
+        "name": "SİLKON SOLDİER",
+        "image": "/images/products/SİLKON SOLDİER.jpg",
+        "variants": [
+          {
+            "title": "SİLKON SOLDİER - AĞ"
+          },
+          {
+            "title": "SİLKON SOLDİER - ŞƏFFAF"
+          }
+        ]
+      },
+      {
+        "name": "WD - 40 - ANTIPAS - 450 ML",
+        "image": "/images/products/WD - 40 - ANTIPAS - 450 ML.jpg",
+        "variants": [
+          {
+            "title": "WD - 40 - ANTIPAS - 450 ML"
+          }
+        ]
+      },
+      {
+        "name": "ZƏR UCUZ",
+        "image": "/images/products/ZƏR UCUZ.jpg",
+        "variants": [
+          {
+            "title": "ZƏR UCUZ"
+          }
+        ]
+      },
+      {
+        "name": "PVA SanaWood - PUR Taxta",
+        "image": "/images/products/PVA SanaWood - PUR Taxta.jpg",
+        "variants": [
+          {
+            "title": "PVA SanaWood - 100 GR"
+          },
+          {
+            "title": "PUR - TAXTA - SanaMarine"
+          }
+        ]
+      },
+      {
+        "name": "VİM PVA",
+        "image": "/images/products/VİM PVA.jpg",
+        "variants": [
+          {
+            "title": "VİM PVA 0.75KQ"
+          },
+          {
+            "title": "VİM PVA 2.5KQ"
+          },
+          {
+            "title": "VİM PVA 7.5KQ"
+          }
+        ]
+      },
       {
         "name": "KÖŞƏ",
         "image": "/images/products/KÖŞƏ.png",
