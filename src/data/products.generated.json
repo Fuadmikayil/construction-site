@@ -3,75 +3,72 @@
     "title": "Məhsullar",
     "items": [
       {
-  "name": "Emulsiya, Boya Məhsulları",
-  "image": "/images/products/STARLAR.png",
-  "variants": [
-    { "title": "STAR SUPER PARLAQ 3.75 LT" },
-    { "title": "STAR SUPER POL 3.75LT" },
-    { "title": "STAR SUPER MAT 3.75LT" },
+        "name": "Emulsiya, Boya Məhsulları",
+        "image": "/images/products/STARLAR.png",
+        "variants": [
+          { "title": "STAR SUPER PARLAQ 3.75 LT" },
+          { "title": "STAR SUPER POL 3.75LT" },
+          { "title": "STAR SUPER MAT 3.75LT" },
 
-    { "title": "STAR PARLAQ 0.75LT - AĞ" },
-    { "title": "STAR PARLAQ 2.5LT - AĞ" },
-    { "title": "STAR PARLAQ POL 0.75LT" },
-    { "title": "STAR PARLAQ POL 2.5LT" },
-    { "title": "STAR PARLAQ 15LT - AĞ" },
-    { "title": "STAR PARLAQ POL 15LT" },
+          { "title": "STAR PARLAQ 0.75LT - AĞ" },
+          { "title": "STAR PARLAQ 2.5LT - AĞ" },
+          { "title": "STAR PARLAQ POL 0.75LT" },
+          { "title": "STAR PARLAQ POL 2.5LT" },
+          { "title": "STAR PARLAQ 15LT - AĞ" },
+          { "title": "STAR PARLAQ POL 15LT" },
 
-    { "title": "STAR MAT 0.75LT" },
-    { "title": "STAR MAT 2.5LT" },
-    { "title": "STAR MAT 15LT" },
+          { "title": "STAR MAT 0.75LT" },
+          { "title": "STAR MAT 2.5LT" },
+          { "title": "STAR MAT 15LT" },
 
-    { "title": "STAR ANTİPAS 0.75LT - AĞ" },
-    { "title": "STAR ANTİPAS 0.75LT - VİŞNƏ" },
-    { "title": "STAR ANTİPAS 0.75LT - QARA" },
-    { "title": "STAR ANTİPAS 0.75LT - BOZ" },
-    { "title": "STAR ANTİPAS 0.75LT - YAŞIL" },
-    { "title": "STAR ANTİPAS 0.75LT - MAVİ" },
-    { "title": "STAR ANTİPAS 0.75LT - GÖY" },
+          { "title": "STAR ANTİPAS 0.75LT - AĞ" },
+          { "title": "STAR ANTİPAS 0.75LT - VİŞNƏ" },
+          { "title": "STAR ANTİPAS 0.75LT - QARA" },
+          { "title": "STAR ANTİPAS 0.75LT - BOZ" },
+          { "title": "STAR ANTİPAS 0.75LT - YAŞIL" },
+          { "title": "STAR ANTİPAS 0.75LT - MAVİ" },
+          { "title": "STAR ANTİPAS 0.75LT - GÖY" },
 
-    { "title": "STAR ANTİPAS 2.5LT - AĞ" },
-    { "title": "STAR ANTİPAS 2.5LT - VİŞNƏ" },
-    { "title": "STAR ANTİPAS 2.5LT - QARA" },
-    { "title": "STAR ANTİPAS 2.5LT - BOZ" },
-    { "title": "STAR ANTİPAS 2.5LT - YAŞIL" },
-    { "title": "STAR ANTİPAS 2.5LT - MAVİ" },
-    { "title": "STAR ANTİPAS 2.5LT - GÖY" },
+          { "title": "STAR ANTİPAS 2.5LT - AĞ" },
+          { "title": "STAR ANTİPAS 2.5LT - VİŞNƏ" },
+          { "title": "STAR ANTİPAS 2.5LT - QARA" },
+          { "title": "STAR ANTİPAS 2.5LT - BOZ" },
+          { "title": "STAR ANTİPAS 2.5LT - YAŞIL" },
+          { "title": "STAR ANTİPAS 2.5LT - MAVİ" },
+          { "title": "STAR ANTİPAS 2.5LT - GÖY" },
 
-    { "title": "STAR HAMERTON 2.5LT - TÜND QƏHVƏ" },
-    { "title": "STAR HAMERTON 2.5LT - BEJ" },
-    { "title": "STAR HAMERTON 2.5LT - BEYAZ" },
-    { "title": "STAR HAMERTON 2.5LT - SÜTLÜ KAHVE" },
-    { "title": "STAR HAMERTON 2.5LT - VERDE YEŞİL" },
-    { "title": "STAR HAMERTON 2.5LT - KAHVE RENGİ" },
-    { "title": "STAR HAMERTON 2.5LT - GOLD STAR" },
-    { "title": "STAR HAMERTON 2.5LT - VİŞNE" },
-    { "title": "STAR HAMERTON 2.5LT - KIRMIZI" },
-    { "title": "STAR HAMERTON 2.5LT - AÇIK KAHVE" },
-    { "title": "STAR HAMERTON 2.5LT - KOYU MAVİ" },
-    { "title": "STAR HAMERTON 2.5LT - OKEAN MAVİ" },
-    { "title": "STAR HAMERTON 2.5LT - KOYU GRİ" },
-    { "title": "STAR HAMERTON 2.5LT - KOYU YEŞİL" },
-    { "title": "STAR HAMERTON 2.5LT - GRANİT YEŞİL" },
-    { "title": "STAR HAMERTON 2.5LT - SİYAH" },
-    { "title": "STAR HAMERTON 2.5LT - BOZ MAVİ" },
-    { "title": "STAR HAMERTON 2.5LT - ÇEREPİTZA KIRMIZI" },
-    { "title": "STAR HAMERTON 2.5LT - YEŞİL" },
-    { "title": "STAR HAMERTON 2.5LT - HAKİ YEŞİL" },
-    { "title": "STAR HAMERTON 2.5LT - MİS" },
+          { "title": "STAR HAMERTON 2.5LT - TÜND QƏHVƏ" },
+          { "title": "STAR HAMERTON 2.5LT - BEJ" },
+          { "title": "STAR HAMERTON 2.5LT - BEYAZ" },
+          { "title": "STAR HAMERTON 2.5LT - SÜTLÜ KAHVE" },
+          { "title": "STAR HAMERTON 2.5LT - VERDE YEŞİL" },
+          { "title": "STAR HAMERTON 2.5LT - KAHVE RENGİ" },
+          { "title": "STAR HAMERTON 2.5LT - GOLD STAR" },
+          { "title": "STAR HAMERTON 2.5LT - VİŞNE" },
+          { "title": "STAR HAMERTON 2.5LT - KIRMIZI" },
+          { "title": "STAR HAMERTON 2.5LT - AÇIK KAHVE" },
+          { "title": "STAR HAMERTON 2.5LT - KOYU MAVİ" },
+          { "title": "STAR HAMERTON 2.5LT - OKEAN MAVİ" },
+          { "title": "STAR HAMERTON 2.5LT - KOYU GRİ" },
+          { "title": "STAR HAMERTON 2.5LT - KOYU YEŞİL" },
+          { "title": "STAR HAMERTON 2.5LT - GRANİT YEŞİL" },
+          { "title": "STAR HAMERTON 2.5LT - SİYAH" },
+          { "title": "STAR HAMERTON 2.5LT - BOZ MAVİ" },
+          { "title": "STAR HAMERTON 2.5LT - ÇEREPİTZA KIRMIZI" },
+          { "title": "STAR HAMERTON 2.5LT - YEŞİL" },
+          { "title": "STAR HAMERTON 2.5LT - HAKİ YEŞİL" },
+          { "title": "STAR HAMERTON 2.5LT - MİS" },
 
-    { "title": "STAR PARKET LAKI 0.75LT" },
-    { "title": "STAR PARKET LAKI 2.5LT" },
-    { "title": "STAR PARKET LAKI 15LT" },
+          { "title": "STAR PARKET LAKI 0.75LT" },
+          { "title": "STAR PARKET LAKI 2.5LT" },
+          { "title": "STAR PARKET LAKI 15LT" },
 
-    { "title": "STAR TUTKAL 1KQ" },
-    { "title": "STAR TUTKAL 3KQ" },
-    { "title": "STAR TUTKAL 9KQ" }
-  ]
-},
+          { "title": "STAR TUTKAL 1KQ" },
+          { "title": "STAR TUTKAL 3KQ" },
+          { "title": "STAR TUTKAL 9KQ" }
+        ]
+      },
 
-     
-   
-    
       {
         "name": "BİNDER",
         "image": "/images/products/BİNDER.jpg",
@@ -90,7 +87,7 @@
           }
         ]
       },
-   
+
       {
         "name": "PVA SanaWood - PUR Taxta",
         "image": "/images/products/PVA SanaWood - PUR Taxta.jpg",
@@ -118,8 +115,6 @@
           }
         ]
       },
-     
-      
 
       {
         "name": "BOYA RULOSU (VALİK)",
@@ -181,9 +176,6 @@
           }
         ]
       },
-     
-     
-     
 
       {
         "name": "ARABA",
@@ -194,11 +186,6 @@
           }
         ]
       },
-
-    
-
-    
-    
 
       {
         "name": "KONTAKT KLEY",
@@ -226,7 +213,7 @@
           {
             "title": "KOPUK ESA 500 ML - 300 GR"
           },
-        
+
           {
             "title": "KOPUK ESA EXTRA 750 ML 800 GR"
           },
@@ -441,7 +428,7 @@
           }
         ]
       },
-     
+
       {
         "name": "ƏLCƏK",
         "image": "/images/products/ƏLCƏK.jpg",
@@ -494,7 +481,7 @@
         ]
       },
       {
-        "name": "BEL - LOPATKA",
+        "name": "BEL - LOPATKA / LƏVAZIMATLARI",
         "image": "/images/products/BEL - LOPATKA.jpg",
         "variants": [
           {
@@ -505,6 +492,9 @@
           },
           {
             "title": "BEL SAPI (125 SM - BİRİNCİ NÖV - RUS)"
+          },
+          {
+            "title": "BEL - BALACA - 200 GR"
           }
         ]
       },
@@ -520,7 +510,7 @@
       },
 
       {
-        "name": "DUPİL",
+        "name": "DUPİL / MİSMAR",
         "image": "/images/products/DUPİL.png",
         "variants": [
           {
@@ -540,6 +530,18 @@
           },
           {
             "title": "DUPİL 120 MM - 25 KG"
+          },
+          {
+            "title": "MİSMAR 100"
+          },
+          {
+            "title": "MİSMAR 70"
+          },
+          {
+            "title": "MİSMAR 120"
+          },
+          {
+            "title": "MİSMAR 150"
           }
         ]
       },
@@ -609,7 +611,8 @@
           },
           {
             "title": "AYAQQABI  45"
-          },  {
+          },
+          {
             "title": "CEKME - 40 OLCU"
           },
           {
@@ -644,15 +647,7 @@
           }
         ]
       },
-      {
-        "name": "BEL - BALACA - 200 GR",
-        "image": "/images/products/BEL - BALACA - 200 GR.jpg",
-        "variants": [
-          {
-            "title": "BEL - BALACA - 200 GR"
-          }
-        ]
-      },
+
       {
         "name": "SEMENT",
         "image": "/images/products/SEMENT.png",
@@ -1094,24 +1089,6 @@
           }
         ]
       },
-      {
-        "name": "MİSMAR",
-        "image": "/images/products/MİSMAR.png",
-        "variants": [
-          {
-            "title": "MİSMAR 100"
-          },
-          {
-            "title": "MİSMAR 70"
-          },
-          {
-            "title": "MİSMAR 120"
-          },
-          {
-            "title": "MİSMAR 150"
-          }
-        ]
-      },
 
       {
         "name": "VANNA / VEDRƏ",
@@ -1285,15 +1262,20 @@
         "variants": [
           {
             "title": "AĞDAĞ ASTAR ALÇI 30 KQ"
-          },{
+          },
+          {
             "title": "AĞDAĞ ÜZLÜK ALÇI 25 KQ"
-          },{
+          },
+          {
             "title": "AKDENİZ SİVA ALÇI 30 KQ"
-          },{
+          },
+          {
             "title": "AKDENİZ SATEN ALÇI 25 KQ"
-          },{
+          },
+          {
             "title": "AKDENİZ KAFEL VƏ KERAMİKA YAPIŞDIRICISI 25 KQ"
-          },{
+          },
+          {
             "title": "MƏTANƏT A 25 KQ"
           }
         ]
@@ -1323,7 +1305,7 @@
           {
             "title": "FİBER STANDART 25 KG"
           },
-           {
+          {
             "title": "EKOMAKS 25 KG (MƏTANƏT)"
           }
         ]
