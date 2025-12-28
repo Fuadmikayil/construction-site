@@ -13,21 +13,26 @@ function cleanText(input: unknown) {
     .trim();
 }
 
+
 function toArray<T = any>(v: unknown): T[] {
   return Array.isArray(v) ? (v as T[]) : [];
 }
-
 function normalize(s: string) {
-  return cleanText(s).toLowerCase();
+  return cleanText(s).toLocaleLowerCase("tr"); // ✅ böyük/kiçik hərf fərqi qalmaz (TR/AZ üçün daha yaxşı)
 }
 
 function startsWithQuery(text: string, q: string) {
-  return normalize(text).startsWith(q);
+  const nq = normalize(q);
+  if (!nq) return true;
+  return normalize(text).startsWith(nq);
 }
 
 function includesQuery(text: string, q: string) {
-  return normalize(text).includes(q);
+  const nq = normalize(q);
+  if (!nq) return true;
+  return normalize(text).includes(nq);
 }
+
 
 function getBrand(name: string) {
   const n = cleanText(name);
