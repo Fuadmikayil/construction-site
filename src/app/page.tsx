@@ -10,6 +10,7 @@ export default function Home() {
     <Hero />
      <ProductsSlider />
     <Services />
+    a
      <PartnersSection />
     </main>
 
